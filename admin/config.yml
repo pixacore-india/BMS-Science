@@ -1,0 +1,5 @@
+backend:
+  name: github
+  repo: pixacore-india/BMS-Science
+
+media_folder: "img"

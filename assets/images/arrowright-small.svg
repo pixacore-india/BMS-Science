@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
-    <g fill="none" fill-rule="evenodd" stroke-linecap="round">
-        <g stroke="#BE2BBB" stroke-width="2">
-            <g>
-                <path d="M5 5.5L10 .5M5 5.5L0 .5" transform="rotate(-90 7 4)"/>
-            </g>
-        </g>
-    </g>
-</svg>

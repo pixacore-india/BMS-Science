@@ -1,0 +1,113 @@
+$small-screen-min: 640px;
+$small-screen-max: $small-screen-min - 1;
+
+$medium-screen-min: 768px;
+$medium-screen-max: $medium-screen-min - 1;
+
+$large-screen-min: 992px;
+$large-screen-max: $large-screen-min - 1;
+
+$extra-large-screen-min: 1200px;
+$extra-large-screen-max: $extra-large-screen-min - 1;
+
+
+/*********************************************
+
+ *
+
+ *        Responsive Typography
+
+ *
+
+ *********************************************/
+
+
+$min-font: 10px;
+
+$min-line: $min-font * 1.5;
+
+$base-xs: 1;
+
+$base-sm: 1;
+
+$base-md: 0.75;
+
+$base-lg: 1;
+	
+$base-xl: 1;
+
+
+@mixin responsive-type($font-size, $line-height:normal, $letter-spacing: 0){
+
+
+	@media(max-width: $small-screen-max){
+
+        font-size: ceil( max($min-font, $font-size * $base-xs) );
+		
+		@if $line-height == "normal"{
+			line-height: normal;
+		}@else{
+			line-height: ceil( max($min-line, $line-height * $base-xs) );	
+		}
+
+        letter-spacing: ceil( $letter-spacing * $base-xs );
+		
+	}		
+
+	@media(min-width:$small-screen-min) and (max-width:$medium-screen-max){
+
+        font-size: ceil( max($min-font, $font-size * $base-sm) );
+
+        @if $line-height == "normal"{
+			line-height: normal;
+		}@else{
+			line-height: ceil( max($min-line, $line-height * $base-sm) );	
+		}
+
+        letter-spacing: ceil( $letter-spacing * $base-sm );
+		
+	}		
+
+	@media(min-width:$medium-screen-min) and (max-width:$large-screen-max){
+
+        font-size: ceil( max($min-font, $font-size * $base-md)  );
+
+        @if $line-height == "normal"{
+			line-height: normal;
+		}@else{
+			line-height: ceil( max($min-line, $line-height * $base-md) );	
+		}
+
+        letter-spacing: ceil( $letter-spacing * $base-md );
+		
+	}		
+
+	@media(min-width:$large-screen-min) and (max-width:$extra-large-screen-max){
+		
+		font-size: ceil( max($min-font, $font-size * $base-lg)  );
+
+        @if $line-height == "normal"{
+			line-height: normal;
+		}@else{
+			line-height: ceil( max($min-line, $line-height * $base-lg) );	
+		}
+
+        letter-spacing: ceil( $letter-spacing * $base-lg );
+		
+	}   	
+	
+	@media(min-width:$extra-large-screen-min){
+
+        font-size: ceil( max($min-font, $font-size * $base-xl)  );
+
+       	@if $line-height == "normal"{
+			line-height: normal;
+		}@else{
+			line-height: ceil( max($min-line, $line-height * $base-xl) );	
+		}
+
+        letter-spacing: ceil( $letter-spacing * $base-xl );
+
+	}
+	
+}

@@ -1,0 +1,846 @@
+
+/* standard Desktop */
+@media (min-width:992px) and (max-width:1200px){
+	header .headerSearch { margin-left:3%;}
+	.filterBySection .clearSaveBox { float:right;}
+	.homeChartSection .pieChartSection #canvas-holder:before, .homeChartSection .pieChartSection #canvas-holder:after { width:264px;}
+	.homeChartSection .homeIntroTxt { padding:13% 0 0 0;}
+	.homeTxtSection { background-size:50%; background-repeat: repeat-y;}
+	.homeTxtSection .homeTxtMw { max-width:550px;}
+	.searchBySection .column1 { width:17%;}
+	.searchBySection .column2, .searchBySection .column3 { width:28%;}
+	.searchBySection .column4 { width:27%;}
+	.resultContainer .resultItemsContainer .minht { min-height:170px;}
+	.sidebarRhtCont .posteDetailsLft { width:70%;}
+	.sidebarRhtCont .postedDetailsRht { width:30%;}
+	.studyDetailsSection .studySection .listLabel.fullWidth li strong { width:30%;}
+	.studyDetailsSection .studySection .listLabel.fullWidth li span { width:70%;}
+	.studyContainer .getFixed { max-width: 156px;}
+	.tourPopup.bigSize { margin-left:-76px;}
+	.searchBySection .backToBS { padding:10px 10px 10px 45px;  @include responsive-type(13px,18px);}
+	.dashboardContainer .dashboardCont .savedTrials .donutChart .chart { height:128px;}
+	.dashboardContainer .dashboardCont .savedTrials .donutChart .chart #statusChart { width: 128px !important; height: 128px !important;}
+	.dashboardContainer .dashboardCont .savedTrials .donutChart .chart #phaseChart { width:96px !important; height: 96px !important; margin:-48px 0 0 -48px;}
+	.searchPatientType .stepsContainer { padding:20px 10px;}
+	header .headerSearch ul li .textbox { font-size:13px;}
+	.filterAdded .filterBySection { top:20px;}
+
+	/* celgene dashboard */
+	.landingImages span { @include responsive-type(14px,18px);}
+	.celgeneSidebar nav ul li ul li a { padding:0 0 0 15px;}
+	.diseaseAreas .homeChartSection .pieChartSection #canvas-holder { min-height:480px;}
+	.diseaseAreas .homeChartSection .pieChartSection #canvas-holder:after { margin:0;}
+	header.filterAdded .logo { margin-top:8px;}
+	header.filterAdded .celgeneFilter { width:94%;}
+	header.filterAdded .celgeneFilter .filterBySection .filterByLable { padding-right:3px;}
+	header.filterAdded .celgeneFilter .filterBySection .clearSaveBox .clearLink { margin-right:5px;}
+	header.filterAdded .celgeneFilter .filterBySection .clearSaveBox .redButtonForm { width:85px;}
+	header.filterAdded .celgeneFilter .filterBySection .filterOption li { padding:3px 2px;}
+	header.filterAdded .celgeneFilter .filterBySection .filterOption li a { padding:3px 10px 0;}
+	header.filterAdded .headerSearch { width:26%;}
+	header.filterAdded .headerSearch .textbox { @include responsive-type(12px,22px);}
+	header.filterAdded .headerSearch label { @include responsive-type(10px,16px);}
+	header.filterAdded .headerSearch .blueButtonLink { @include responsive-type(10px,16px);}
+
+	.block-pipe .modal .modal-dialog { max-width:800px;}
+	.celgeneSidebar .row { max-width:170px;}
+
+	.filterBySection .filterByLable { width:7%;}
+	.filterBySection .filterOptionParent { width:93%;}
+	.dashboardContainer .dashboardCont .savedSearches .savedSearchesRht ul li { padding-left: 40px;}
+	.dashboardContainer .dashboardCont .savedSearches .savedSearchesRht .viewTrialLinks { margin-right:0;}
+	.resultContainer .resultItemsContainer .comingsoonTrial span { padding-top:38%;}
+	.PipeLineCard .front .playIcon { margin:-18px 0 0 -18px;}
+
+	.searchPatientType .steps .locationItem .column.countrySelector,.searchPatientType .steps .locationItem .column.stateSelector, .searchPatientType .steps .locationItem .column.citySelector { width:160px; margin:0 30px 0 0;}
+	.searchPatientType .steps .locationItem .column.radiusSelector { min-width: 100px; margin:0 0 30px;}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+	.homeChartSection .pieChartSection #canvas-holder .chart { width:350px; height:350px; margin:0 0 0 32%;}
+	.homeChartSection .pieChartSection #canvas-holder .chart #statusChart { width:350px !important; height:350px !important;}
+	.homeChartSection .pieChartSection #canvas-holder .chart #phaseChart {  width:260px !important; height:260px !important;}
+}
+
+/* Tablet */
+@media (min-width:768px) and (max-width:991px){
+	header .logo { width:110px;}
+	header .humbergerIcon { margin-left:15px;}
+	header .headerSearch { margin:10px 0 0 2%;}
+	header .headerNav ul li a { padding:5px 10px;}
+	header .headerSearch ul li .filterAppliedBx .filterAppliedDetails { margin-left:-32px;}
+	.filterAppliedBx { left:auto; right: -30px; margin: 0;}
+	.mainMenuCont .celegeneScienceLinks ul li:first-child a:before { height:30px;}
+	.homeChartSection .pieChartSection #canvas-holder .chart { width:230px; height:230px; margin:0 0 0 42%;}
+	.homeChartSection .pieChartSection #canvas-holder .chart #statusChart { width:230px !important; height:230px !important;}
+	.homeChartSection .pieChartSection #canvas-holder .chart #phaseChart {  width:160px !important; height:160px !important;}
+	.homeChartSection .pieChartSection #canvas-holder:before, .homeChartSection .pieChartSection #canvas-holder:after { width:204px;}
+	.homeChartSection .pieChartSection .searchButtonStyle { padding:8px 10px;}
+	.homeChartSection .homeIntroTxt { padding:17% 0 0 0;
+		@media screen and (max-width: 992px) {
+			padding: 3% 0 0 0;
+		  }
+	}
+	.homeTxtSection { background-size:50%; background-repeat: repeat-y;}
+	.homeTxtSection .homeTxtMw { max-width:420px;}
+	.homeTxtSection .buttonContainer .redButtonStyle { margin-right:10px; width:200px;}
+	.homeChartSection .homeIntroTxt .homeSearchSection ul li.inputTxt1 { width:50%;}
+	.homeChartSection .homeIntroTxt .homeSearchSection ul li.inputTxt2 { width:40%;}
+	.searchBySection .column1 { width:21%;}
+	.searchBySection .column2, .searchBySection .column3 { width:27%;}
+	.searchBySection .column4 { width:25%;}
+	.filterBySection .filterOption li > a { padding:4px 12px;}
+	.resultContainer .resultItemsContainer .minht { min-height:152px;}
+	.resultContainer .resultItemsContainer .resultTrial .redButtonStyle { padding-top:9px;}
+	.tabThumbStyle:after { top:35px;}
+	.sidebarRhtCont .posteDetailsLft { width:70%;}
+	.sidebarRhtCont .postedDetailsRht { width:30%;}
+	.sidebarRhtCont .postedDetails .redButtonStyle { padding-top:10px;}
+	.shareTrial ul li { padding:0 4px 0 0;}
+	.studyDetailsSection .studySection .dividerLine:after { right:-10px;}
+	.studyDetailsSection .studySection .listLabel.fullWidth li strong { width:30%;}
+	.studyDetailsSection .studySection .listLabel.fullWidth li span { width:70%;}
+	.studyDetailsSection .studySection .mw225 { width:170px;}
+	.studyContainer .getFixed { max-width: 120px;}
+	.saveTrialPopupStyle .saveTrialPopupContainer ul li { max-width:150px;}
+	.saveTrialPopupStyle .saveTrialPopupContainer .saveStudyButtons .redButtonStyle { padding-top:9px;}
+	.dashboardContainer .dashboardCont .dashboardSectionHead h4, .dashboardContainer .dashboardCont .dashboardSectionHead h4.searchIcon, .dashboardContainer .dashboardCont .dashboardSectionHead h4.historyIcon { padding-top:2px;}
+	.dashboardContainer .dashboardCont .savedTrials .donutChart .infoIconConatiner { right:-10px;}
+
+	.dashboardContainer .dashboardCont .savedTrials .donutChart .chart { height:86px;}
+	.dashboardContainer .dashboardCont .savedTrials .donutChart .chart #statusChart { width: 86px !important; height: 86px !important;}
+	.dashboardContainer .dashboardCont .savedTrials .donutChart .chart #phaseChart { width:66px !important; height: 66px !important; margin:-33px 0 0 -34px;}
+
+	.savedClinicalContainer .savedClinicalCont .savedClinicalSectionHead h4 { padding-top:2px;}
+	.savedClinicalContainer .savedClinicalCont .savedClinicalItems .showHideArrow { top:3px;}
+	.tourPopup.bigSize { margin-left:-130px;}
+	.searchBySection .backToBS { padding:10px 10px 10px 45px;  @include responsive-type(13px,18px); padding:6px 10px 6px 45px;}
+	.searchPatientType .stepsContainer { padding:40px 15px;}
+	.searchPatientType .steps .locationItem .column.countrySelector, .searchPatientType .steps .locationItem .column.stateSelector { width:100%; margin:0 0 30px;}
+	.searchPatientType .steps .locationItem .column.stateSelector, .searchPatientType .steps .locationItem .column.citySelector { width:100%; margin:0 0 30px;}
+	.searchPatientType .steps .locationItem .column.zipcodeSelector, .searchPatientType .steps .locationItem .column.radiusSelector { width:100%; margin:0 0 30px;}
+	.searchPatientType .steps .locationItem .column.zipcodeSelector { float:left;}
+	//.searchPatientType .steps .locationItem .column.radiusSelector { float:right;}
+
+	header .headerSearch ul li .textbox { font-size:10px; height:20px;}
+	.signUpSection .signupContent .tooltipOpoup { left:100px;}
+	/* Advance search */
+	.advancedSearchContainer .advanceSearchCont ul strong { padding-top:10px;}
+	.advancedSearchContainer .advanceSearchCont .andTxt { left:-12%;}
+
+	/* celgene dashboard */
+	.celgeneSidebar nav ul li.borderLink a { padding-right:20px;}
+	.celgeneSidebar nav ul li ul li a { padding:0 0 0 15px;}
+	.diseaseAreas .homeChartSection .pieChartSection { max-width: 768px;}
+	.diseaseAreas .homeChartSection .pieChartSection #canvas-holder { min-height:360px;}
+	.diseaseAreas .homeChartSection .pieChartSection #canvas-holder:after { margin:0;}
+	.sectionLanding .landingCelgene { padding:20px 0;}
+	header.filterAdded .logo { margin-top:8px;}
+	header.filterAdded .RhtCol { width:58%;}
+	header.filterAdded .celgeneFilter { width:90%; padding-top:0;}
+	header.filterAdded .celgeneFilter .filterBySection .filterByLable { padding-right:3px;}
+	header.filterAdded .celgeneFilter .filterBySection .clearSaveBox .clearLink { margin-right:5px;}
+	header.filterAdded .celgeneFilter .filterBySection .clearSaveBox .redButtonForm { width:85px;}
+	header.filterAdded .celgeneFilter .filterBySection .filterOption li { padding:3px 2px;}
+	header.filterAdded .celgeneFilter .filterBySection .filterOption li a { padding:4px 10px 0;}
+	header.filterAdded .headerSearch { width:30%;}
+
+	.block-pipe .modal .modal-dialog { max-width:640px;}
+
+	.sectionLanding .landingCelgene p { max-width:100%;}
+	.landingImages { padding-top:0;}
+	.celgeneSidebar .row { max-width:135px;}
+
+	.filterBySection .filterByLable { width:7%;}
+	.filterBySection .filterOptionParent { width:93%;}
+	header.filterAdded .celgeneFilter .filterBySection .filterByLable { width:40px}
+	header.filterAdded .celgeneFilter .filterBySection .filterOptionParent  { width:48%;}
+
+	.celgeneSidebar nav ul li.borderLink { padding:10px 12px;}
+	.celgeneSidebar nav ul li.borderLink .labelLink.active:after { right:10px;}
+	.celgeneSidebar nav ul li.borderLink ul li a { padding-right:0;}
+
+	.savedClinicalContainer .savedClinicalCont .savedClinicalTable table tr td > a { max-width: 120px;}
+	.dashboardContainer .dashboardCont .savedSearches .savedSearchesRht ul li { padding-left: 30px; padding-bottom: 6px;}
+	.dashboardContainer .dashboardCont .savedSearches .savedSearchesRht .viewTrialLinks { margin-right:0;}
+	.resultContainer .resultItemsContainer .comingsoonTrial span { padding-top:38%;}
+	.filterBySection .clearSaveBox .redButtonForm.patientTypeBut { width:160px;}
+	.aboutBolderHeader .disclaimerTxt { max-width:350px;}
+	.filterAdded .filterBySection { top:20px;}
+	.PipeLineCard .col-md-3 { height:290px;}
+
+}
+
+/* Mobile */
+@media (max-width:767px){
+	.topSectionBg.pt1 { padding:60px 0 0 0;}
+	header, header.headerBg { min-height:60px; padding:10px 0;  }
+	header .logo, header.headerBg .logo { width:82px;}
+	header .humbergerIcon, header.headerBg .humbergerIcon { margin:10px 0 0 10px;}
+	header .headerNav, header.headerBg .headerNav { margin:6px 0 0 0;}
+	.logged-in header .headerNav { margin:10px 0 0 0;}
+	header.headerBg .headerNav { display:block;}
+	header .headerNav ul li a { padding:5px 10px}
+	header .headerNav ul li.dashboard .userNameTxt { top: -6px; left: 11px; @include responsive-type(10px,12px);}
+	header .headerNav ul li.dashboard a { padding-right:25px;}
+	header .headerNav ul li.dashboard a:after { margin-top:-11px; right:5px;}
+	header .headerSearch { width: 100%; background: rgba(28, 78, 119, 0.95); margin: 0; position: fixed; bottom: 0; left: 0; z-index: 99; /*box-shadow: 0px -4px 13px 0 rgba(0, 0, 0, 0.3);*/ padding:8px 15px;}
+	header .usHealthcareTxt { top:-8px; @include responsive-type(10px,12px);}
+	.filterAdded header .headerSearch { width:100%; max-width: 100%;}
+	.filterBySection .filterOptionParent .filterList{display: none !important;}
+	.filterAdded .filterBySection .filterOption li a, .filterBySection .filterOption li > a{height: auto;}
+	.filterBySection .filterOption li > a span {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.filterBySection .filterOptionParent .filterCount{display: block;line-height: 10px; }
+	.filterAdded .filterBySection .filterOptionParent .filterCount{display: block;}
+	header .headerSearch ul li .filterAppliedBx { display:none;}
+	.filterAppliedBx{position: relative;
+		top: inherit;
+		left: inherit;
+		margin: 0px;}
+	header .headerSearch ul li .blueButtonLink { margin:2px 0 0 0;}
+	header .headerSearch ul li .textbox { padding:0; height:26px; font-size:15px;}
+	header .headerSearch ul li label { padding-top:2px;}
+	header.headerBg .headerSearch { margin:0;}
+	.humbergerMenuPopup .popupHeader .closeBtn { top: 20px; right: 16px;}
+	.mainMenuCont { padding-top:60px;}
+
+	footer { padding:40px 0; margin:0;}
+	.home footer.homeFooter { bottom:0px; padding:40px 0; margin:0;}
+	footer .footerLinks { max-width:75%; padding:0;}
+	footer .footerLinks li { padding-right:8px;}
+	/*footer .footerLinks li:last-child { padding-top:8px; clear: both;}*/
+	footer .celgeneLogo { margin:0 15px 0 0;}
+
+	.signUpSection .signupStepProcess .stepsContainer .drugInvention .latestUpdateTxt { margin-top:-35px;}
+
+	.ulDropdown {
+		width: 100%;
+		height: 35px;
+		position:relative;
+		border-radius: 18px;
+		// box-shadow: 0px 4px 8px 0 rgba(1, 1, 1, 0.3);
+		// background-color: rgba(28, 78, 119, 0.98);
+		background-color: $purple-color1;
+		z-index: 11;
+		&:after {
+			width:16px;
+			height:18px;
+			content: "";
+			position:absolute;
+			top:50%;
+			right:20px;
+			margin:-11px 0 0 0;
+			background: url(../images/dashboardArrow.png) no-repeat 0 0;
+			pointer-events: none;
+		}
+		&.getFixed {
+			width: calc(100% - 70px);
+		}
+		&.active {
+			border-radius:18px 18px 0 0;
+
+			&:after {
+				background: url(../images/dashboardArrowUp.png) no-repeat 0 0;
+			}
+		}
+		.span_select {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			display:block;
+			@include responsive-type(16px,17px);
+			font-family:$BMSHumanityBold;
+			color:$white-color;
+			padding:0 0 0 60px;
+			&:before {
+				content:"Go to:";
+				display:inline-block;
+				position:absolute;
+				top:0;
+				left:12px;
+				text-transform: none;
+			}
+		}
+
+		.selItem {
+			display: block;
+			// text-transform: uppercase;
+			padding:0 0 0 60px;
+			@include responsive-type(16px,17px);
+			font-family:$BMSHumanityBold;
+			font-style:normal;
+			font-weight:500;
+			color:$white-color;
+		}
+
+		.options {
+			width:100%;
+			position:absolute;
+			top:100%;
+			left:0;
+			// box-shadow: 0px 4px 8px 0 rgba(1, 1, 1, 0.3);
+			background-color:$white-color;
+			// border-radius:0 0 22px 22px;
+			border-radius: 0 0 50px 50px;
+			box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+			li {
+				width:100%;
+				float:left;
+				display:block;
+				background-color: #fff;
+				a {
+					display:block;
+					text-decoration: none;
+					line-height: 22px;
+					padding-left: 25px;
+					// padding:12px 20px;
+					// border-bottom:1px solid #6285a0;
+					@include responsive-type(14px,16px);
+					font-family: $BMSHumanityReg;
+					// font-family:"proxima-nova";
+					// font-style:normal;
+					// font-weight:500;
+					// color:$white-color;
+					color:$gray-color14;
+					text-transform: uppercase;
+					letter-spacing: 0.24px;
+					&.active {
+						// background:$purple-color1;
+						color:$purple-color1;
+						padding-left: 10px;
+						letter-spacing: 0.28px;
+						font-weight: bold;
+						// border-left: 2px solid $purple-color1;
+					}
+				}
+				&:last-child {
+					border-radius:0 0 18px 18px;
+					a {
+						border:none;
+					}
+				}
+			}
+		}
+	}
+
+	/* home page */
+	.homeChartSection { padding:60px 0 30px 0; background: url(../images/homeTopTextureMob.png) no-repeat left top #000000; background-size: 100%;}
+	.homeChartSection .homeIntroTxt { padding:20px 0 0 0;}
+	.homeChartSection .homeIntroTxt h1 { font-size:30px; line-height: 34px;}
+	.homeChartSection .pieChartSection { margin:30px 0 0;}
+	.logged-in .homeChartSection .pieChartSection { margin-bottom:0;}
+	.homeChartSection .pieChartSection #canvas-holder .masterlegends p.filterText { padding:0;}
+	.homeChartSection .pieChartSection #canvas-holder .chart { position:relative; margin:0; width:100%; height:340px;}
+	.homeChartSection .pieChartSection #canvas-holder:before, .homeChartSection .pieChartSection #canvas-holder:after { display:none;}
+	.homeChartSection .pieChartSection #canvas-holder .chart #statusChart { width:340px !important; height:340px !important; right:auto; left:50%; margin-left:-170px;}
+	.homeChartSection .pieChartSection #canvas-holder .chart #phaseChart { width:260px !important; height:260px !important; margin:-130px 0 0 -130px; transform: none;}
+	.homeChartSection .pieChartSection .otherText { width:100%; position:relative; left:0; margin:20px 0;}
+	.dashboardQuickLinks { position:static; margin:0 0 30px 0; padding:0; max-width: 180px;}
+	.dashboardQuickLinks h4 { padding:0 0 20px;}
+	.dashboardQuickLinks.dashLineBgWhite { background:none !important;}
+	.recentlyViewed { background: url(../images/homeTopTexture.jpg) no-repeat center top/cover; padding:35px 0 50px;}
+	.homeTxtSection { background:#fff; padding:30px 0 125px;}
+	.homeTxtSection .sectionRow { padding:0 0 40px;}
+	.homeTxtSection .textContainer { padding:0 0 10px 0; background:none !important;}
+	.homeTxtSection .textContainer p { font-weight:500;}
+	.homeTxtSection .buttonContainer .redButtonStyle { margin:0 auto 20px; display:block;}
+	.homeTxtSection .buttonContainer .redButtonStyle:last-child { margin:0 auto 0;}
+	.sectionTitle span { color:#9a8977; display:block;  @include responsive-type(33px,36px); font-weight:700;}
+	.sectionTitle2 { padding:0 0 30px;}
+	.sectionTitle2 span { display:block;}
+	.tourPopup { display:none !important;}
+
+	/* study page */
+	.studyContainer { padding:10px 0;}
+	.sidebarRhtCont { margin:0 -15px; padding:15px 20px;}
+	.sidebarRhtCont .posteDetailsLft { width:53%; border:none;}
+	.sidebarRhtCont .postedDetailsRht { width:47%;}
+	.tabThumbStyle li { width:50%;}
+	.tabThumbStyle li a { width:100%;}
+	.studyDetailsSection .studySection { padding:25px 0;}
+	.studyDetailsSection .studySection .listLabel.fullWidth li strong, .studyDetailsSection .studySection .listLabel.halfWidth li strong { width:55%;}
+	.studyDetailsSection .studySection .listLabel.fullWidth li span, .studyDetailsSection .studySection .listLabel.halfWidth li span { width:45%;}
+	.studyDetailsSection .studySection .listLabel li strong.mw170, .studyDetailsSection .studySection .listLabel li strong.mw190 { max-width:100%;}
+	.studyDetailsSection .studySection .mw225 { width:100%;}
+	.studyDetailsSection .studySection .studySectionRht { padding:15px 0 0 0;}
+	.studyDetailsSection .studySection .dividerLine:after { display:none;}
+	.leftSidebarMob { padding:0 0 10px;}
+	.leftSidebarMob .backLinkBlue { margin:0;}
+	.leftSidebarMob .shareTrial { float:right;}
+	.leftSidebarMob .shareTrial ul { padding:0;}
+	.postedDetails h3 { @include responsive-type(20px,22px);}
+	.postedDetails p { @include responsive-type(14px,16px); color:#404141;}
+	.postedDetails p:last-child { padding:0 0 15px;}
+	.postedDetails p strong { color:#1d1e1e; padding:0 0 5px;}
+	.celegeneTrialSticky { position:static; margin-top:-11px;}
+	.saveTrialPopupStyle .saveTrialPopupContainer h4 { padding:0 0 15px;}
+	.saveTrialPopupStyle .saveTrialPopupContainer ul { padding:0 0 10px;}
+	.saveTrialPopupStyle .saveTrialPopupContainer .andMoreTxt { padding:0 0 40px;}
+	.saveTrialPopupStyle .saveTrialPopupContainer ul li { width:100%; float:left; display:block; max-width: 100%; padding:10px;}
+	.saveTrialPopupStyle .saveTrialPopupContainer ul li:after { width:200px; height:1px; left:50%; margin-left:-100px; bottom:0; top:auto; right:auto; background:#dbdbdc;}
+	.saveTrialPopupStyle .saveTrialPopupContainer .saveStudyButtons .orTxt { display:block; padding:5px 10px 7px;}
+
+	.ulDropdown .span_select, .ulDropdown .selItem { display:block;}
+	.ulDropdown ul.options {display:none;}
+	.ulDropdown ul.openselect { display:block;}
+	.bootstrap-datetimepicker-widget.dropdown-menu { width:20em !important;}
+	.bootstrap-datetimepicker-widget table td.day { line-height: 28px !important;}
+
+
+	/* search result */
+	.sortBarSection { padding:10px 0;}
+	.sortBarSection .displayingTxt { padding-right:15px;}
+	.sortBarSection ul { padding:5px 0 0 0;}
+	.sortBarSection .popoverBut .popoverContainer.resultForPopup { right:-16px;}
+	.resultContainer .resultItems, .resultComingSoonContainer .resultItems { margin:0 0 40px;}
+	.resultContainer .showHideArrow, .resultComingSoonContainer .showHideArrow { right:50%; margin-right:-17px; top:100%; cursor: pointer;}
+	.resultContainer .resultItemsExpand, .resultComingSoonContainer .resultItemsExpand { border:none;}
+	.resultContainer .resultItemsContainer, .resultComingSoonContainer .resultItemsContainer { padding:20px 20px 25px;}
+	.resultContainer .resultItemsExpand .resultItemsContainer, .resultComingSoonContainer .resultItemsExpand .resultItemsContainer { padding-top:0;}
+	.resultContainer .resultItemsContainer .minht, .resultComingSoonContainer .resultItemsContainer .minht { min-height:10px;}
+	.resultContainer .resultItemsContainer .resultTrial, .resultComingSoonContainer .resultItemsContainer .resultTrial, .resultContainer .resultItemsContainer .comingsoonTrial, .resultComingSoonContainer .resultItemsContainer .comingsoonTrial { width:100%; padding:0;}
+	.resultContainer .resultItemsContainer .comingsoonTrial span, .resultComingSoonContainer .resultItemsContainer .comingsoonTrial span { padding:0 0 10px 0;}
+	.resultContainer .resultItemsContainer .resultTrial .redButtonStyle, .resultComingSoonContainer .resultItemsContainer .resultTrial .redButtonStyle { width:132px;}
+	.resultContainer .resultItemsContainer .resultTrial .blueEyesLink, .resultComingSoonContainer .resultItemsContainer .resultTrial .blueEyesLink { float:right; margin:6px 0 0 0;}
+	.resultContainer .resultItemsContainer .resultTrial .postedDetailsRht, .resultComingSoonContainer .resultItemsContainer .resultTrial .postedDetailsRht { width:auto; display:inline-block;}
+	.resultContainer .resultItemsContainer .resultIcons, .resultComingSoonContainer .resultItemsContainer .resultIcons { width:100%; padding:0; border:none;}
+	.resultContainer .resultItemsContainer .resultHeading, .resultComingSoonContainer .resultItemsContainer .resultHeading { @include responsive-type(16px,20px);}
+	.resultContainer .resultItemsContainer .resultBriefSummary, .resultComingSoonContainer .resultItemsContainer .resultBriefSummary, .resultContainer .resultItemsContainer .resultEligibility, .resultComingSoonContainer .resultItemsContainer .resultEligibility, .resultContainer .resultItemsContainer .resultLocation, .resultContainer, .resultComingSoonContainer .resultItemsContainer .resultLocation, .resultContainer .resultItemsContainer .resultIntervention, .resultComingSoonContainer .resultItemsContainer .resultIntervention, .resultContainer .resultItemsContainer .resultCalloutLinks, .resultComingSoonContainer .resultItemsContainer .resultCalloutLinks { width:100%; padding:20px 0; border:none; border-bottom:1px solid #d8d8d8;}
+	.resultContainer .resultItemsContainer .resultIntervention, .resultComingSoonContainer .resultItemsContainer .resultIntervention { border-bottom:none;}
+	.resultContainer .resultItemsContainer .resultCalloutLinks, .resultComingSoonContainer .resultItemsContainer .resultCalloutLinks { padding:10px 0;}
+	.resultContainer .resultItemsContainer p, .resultComingSoonContainer .resultItemsContainer p { padding:0;}
+	.resultContainer .resultItemsContainer .resultBriefSummary, .resultComingSoonContainer .resultItemsContainer .resultBriefSummary { border-top:1px solid #d8d8d8;}
+	.resultContainer .resultItemsContainer .resultCalloutLinks, .resultComingSoonContainer .resultItemsContainer .resultCalloutLinks { border:none;}
+	.resultContainer .resultItemsContainer h5, .resultComingSoonContainer .resultItemsContainer h5, .resultContainer .resultItemsContainer .resultEligibility ul li, .resultComingSoonContainer .resultItemsContainer .resultEligibility ul li, .resultContainer .resultComingSoonContainer .resultItemsContainer p, .resultComingSoonContainer .resultItemsContainer p, .resultContainer .resultItemsContainer .resultEligibility ul li strong, .resultComingSoonContainer .resultItemsContainer .resultEligibility ul li strong { color:#1d1e1e;}
+	.resultContainer .resultItemsContainer .calloutBx, .resultComingSoonContainer .resultItemsContainer .calloutBx { background-position:left center;}
+	.resultContainer .resultItemsContainer .calloutBx .calloutLink, .resultComingSoonContainer .resultItemsContainer .calloutBx .calloutLink { padding:7px 0;}
+	.resultContainer .resultItemsContainer .resultIcons ul li, .resultComingSoonContainer .resultItemsContainer .resultIcons ul li { width:33.33%;}
+	.resultContainer .resultItemsContainer .resultIcons ul li .statusIconRht, .resultComingSoonContainer .resultItemsContainer .resultIcons ul li .statusIconRht { width:100%;}
+	.resultContainer .resultItemsContainer .resultIcons ul li .statusIconHead, .resultComingSoonContainer .resultItemsContainer .resultIcons ul li .statusIconHead { text-align:left; padding:0 0 8px; color:#1d1e1e;}
+	.resultContainer .resultItemsContainer .resultIcons ul li .statusIconImg, .resultComingSoonContainer .resultItemsContainer .resultIcons ul li .statusIconImg { width:100%; max-width: 100%;}
+	.resultContainer .resultItemsContainer .resultIcons ul li .statusIconImg img, .resultComingSoonContainer .resultItemsContainer .resultIcons ul li .statusIconImg img { display:inline-block; margin:0 5px 0 0; float:left;}
+	.resultContainer .resultItemsContainer .resultIcons ul li.visible-xs .statusIconImg, .resultComingSoonContainer .resultItemsContainer .resultIcons ul li.visible-xs .statusIconImg { position:relative;}
+	.resultContainer .resultItemsContainer .resultIcons ul li.visible-xs .statusIconImg .statusIconTxt, .resultComingSoonContainer .resultItemsContainer .resultIcons ul li.visible-xs .statusIconImg .statusIconTxt  { padding-top:6px; padding-right:10px; float:right; max-width: 60%;}
+	.resultContainer .resultComingSoonContainer .resultItemsContainer .resultIcons ul li.visible-xs .statusIconImg img, .resultComingSoonContainer .resultItemsContainer .resultIcons ul li.visible-xs 
+	.statusIconImg img { position:absolute; top:0;}
+	.resultContainer .resultItemsContainer .resultIcons ul li .statusIconTxt, .resultComingSoonContainer .resultItemsContainer .resultIcons ul li .statusIconTxt { width:62%; float:right; padding:0; color:#404141;}
+	.resultContainer .resultComingSoonContainer .resultItemsContainer .resultIcons ul li.conditionLi .statusIconTxt, .resultComingSoonContainer .resultItemsContainer .resultIcons ul li.conditionLi .statusIconTxt { width:75%; float:right;}
+	.resultContainer { border-bottom:none;}
+	.search footer { margin:0;}
+	.newPatientType { margin:0; border-bottom:none;}
+	.newPatientType ul li { padding:0 15px 0 0;}
+	.newPatientType ul li a { color:$blue-color1;}
+	.newPatientType ul li a.backArrow { background:url(#{$path-images}/backArrowBlue.png) no-repeat left center;}
+
+	/* search filter */
+	.filterBySection, .filterAdded .filterBySection { width: 100%; background: rgba(28, 78, 119, 0.95); margin: 0; position: fixed; top:auto; bottom: 60px; left: 0; z-index:99; /*box-shadow: 0px -4px 13px 0 rgba(0, 0, 0, 0.3);*/ padding:10px 0 0; max-width:100%;}
+	.filterAdded .filterBySection .container { padding:0 15px;}
+	.filterBySection .filterOption { margin-left:-3px;}
+	.filterBySection .filterOptionParent, .filterAdded .filterBySection .filterOptionParent { width: 100%; margin:0;}
+	.filterBySection .filterByLable, .filterAdded .filterBySection .filterByLable { @include responsive-type(12px,14px); padding:0 0 2px; width:100%;}
+	.filterBySection .filterOption li { padding:3px;}
+	.filterBySection .filterOption li:nth-child(4) .filterSubOption, .filterBySection .filterOption li:nth-child(5) .filterSubOption { left:auto; right:0;}
+	.filterBySection .filterOption li:last-child { width:100%; padding-left:0; padding-right:0;}
+	.filterAdded .filterBySection .filterOption li a, .filterBySection .filterOption li > a { @include responsive-type(11px,16px); padding:3px 10px;}
+	.filterBySection .filterOption li > a.filterSelected span:first-child { display:block;}
+	.filterBySection .clearSaveBox { float:right; margin-right:-3px;}
+	.filterBySection .clearSaveBox .clearLink { border:none; margin:0; padding:10px 10px 8px 0;}
+	.filterAdded .filterBySection .clearSaveBox .clearLink { padding:10px 15px 8px 0; @include responsive-type(12px,16px); margin-right:0;}
+	.filterBySection .clearSaveBox .redButtonForm { width:92px; @include responsive-type(12px,14px); padding-top:10px;}
+	.filterAdded .filterBySection .clearSaveBox .redButtonForm { height:34px; padding:8px 7px 7px; width:92px;}
+	.mobileAdvanceSearch { width:190px; position:absolute; bottom:12px; left:15px;}
+	.mobileAdvanceSearch .filterAppliedBx { position:static; margin-top:-3px;}
+	.mobileAdvanceSearch .filterAppliedBx .filterAppTxt .addIcon { padding-right:20px;}
+	.mobileAdvanceSearch .filterAppliedBx .filterAppliedDetails { top: auto; bottom: 100%; left: 15px; margin-bottom: 10px;}
+	.filterBySection .blueButtonLink  { text-transform: none;}
+	.filterBySection .container { position:relative;}
+	.filterBySection .filterSubOption { top:auto; bottom:100%; width: 200px; min-width:10px; padding:25px 20px;}
+	.filterBySection .filterSubOption.minWidth400, .filterBySection .filterSubOption.minWidth250 { min-width:10px;}
+	.filterBySection .filterSubOption ul li a { @include responsive-type(14px,16px);}
+	.filterBySection .filterSubOption .noPadMob { padding:0;}
+	.filterBySection .filterSubOption.activecont { display:block;}
+	.filterBySection .filterOptionMob .filterSubOption { margin: 0 4% -25px; width: 92%;}
+
+	/* dashboard */
+	.leftSidebar { display:none;}
+
+	/* celgene dashboard */
+	.pageHeadTitle {@include responsive-type(14px,16px); padding:7px 0px;}
+	.celgeneDashboard { padding:20px 0;}
+	.celgeneSidebar { margin:0 0 20px;}
+	.celgeneSidebar .row { max-width:none; max-height: none; overflow: unset; padding:0;}
+	.celgeneSidebar .getFixed { width: calc(100% - 30px); z-index: 99;}
+	.celgeneSidebar .ulDropdown ul li a{ padding:15px 20px 15px 46px; text-transform: capitalize;}
+	.celgeneSidebar .ulDropdown ul li:nth-last-child(2){border-radius:0 0 22px 22px;}
+	.celgeneSidebar .ulDropdown ul li.dividerLink { margin:-1px 0 0 0; position:relative; z-index: 1; border:none;}
+	.celgeneSidebar .ulDropdown ul li.dividerLink .labelLink { padding:12px 20px; color:#fefefe; @include responsive-type(14px,16px);}
+	.celgeneSidebar .ulDropdown ul li.dividerLink .labelLink:after { position:relative; display:inline-block; vertical-align: middle; width:16px; height: 18px; background:url(../images/dashboardArrow.png) no-repeat 0 0 / 100%; margin:-6px 0 0 5px; }
+	.celgeneSidebar .ulDropdown ul li.dividerLink .labelLink.active:after { background:url(../images/dashboardArrowUp.png) no-repeat 0 0 / 100%;}
+	.celgeneSidebar .ulDropdown ul li.dividerLink ul li:first-child { border-top:1px solid #6285a0;}
+	.celgeneSidebar .ulDropdown ul li.dividerLink ul li:first-child a { border-radius:0	}
+	.celgeneSidebar .ulDropdown ul li.dividerLink ul li a { margin:0;}
+	.celgeneSidebar .ulDropdown ul li.dividerLink ul li a:hover { color:#fff;}
+	.celgeneSidebar .ulDropdown ul li.borderLink { margin:15px; width: calc(100% - 30px); padding:0; background:#fff;}
+	.celgeneSidebar nav ul li.borderLink .labelLink:after { top:23px;}
+	.celgeneSidebar .ulDropdown ul li.borderLink .labelLink { border-radius: 10px; background-color: #ffffff; padding:14px 12px; @include responsive-type(14px,18px);}
+	.celgeneSidebar .ulDropdown ul li.borderLink .labelLink.active { color:#1c4e77;}
+	.celgeneSidebar .ulDropdown ul li.borderLink ul { padding:0 0 5px; width:100%;}
+	.celgeneSidebar .ulDropdown ul li.borderLink ul li a { color:#2e302f; margin:0;}
+	.celgeneSidebar .ulDropdown ul li ul { padding:0; float:left; width:100%;}
+	.celgeneSidebar .ulDropdown .options li ul li a { text-transform:none; margin:0 -20px; font-size: 14px;}
+	.celgeneSidebar .ulDropdown .span_select:before { display:none;}
+	.celgeneSidebar .ulDropdown .span_select, .celgeneSidebar .ulDropdown .selItem { padding: 10px 40px 8px 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+	.celgeneSidebar .ulDropdown .options li a.active{font-size: 14px; color:$purple-color1; font-family:$BMSHumanityBold; padding: 15px 20px 15px 46px;}
+	.celgeneSidebar .ulDropdown .options li a.active:before { width: 4px; height: 60%; content: ""; position: absolute; top: 20%; left: 30px; border-radius: 4px;}
+	.celgeneSidebar .ulDropdown .options li:first-child > a.active { color:$purple-color1; font-family:$BMSHumanityBold; padding:13px 20px 15px 31px;}
+	.celgeneSidebar .ulDropdown .options li:first-child > a.active:before { width: 2px; height: 60%; content: ""; position: absolute; top: 20%; left: 20px; border-radius: 4px;}
+	.celgeneSidebar .ulDropdown .options li:first-child > a{color:$gray-color14; font-family:$BMSHumanityBold; padding:15px 20px 8px 20px; font-size: 16px;}
+	
+	.content .breadcrumb { margin:0 0 10px;}
+	.content .breadcrumb li { @include responsive-type(10px,16px);}
+	.content .breadcrumb > li + li:before { padding:0 5px 0 0;}
+	.page-template-celgene-dashboard footer { margin: 0 0 180px;}
+	.page-template-celgene-dashboard .moleculesBg { background:#fff;}
+	.diseaseAreas h4 { padding:0 0 10px;}
+	.diseaseAreas ul.buttonLink { width:100%; margin:0 -5px; padding:0 0 10px;}
+	.diseaseAreas ul.buttonLink li a { padding:10px 25px 10px 15px;height: 76px;}
+
+	.diseaseAreas ul.buttonLink li, .diseaseAreas ul.buttonLink li:last-child { width:50%; padding:5px;}
+	.diseaseAreas .mobileLegends .dropdownItem, .diseaseAreas .masterlegends .resetFilters .reset { color:#1d1e1e; }
+	.diseaseAreas .mobileLegends .dropdownItem, .diseaseAreas .mobileLegends .customDropdown.active .dropdownItem { background: url(../images/dashboardArrowBr.png) no-repeat 100% center;}
+	.diseaseAreas .homeChartSection .pieChartSection #canvas-holder .masterlegends { padding:0;}
+	.diseaseAreas .homeChartSection .pieChartSection .otherText { margin-top:25px;}
+	.diseaseAreas .homeChartSection .pieChartSection #canvas-holder { min-height:460px;}
+	.diseaseAreas .homeChartSection .pieChartSection #canvas-holder .masterlegends p.filterText { padding:0 0 10px;}
+	//.diseaseAreas .homeChartSection .pieChartSection #canvas-holder .masterlegends #statusLegend, .diseaseAreas .homeChartSection .pieChartSection #canvas-holder .masterlegends #phaseLegend { border-radius: 10px; box-shadow: 0px 3px 7px 0 rgba(0, 0, 0, 0.35); background-color: #ffffff;}
+	.page-template-celgene-dashboard .resultContainer, .resultComingSoonContainer .resultItemsContainer .resultIntervention { width:100%;}
+
+	.page-template-celgene-landing header .headerSearch ul li .textbox, .page-template-celgene-landing header.headerBg .headerSearch ul li .textbox { border-bottom:1px solid #fff; color:#fff;}
+	.page-template-celgene-landing header .headerSearch ul li .textbox::placeholder { color: #b9b9b9; opacity: 1;}
+	.page-template-celgene-landing header .headerSearch ul li .textbox:-ms-input-placeholder { color: #b9b9b9; }
+	.page-template-celgene-landing header .headerSearch ul li .textbox::-ms-input-placeholder { color: #b9b9b9; }
+	.page-template-celgene-landing header .headerSearch ul li label {color: #fff; }
+	.page-template-celgene-landing header .headerSearch ul li .searchBut {
+		width: 15px;
+		height: 15px;
+		background: url(../images/icon-search-copy.png) no-repeat;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		font-size: 0;
+		background-size: 15px;
+		background-position: center;
+		padding-top: 15px;
+		padding-left: 0px;
+		padding-right: 42px;
+	}
+
+	.molecularBx { padding:0;}
+	.molecularBx .molecularLi { padding-bottom:20px;}
+	.molecularBx .moleImgBx { width:34%; padding-left:0px;}
+	.molecularBx .moleTxtBx ul { max-width:100%;}
+	.molecularBx .moleImgBx img { float:none;}
+	.molecularBx .moleTxtBx h6 { @include responsive-type(16px,20px);}
+	.molecularBx .moleTxtBx { width:66%;}
+
+	.sectionLanding { background-image: url(../images/bg-mid-mob.png); background-position: 75% bottom;}
+	.landingImagesFivePhone p { margin-left:-12%;}
+	.sidebarRhtCont .calloutBx { display:none;}
+	.block-pipe .modal .close { top:0.5em; right:0.5em; z-index: 99;}
+
+	.stepProcess.patientTypeProcess { padding-bottom:20px;}
+	.sectionLanding .landingCelgene p { margin:0;}
+	.sectionLanding .landingCelgene h2 { margin:0 0 20px;}
+
+	.filterBy { @include responsive-type(12px,16px); color:#1d1e1e; font-family: $BMSHumanityReg; font-style:normal; font-weight:400; padding:0 0 5px;}
+
+	.activeFiltersPanel { padding:15px 0 5px; min-height: 60px;
+		@media screen and (max-width: 767px) {
+			margin-left: 40px;
+		  }
+		@media screen and (max-width: 576px) {
+			margin-left: 10px;
+		  }
+	}
+
+	.masterlegends .mobileLegends .customDropdown { display:block; position: relative; top:15%; left:0; z-index: 9;}
+	// .masterlegends .mobileLegends .customDropdown { display:none; position:absolute; top:100%; left:0; z-index: 9;}
+	// .masterlegends .mobileLegends { float:left; padding:0 5% 0 0; position:relative; width: 100%;}
+	.masterlegends .mobileLegends { float:left; padding:0; position:relative; width: 100%;}
+	.masterlegends .resetFilters { 
+		width:20%; 
+		float:left;
+		@media screen and (max-width: 576px) {
+			width:100px;
+			margin-top: 10px;
+			text-align: center;
+		  }
+	}
+	.masterlegends .mobileLegends .mobileDropdown { border-bottom:1px solid #fff; @include responsive-type(14px,16px); color:#fff; font-family: $BMSHumanityReg; padding:4px 0; position:relative; 
+		width:100px; 
+		background:url(../images/btmDropdown.png) no-repeat 95% center;
+	
+		@media screen and (max-width: 767px) {
+			width:140px; 
+		}
+		@media screen and (max-width: 576px) {
+			width:100px !important; 
+		}
+		@media screen and (max-width: 320px) {
+			width:90px !important; 
+		}
+	}
+	.masterlegends .mobileLegends .mobileDropdown.active { background:url(../images/upDropdown.png) no-repeat 95% center;}
+	.home .masterlegends .mobileLegendsItem { width:100%; background-color: transparent; border: 0px; box-shadow: 0px 0px;
+		@media screen and (max-width: 991px) {
+			width:180px;
+		}
+		@media screen and (max-width: 576px) {
+			width:100%;
+		}
+	}
+	.masterlegends .mobileLegendsItem { /*width:180px;*/ background-color: transparent; border: 0px; box-shadow: 0px 0px;
+		@media screen and (max-width: 991px) {
+			// width:160px;
+			width:175px;
+		}
+		@media screen and (max-width: 576px) {
+			width:155px;
+		}
+	}
+	//.masterlegends .mobileLegendsItem { width:200px; max-width:200px; border-radius: 10px; box-shadow: 1.1px -2.8px 7px 0 rgba(0, 0, 0, 0.35); background-color: #001b2b; padding:10px;}
+	.masterlegends .mobileLegendsItem li { font-size:12px;}
+	.masterlegends .mobileLegendsItem li label { display:block;}
+	.masterlegends .resetFilters .reset { @include responsive-type(12px,16px); color:#fff; font-family:"proxima-nova"; font-style:normal; font-weight:500; text-decoration: underline; 
+		margin: 11px 0 0 0; display:none;
+		@media screen and (max-width: 767px) {
+			margin: 30px 0 0 0; display:none;
+		}
+		@media screen and (max-width: 576px) {
+			margin: 0px 0 0 0; display:none;
+		}
+		
+	}
+
+	.celgeneDashboard .masterlegends .mobileLegends .mobileDropdown { border-bottom:1px solid #000; color:#373939; background:url(../images/btmDropdownBlack.png) no-repeat 95% center;}
+	.celgeneDashboard .masterlegends .mobileLegends .mobileDropdown.active { background:url(../images/upDropdownBlack.png) no-repeat 95% center;}
+	.celgeneDashboard .activeFiltersPanel label { color:#373939;}
+
+	.resultContainer .celgeneIconSearch, .resultComingSoonContainer .celgeneIconSearch { width:18px; height: 28px; bottom:2px; right: 7px;}
+
+	.search header .headerSearch ul li .blueButtonLink { display:none;}
+
+	// .search header .headerSearch ul li .blueButtonLink { display:block;}
+
+	.collection .savedClinicalContainer .savedClinicalCont .savedClinicalTable table .collectionHide.showTr td { padding:8px 0;}
+
+	.sitemapContainer .col_1, .sitemapContainer .col_2, .sitemapContainer .col_3 { width:100%;}
+	.sitemapContainer .col_3 { padding-top:16px;}
+
+	#interstialPopup .modal-dialog, #deleteAccountModal .modal-dialog { margin:100px 15px;}
+	#interstialPopup2 .modal-dialog, #deleteAccountModal .modal-dialog { margin:100px 15px;}
+	.homeChartSection .homeIntroTxt .homeSearchSection ul li.inputTxt1 { width:62%;}
+	.homeChartSection .homeIntroTxt .homeSearchSection ul li.inputTxt2 { width:27%;}
+	.home .homeChartSection .homeIntroTxt .homeSearchSection ul li.inputTxt2 { position:relative;}
+	.home .locationDropItems { width:100%;}
+	.home .filterBySection { 
+		position: absolute; 
+		bottom: 0; 
+		background: none; 
+		left: auto; 
+		right: 0; 
+		top: 20px;
+		@media screen and (max-width: 991px) {
+			right: 96px; 
+		
+		}
+		@media screen and (max-width: 576px) {
+			right: 96px; 
+			top: 40px;
+		}
+	
+	}
+	.home .filterBySection .filterSubOption { top:0; bottom:auto;}
+	.single-molecule .celgeneSidebar nav ul li.dividerLink .labelLink2 { display:none;}	
+	.filterBySection .clearSaveBox .redButtonForm.patientTypeBut { width:92px; padding-top:2px;}
+	.aboutBolderHeader { padding:50px 0 30px;}
+	.aboutBolderHeader .disclaimerTxt { position:static; padding:20px 15px 0; display:block;}
+	.homeChartSection .homeIntroTxt .homeSearchSection ul { padding:0 0 12px;}
+	.savedClinicalContainer .backLinkBlue.visible-xs { display:none !important;}
+	.collection .savedClinicalContainer .backLinkBlue.visible-xs { display:block !important;}
+	.pieChartSection .otherText .switchBx { max-width: 58%; padding-right:5px;}
+	.advancedSearchContainer .advanceSearchCont .closeBtn { top:42px;}
+	.advanced-search header .headerSearch { display:none;}
+	.advanced-search footer { margin:0px;}
+	.advanced-search .advancedSearchContainer .white-container { margin:0;}
+	.searchBySectionCelgene { padding-top:35px;}
+	.searchBySectionCelgene .padLft { padding:0;}
+	.searchBySectionCelgene .padLft .backLink { top:-20px; background:url(../images/backArrowBlue.png) no-repeat left center; color:#54bceb;}
+	.searchBySectionCelgene .padLft .column2 { width:33.33%;}
+	.searchBySectionCelgene .padLft .column1 { position: absolute; bottom: 100%; right: 0; width: auto;}
+	.searchBySectionCelgene div.selector span { font-size: 14px; width: 100% !important; padding-right: 20px;}
+	.searchBySectionCelgene .backToBS { margin:0; padding:4px 10px 4px 30px;}
+	.searchBySectionCelgene .backToBS:before { width: 20px; height: 20px; margin-top: -10px; left: 4px; background: url(../images/donutButton.png) no-repeat left top / 100%;}
+	.celgeneMain .contentAlliacne .alliancePatners .rowCustom .col-md-3 img { max-width: 100%; width: 75%; height: auto;}	
+	.celgeneMain .contentAlliacne .alliancePatners .rowCustom .allianceDropDown ul li a:hover { background: #fff; color:#7d7d7d;}
+	.celgeneMain .contentAlliacne .alliancePatners .rowCustom .allianceDropDown ul li a.active { background:#54bceb; color:#fff;}
+	.search .content .container .celegeneTrialSticky { margin:0 auto; position:static;}
+	.headerSearch .easy-autocomplete ul{position: absolute;top: auto;bottom: 26px;}
+	.easy-autocomplete-container ul li span.searchItem, .easy-autocomplete-container ul .eac-category span.searchItem{width: 75%;font-size: 13px;}
+	.easy-autocomplete-container ul li span.searchType, .easy-autocomplete-container ul .eac-category span.searchType{width: 25%;font-size: 12px;}
+	.easy-autocomplete-container ul li, .easy-autocomplete-container ul .eac-category{padding: 7px 5px !important;}
+	
+	
+}
+@media (max-width:991px) {
+	.search-header{
+		padding:20px 0 15px 0;
+		position:relative;
+		border:none;
+
+		&:after {
+			width:92%;
+			height:1px;
+			background:#d8d8d8;
+			content:"";
+			position:absolute;
+			bottom:0%;
+			left:0;
+		}
+	}
+}
+@media (max-width:768px) {
+	.mobile-search-panel{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background: $white-color;
+		display: block;
+		z-index: 9999;
+		top: -100%;
+		left: 0;
+		&.open{
+		top:0;
+		}
+		.search-header{
+		padding:20px 0 15px 0;
+		position:relative;
+		border:none;
+
+		&:after {
+			width:91%;
+			@media (max-width:767px) {
+				width:82%;
+			}
+			height:1px;
+			background:#d8d8d8;
+			content:"";
+			position:absolute;
+			bottom:0%;
+			left:0;
+		}
+
+		.search-icon{
+			width: 24px;
+			height: 24px;
+			float: left;
+			margin-right: 8px;
+		}
+		.cancel-box{
+			width: auto;
+			height: 24px;
+			padding:2px 0;
+			margin-left: 0;
+			float: right;
+			.cancel-link{
+			  color: $purple-color1;
+			  font-size:14px;
+			  line-height:22px;
+			  letter-spacing: 0.32px;
+			  font-family: $BMSHumanityReg;
+			  &:hover, &:focus{
+				color: $purple-color1;
+			  }
+			}
+		  }
+		.search-panel-mobile{
+			width: calc(100% - 105px);
+			height: 24px;
+			float: left;
+			display: inline-block;
+			margin-bottom: 0;
+			.form-control{
+			height: 24px;
+			margin-bottom: 0;
+			border: none;
+			box-shadow:none;
+			padding-left: 0;
+			}
+		}
+		}
+		.easy-autocomplete-container{
+		width: 100%;
+		position: relative;
+		ul{
+			width: 99%;
+			@media screen and (max-width: 768px) {
+				width: calc(100% + 60px);
+			}
+			top: .6rem;
+			left: -32px;
+			li{
+			.eac-item{
+				span{
+					//
+				// &.searchItem{
+				// 	width: 60% !important;
+				// 	@media screen and (max-width: 375px) {
+				// 		width: 55% !important;
+				// 	}
+				// 	font-size: 16px !important;
+				// 	font-weight: normal !important;
+				// 	font-stretch: normal;
+				// 	font-style: normal;
+				// 	line-height: 32px;
+				// 	letter-spacing: 0.28px;
+				// 	color: $gray-color1;
+				// }
+				// &.searchType{
+				// 	width: 136px !important;
+				// 	height: 32px !important;
+				// 	padding:9px 12px !important;
+				// 	border-radius: 16px !important;
+				// 	background-color: rgba(157, 137, 117, 0.2) !important;
+				// 	font-size: 14px !important;
+				// 	font-weight: normal;
+				// 	font-stretch: normal;
+				// 	font-style: normal;
+				// 	line-height: 28px;
+				// 	letter-spacing: 0.14px;
+				// 	text-align: center;
+				// 	color: $gray-color1 !important;
+				// }
+				}
+			} 
+			}
+		}
+		}
+	}
+}
+@media (max-width:375px) {
+	.diseaseAreas ul.buttonLink li a { font-size:13px;}
+	.filterBySection .clearSaveBox .redButtonForm, .filterAdded .filterBySection .clearSaveBox .redButtonForm { width:80px; font-size:11px;}
+	.filterBySection .clearSaveBox .clearLink, .filterAdded .filterBySection .clearSaveBox .clearLink { padding:10px 5px 8px 0;}
+}
+
+@media (max-width:320px) {
+	.filterBySection .filterOption li { padding:3px 2px;}
+	.filterAdded .filterBySection .filterOption li a, .filterBySection .filterOption li > a { padding:3px 7px;}
+}
+

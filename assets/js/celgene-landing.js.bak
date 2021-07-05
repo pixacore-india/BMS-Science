@@ -1,0 +1,56 @@
+require('bootstrap');
+
+var celgeneLanding = function() {
+	//figure out a better way of doing this
+	jQuery( document ).ready(function () {
+						jQuery(".landing-images-one").hover(function () {
+						jQuery('span', this).addClass("changeColor");
+						jQuery('img', this).addClass("landing-images-img-hover");
+					  }, function () {
+						jQuery('span', this).removeClass("changeColor");
+						jQuery('img', this).removeClass("landing-images-img-hover");
+					  });
+					});
+					jQuery(function () {
+						jQuery(".landing-images-two").hover(function () {
+						jQuery('span', this).addClass("changeColor");
+						jQuery('img', this).addClass("landing-images-img-hover");
+					  }, function () {
+						jQuery('span', this).removeClass("changeColor");
+						jQuery('img', this).removeClass("landing-images-img-hover");
+					  });
+					});
+					jQuery(function () {
+						jQuery(".landing-images-three").hover(function () {
+						jQuery('span', this).addClass("changeColor");
+						jQuery('img', this).addClass("landing-images-img-hover");
+					  }, function () {
+						jQuery('span', this).removeClass("changeColor");
+						jQuery('img', this).removeClass("landing-images-img-hover");
+					  });
+					});
+					jQuery(function () {
+						jQuery(".landing-images-four").hover(function () {
+						jQuery('span', this).addClass("changeColor");
+						jQuery('img', this).addClass("landing-images-img-hover");
+					  }, function () {
+						jQuery('span', this).removeClass("changeColor");
+						jQuery('img', this).removeClass("landing-images-img-hover");
+					  });
+					});
+					jQuery(function () {
+						jQuery(".landing-images-five").hover(function () {
+						jQuery('span', this).addClass("changeColor");
+						jQuery('img', this).addClass("landing-images-img-hover");
+					  }, function () {
+						jQuery('span', this).removeClass("changeColor");
+						jQuery('img', this).removeClass("landing-images-img-hover");
+					  });
+					});
+					
+	
+};
+
+
+module.exports = celgeneLanding;
+

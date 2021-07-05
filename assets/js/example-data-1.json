@@ -1,0 +1,84 @@
+{
+    "success": true,
+    "data": {
+      "filters": {
+        "statuses": [
+          {
+            "checked": true,
+            "count": "119",
+            "name": "Not yet recruiting",
+            "slug": "not-yet-recruiting"
+          },
+          {
+            "checked": false,
+            "count": "117",
+            "name": "Recruiting",
+            "slug": "recruiting"
+          },
+          {
+            "checked": true,
+            "count": "100",
+            "name": "Active, not recruiting",
+            "slug": "active-not-recruiting"
+          },
+          {
+            "checked": true,
+            "count": "90",
+            "name": "Enrolling by invitation",
+            "slug": "enrolling-by-invitation"
+          },
+          {
+            "checked": true,
+            "count": "40",
+            "name": "Completed",
+            "slug": "completed"
+          },
+          {
+            "checked": false,
+            "count": "49",
+            "name": "Other",
+            "slug": "other"
+          }
+        ],
+        "phases": [
+          {
+            "checked": true,
+            "count": "19",
+            "name": "early-phase-1",
+            "slug": "early-phase-1"
+          },
+          {
+            "checked": false,
+            "count": "10",
+            "name": "phase-1",
+            "slug": "phase-1"
+          },
+          {
+            "checked": false,
+            "count": "7",
+            "name": "phase-2",
+            "slug": "phase-2"
+          },
+          {
+            "checked": false,
+            "count": "5",
+            "name": "phase-3",
+            "slug": "phase-3"
+          },
+          {
+            "checked": true,
+            "count": "14",
+            "name": "phase-4",
+            "slug": "phase-4"
+          },
+          {
+            "checked": true,
+            "count": "4",
+            "name": "not-applicable",
+            "slug": "not-applicable"
+          }
+        ]
+      },
+      "total": "122,999"
+    }
+}

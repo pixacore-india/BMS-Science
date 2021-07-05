@@ -1,0 +1,2805 @@
+.bms-resource .header-resources a {
+    color: #be2bbb;
+     border-bottom: 3px solid #be2bbb;
+    }
+    
+    .bms-resource .resource-container {
+    
+    max-width: 967px;
+    
+    }
+    
+    strong {
+    font-family: "Conv_BMSHumanity-bold";
+    }
+    
+    header.event-1 .header-resources,
+    header.event-2 .header-resources,
+    #menu-bms-header-nav [href*='resources/event-1'] {
+    display: none;
+    }
+    
+    #menu-bms-header-nav [href*='resources/event-2'] {
+    display: none;
+    }
+    
+    .event-1 .hide-for-event-1 {
+    display: none;
+    }
+    .event-2 .hide-for-event-2-3 {
+    display: none;
+    }
+    .event-2 .hide-for-event-2 {
+    display: none;
+    }
+    .event-3 .hide-for-event-2-3 {
+    display: none;
+    }
+    .event-3 .hide-for-event-3 {
+    display: none;
+    }
+    .event-0 .hide-for-event-2-3 {
+    display: none;
+    }
+    .event-0 .hide-for-event-0 {
+    display: none;
+    }
+    
+    .event.event-2 .resources-video{display: block}
+    
+    .event.event-1 .resources-video{display: none}
+    
+    .event.event-0 .resources-video{display: none}
+    
+    .resources .resources-video {display:none}
+    
+    .player .vp-controls .custom-logo a{
+     display: none !important;
+    }
+    
+    .ash-microsite .ashbg{
+      background: url(https://media.bolderscience.com/wp-content/uploads/2020/12/trial-finder-bg.png)  no-repeat;
+      background-size: cover;
+    }
+    
+      footer .copyRightTxt{
+          padding: 18px 0 0 0;
+      }
+    
+    .hidespan{
+     display : none;
+    }
+    
+    .hidespan+br{
+     display : none;
+    }
+    
+    .showspan {
+      display: inline-block;
+    }
+    
+    .showspan+br{
+     display : none;
+    }
+    
+    .leftIndent {
+        margin-left: -5px;
+    }
+    
+    .thankYouLftCol{
+      position: relative;
+      z-index: 1;
+    }
+    
+    @media (max-width:991px){
+    
+         header .logo{
+               min-height: 58px;
+          }
+    
+           header .mainNav{
+              position: relative;
+              padding: 0px;
+              bottom: 10px;
+           }
+    }
+    
+    .thankYouBx.ashbg .container {
+      height: 330px;
+    }
+    
+    .ash-microsite .trial-card .card-box .link-box a.trial-link {
+        position: absolute;
+        bottom: 14px;
+        right: 17px;
+        background: url(/wp-content/themes/bolder-science/assets/images/bms/eye-pink.png) no-repeat left center/contain;
+        line-height: 1;
+    }
+    
+    
+    @media (max-width: 767px){
+    
+           header .logo{
+               min-height: 36px;
+          }
+    
+            header .mainNav{
+              position: relative;
+              padding-top: 10px;
+              bottom: 0px;
+           }
+    
+        .pipelineTab .tab-content .card .phaseContainer .phaseRow .width1{
+            padding: 0 0 5px 19px;
+         }
+    
+        .pipelineTab .tab-content .card .phaseContainer .phaseRow .trialImg {
+          width: 17px;
+          height: 17px;
+          position: absolute;
+       }
+    
+        .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseIndicatorBg{
+            position: relative;
+            top: 3px;
+         }
+    }
+    
+    @media (max-width: 375px) {
+    .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .researchArea{
+        margin-left: 0px;
+     }
+    }
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; font-size:100%; font:inherit; vertical-align:baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block;}
+
+/* fontface */
+@font-face {
+    font-family: 'Conv_BMSHumanity-Thin';
+    // src: url('../fonts/BMSHumanity-Thin.eot');
+    src: url('../../fonts/bms/BMSHumanity-Thin.eot');
+    src: local('☺'), url('../../fonts/bms/BMSHumanity-Thin.woff') format('woff'), url('../../fonts/bms/BMSHumanity-Thin.ttf') format('truetype'), url('../../fonts/bms/BMSHumanity-Thin.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_BMSHumanity-Regular';
+    src: url('../fonts/BMSHumanity-Regular.eot');
+    src: local('☺'), url('../../fonts/bms/BMSHumanity-Regular.woff') format('woff'), url('../../fonts/bms/BMSHumanity-Regular.ttf') format('truetype'), url('../../fonts/bms/BMSHumanity-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_BMSHumanity-Bold';
+    src: url('../../fonts/bms/BMSHumanity-Bold.eot');
+    src: local('☺'), url('../../fonts/bms/BMSHumanity-Bold.woff') format('woff'), url('../../fonts/bms/BMSHumanity-Bold.ttf') format('truetype'), url('../../fonts/bms/BMSHumanity-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvatica';
+    // src: url('../fonts/BMSHumanity-Thin.eot');
+    src: url('../../fonts/bms/Helvetica.eot');
+    src: local('☺'), url('../../fonts/bms/Helvetica.woff') format('woff'), url('../../fonts/bms/Helvetica.ttf') format('truetype'), url('../../fonts/bms/Helvetica.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* font-family and color variables */
+$BMSHumanityThin: 'Conv_BMSHumanity-Thin';
+$BMSHumanityReg: 'Conv_BMSHumanity-Regular';
+$BMSHumanityBold: 'Conv_BMSHumanity-Bold';
+$Helvatica : 'Helvetica';
+$pinkColor: #be2bbb;
+$grayColor: #595454;
+$white-color: #fff;
+
+$assetPath : "../../images/bms";
+
+/* main style */
+body {
+    font-family: $BMSHumanityReg;
+    color:$grayColor;
+    background:#f4f4f4;
+
+    &.bms-resource {
+        .download-resource a {
+            color:$pinkColor;
+            border-bottom: 3px solid $pinkColor;
+        }
+    }
+}
+.white-bg{
+    background: $white-color;
+}
+.py-3{
+    padding: 3rem 0;
+}
+.wrapper {
+    width:100%;
+}
+
+.container {
+    max-width:976px;
+    &.bms-trials-page{
+        max-width: 1170px;
+    }
+}
+
+.dispTable {
+    width:100%;
+    height:100%;
+    display:table;
+
+    .dispTableCell {
+        width:100%;
+        display:table-cell;
+
+        &.verticalMiddle {
+            vertical-align: middle;
+        }
+    }
+}
+
+header {
+    width:100%;
+    height:84px;
+    // background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    background: #ffffff;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+    padding:0 3.5%;
+    box-shadow: 2px 1px 15px 0 rgba(89, 84, 84, 0.15);
+
+    .logo {
+        float:left;
+        display:block;
+        text-decoration: none;
+        margin:25px 20px 0 0;
+    }
+
+    .mainNav {
+        float:left;
+        padding:36px 0 0 0;
+
+        ul {
+            float:left;
+            display:block;
+            width:auto;
+
+            li {
+                float:left;
+                display:block;
+                font-size:18px;
+                line-height: 20px;
+                letter-spacing: 0.31px;
+                color:$grayColor;
+                padding:0 18px;
+
+                a {
+                    color:$grayColor;
+                    text-decoration: none;
+                    border-bottom: 3px solid transparent;
+                    display: block;
+                    padding:2px 0;
+
+                    &:focus {
+                        color:$grayColor;
+                        text-decoration: none;
+                    }
+
+                    &.active, &:hover {
+                        color:$pinkColor;
+                        border-bottom: 3px solid $pinkColor;
+                    }
+                }
+
+                &.current-menu-item{
+                    a{
+                        color:$pinkColor;
+                        border-bottom: 3px solid $pinkColor;
+                    }
+                }
+            }
+        }
+    }
+
+    .learnMoreLink {
+        float:right;
+        display:block;
+        font-size:18px;
+        line-height:20px;
+        color:$grayColor;
+        font-family: $BMSHumanityReg;
+        text-decoration: none;
+        position: relative;
+        padding:0 22px 0 0;
+        margin:38px 0 0 0;
+
+        &:after {
+            width:16px;
+            height:16px;
+            background:url(#{$assetPath}/externalLink.png) no-repeat right top / 100%;
+            content:"";
+            position: absolute;
+            top:-1px;
+            right:0;
+        }
+
+        &:hover {
+            color:$pinkColor;
+        }
+    }
+    &.header-trials-finder{
+        height:60px;
+        border-bottom: 2px solid #be2bbb;
+        @media screen and (min-width: 768px) { 
+            border-bottom: 1px solid #be2bbb;
+        }
+        .logo{
+            margin: 16px 20px 0 0;
+        }
+    }
+}
+
+#content {
+    margin-top:60px;
+    min-height:1000px;
+}
+
+// Event Specific Height Included
+
+#content {
+    &.event-0 {
+        margin-top: 84px;
+        @media screen and (max-width: 991px) {
+            margin-top: 90px;
+        }
+    }
+    &.event-1 {
+        margin-top: 84px;
+        @media screen and (max-width: 991px) {
+            margin-top: 90px;
+        }
+    }
+    &.event-2 {
+        margin-top: 84px;
+        @media screen and (max-width: 991px) {
+            margin-top: 90px;
+        }
+    }
+    &.event-3 {
+        margin-top: 84px;
+        @media screen and (max-width: 991px) {
+            margin-top: 90px;
+        }
+    }
+}
+
+// Resource Specific Content Height
+.page-template-bms-reference,
+.bms-resource {
+    #content {
+        min-height: calc(100vh - 255px);
+        @media screen and (max-width: 991px) {
+            min-height: calc(100vh - 238px);
+        }
+    }
+}
+
+.gradientBg {
+    background-image:  linear-gradient(to right, #dac5c5 0%, #f5f0f0 83%, #f5f0f0 100%);
+}
+
+.thankYouBx {
+    width:100%;
+    position: relative;
+    .container {
+        height: 257px;
+    }
+    &.ashbg{
+        .container {
+            height: 310px;
+        }
+    }
+
+    .thankYouLftCol {
+        margin:0 -15px;
+        max-width:825px;
+        height:100%;
+        @media screen and (min-width: 992px) and (max-width: 1100px) {
+            max-width: 800px;
+        }
+    }
+
+    h3 {
+        font-size:46px;
+        line-height:48px;
+        color:$grayColor;
+        font-family:$BMSHumanityThin;
+        letter-spacing: 0.8px;
+        padding:0 0 12px;
+    }
+
+    p {
+        font-size:18px;
+        line-height:26px;
+        color:$grayColor;
+        // font-family:$BMSHumanityBold;
+        font-family:$BMSHumanityReg;
+        letter-spacing: 0.31px;
+        margin-bottom: 5px;
+    }
+
+    .bannerImage {
+        width:246px;
+        position: absolute;
+        bottom:0;
+        right:0;
+    }
+}
+
+footer {
+    width:100%;
+    padding:80px 0 50px;
+    background:#eee7e7;
+
+    .footerLogo {
+        float:left;
+        display:block;
+        display:none;
+        margin:0 30px 0 0;
+    }
+
+    .menu-bms-footer-menu-macro-container{
+        float: left;
+    }
+
+    .footerLinks, .menu {
+
+        float:left;
+        display: block;
+        padding:17px 0 0 0px;
+
+        li {
+            float:left;
+            display:block;
+            padding:0 10px;
+            font-size:14px;
+            line-height:16px;
+            letter-spacing: 0.24px;
+            color:$grayColor;
+            font-family: $BMSHumanityReg;
+
+            a {
+                display:block;
+                text-decoration:none;
+                color:$grayColor;
+                text-transform: capitalize;
+
+                &:hover {
+                    color:$pinkColor;
+                }
+            }
+            &:first-child{
+                padding-left: 0px;;
+            }
+        }
+    }
+
+    .copyRightTxt {
+        font-size:12px;
+        line-height:14px;
+        color:$grayColor;
+        font-family: $BMSHumanityReg;
+        float:right;
+        display: block;
+        letter-spacing: 0.21px;
+        padding:0;
+        @media (max-width:360px){
+            font-size:11px;
+            line-height:14px;
+        }
+    }
+}
+
+.pipelineCont1 {
+    width:100%;
+    padding:40px 0 20px;
+
+    h4 {
+        font-size:20px;
+        line-height:20px;
+        color:$grayColor;
+        font-family:$BMSHumanityBold;
+        letter-spacing:0.35px;
+        padding:0 0 10px;
+    }
+
+    p {
+        font-size:14px;
+        line-height:18px;
+        color:$grayColor;
+        letter-spacing: 0.25px;
+        font-family: $BMSHumanityReg;
+        padding:0 0 20px;
+    }
+}
+
+.pipelineTab{
+
+    .tab-thumb {
+        width:100%;
+        float:left;
+        display:block;
+        position: relative;
+        padding:0px;
+        margin:0 0 20px;
+
+        &:after{
+            width:100%;
+				height:13px;
+				position: absolute;
+				bottom:0;
+				left:0;
+                background:url(#{$assetPath}/navPinkLine.png) repeat-x left bottom;
+				content:"";
+        }
+
+        li {
+            width:50%;
+            float:left;
+            display:block;
+            padding:0;
+          
+
+            &:nth-child(1) {
+                a {
+                    margin-right:-7px;
+                }
+            }
+
+            &:nth-child(2) {
+                a {
+                    margin-left:-9px;
+                }
+            }
+
+            a {
+                display:block;
+					text-align: center;
+					font-size:18px;
+					line-height: 18px;
+					color:$grayColor;
+					font-family: $BMSHumanityBold;
+					letter-spacing: 0.31px;
+					text-decoration: none;
+
+					.lftBg {
+						display: block;
+						background:url(#{$assetPath}/tabThumbLft.png) no-repeat left top;
+						padding:0 0 0 30px;
+
+						.rhtBg {
+							display: block;
+							background:url(#{$assetPath}/tabThumbRht.png) no-repeat right top;
+							padding:0 30px 0 0;
+
+							.midBg {
+								display:block;
+								background:url(#{$assetPath}/tabThumbRep.png) repeat-x left top;
+								height:56px;
+								padding-top:22px;
+							}
+						}
+					}
+            }
+
+            &.active {
+                position: relative;
+                z-index: 1;
+
+                a {
+                    color:$pinkColor;
+                   
+
+                    .lftBg {
+                        background:url(#{$assetPath}/tabThumbActLft.png) no-repeat left top;
+
+                        .rhtBg {
+                            background:url(#{$assetPath}/tabThumbActRht.png) no-repeat right top;
+
+                            .midBg {
+                                background:url(#{$assetPath}/tabThumbActRep.png) repeat-x left top;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .tab-content {
+
+        .filterByBx {
+            padding:0 0 20px;
+
+            .filterByTxt {
+                display: block;
+                float:left;
+                font-size:14px;
+                line-height:14px;
+                letter-spacing: 0.24px;
+                font-family: $BMSHumanityReg;
+                color:$grayColor;
+                padding:10px 12px 0 0;
+            }
+
+            .filterPills {
+                float:left;
+                display:block;
+
+                li {
+                    float:left;
+                    display:block;
+                    position: relative;
+                    padding:0 12px 0 0;
+
+                    .pillsLink {
+                        display:block;
+                        text-decoration: none;
+                        height: 34px;
+                        border-radius: 17px;
+                        border: solid 1px #a69f9f;
+                        background-color: #ffffff;
+                        padding:9px 15px 0;
+                        font-size:16px;
+                        line-height:16px;
+                        letter-spacing: 0.28px;
+                        color:$grayColor;
+
+                        &.active {
+                            background:$pinkColor;
+                            color: #fff;
+                        }
+                    }
+
+                    .filterPillsDropdown {
+                        width:224px;
+                        position: absolute;
+                        top:100%;
+                        left:0;
+                        border-radius: 8px;
+                        box-shadow: 0 0 14px 0 rgba(89, 84, 84, 0.24);
+                        border: solid 1px #d2cac8;
+                        background-color: #ffffff;
+                        padding:20px;
+                        text-align: left;
+                        margin-top:5px;
+                        z-index: 9;
+                        display:none;
+
+                        label {
+                            display:block;
+                            clear: both;
+                            padding:0;
+                            font-size:14px;
+                            line-height:16px;
+                            letter-spacing: 0.24px;
+                            color:$grayColor;
+                            font-family: $BMSHumanityReg;
+                            margin:0 0 14px;
+                            text-align: left;
+                            cursor: pointer;
+                            position: relative;
+                            padding-left:24px;
+
+                            .checkmark {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width:16px;
+                                height:16px;
+                                background: url(#{$assetPath}/checkboxSprite.png) no-repeat left top;
+                                display: block;
+                            }
+                        }
+
+                        input[type="checkbox"]{
+                            width:16px;
+                            height:16px;
+                            border:1px solid #a69f9f;
+                            border-radius:3px;
+                            margin:0 7px 0 0;
+                            float:left;
+                            display:block;
+                            position: absolute;
+                            top:0;
+                            opacity: 0;
+                            cursor: pointer;
+
+                            &:checked ~ .checkmark{
+                                background: url(#{$assetPath}/checkboxSprite.png) no-repeat left -16px;
+                            }
+                        }
+
+                        .clearAllLink {
+                            margin:0;
+                            display:inline-block;
+                            float:none;
+                        }
+                    }
+                }
+            }
+
+            .clearAllLink {
+                float:left;
+                display:block;
+                font-size:14px;
+                line-height:14px;
+                color:$pinkColor;
+                letter-spacing: 0.24px;
+                text-decoration: underline;
+                margin:10px 0 0 0;
+            }
+
+        }
+
+        .filterPillsSelected {
+            padding:0 0 0 64px;
+
+            a {
+                display:inline-block;
+                height: 30px;
+                border-radius: 17px;
+                background-color: #a69f9f;
+                text-decoration: none;
+                font-size:14px;
+                line-height:16px;
+                color:#fff;
+                letter-spacing: 0.24px;
+                font-family: $BMSHumanityReg;
+                padding:7px 14px 0 26px;
+                margin:0 12px 20px 0;
+                cursor: pointer;
+                position: relative;
+                &:before{
+                    position: absolute;
+                    top: 7px;
+                    left: 8px;
+                    width: 15px;
+                    height: 15px;
+                    background: url(#{$assetPath}/close.png) no-repeat left top;
+                    display: block;
+                    content: "";
+                    background-size: cover;
+                }
+            }
+        }
+
+        .cardHeadBx {
+            padding:0 15px 15px;
+
+            .cardHeadTxt {
+                font-size:16px;
+                line-height:16px;
+                letter-spacing: 0.28px;
+                color:$grayColor;
+                font-family:$BMSHumanityBold;
+                display:block;
+            }
+        }
+
+        .width1 {
+            float:left;
+            display: block;
+            width:37%;
+            position: relative;
+            padding:0 15px 0 18px;
+        }
+
+        .width2 {
+            float:left;
+            display: block;
+            width:22%;
+            padding:0 15px 0 0;
+        }
+
+        .width3 {
+            float:left;
+            display: block;
+            width:27%;
+            padding:0 15px 0 0;
+        }
+
+        .width4 {
+            float:left;
+            display: block;
+            width:14%;
+        }
+
+        .card {
+            width: 100%;
+            height:auto;
+            border-radius: 8px;
+            box-shadow: 0 0 14px 0 rgba(89, 84, 84, 0.15);
+            background-color: #ffffff;
+            margin:0 0 20px 0;
+            padding: 20px 15px;
+            overflow: hidden;
+
+            .cardContent {
+                width:100%;
+                .additionalComponents{
+                    display: none;
+                }
+            }
+
+            .cardNoResult {
+                font-size:18px;
+                line-height:22px;
+                letter-spacing: 0.31px;
+                color:#a69f9f;
+                display: none;
+                p{
+                    text-align: center;
+                    padding:88px 0;
+                    font-family: $BMSHumanityBold;
+                }
+            }
+
+            .cardTitle {
+                font-size:18px;
+                line-height:18px;
+                color:$pinkColor;
+                letter-spacing: 0.31px;
+                font-family: $BMSHumanityBold;
+                padding:0 0 16px 18px;
+            }
+
+            .phaseContainer {
+
+                .phaseRow {
+                    width:100%;
+                    margin:0 0 18px 0;
+
+
+                    &.phase-1{
+
+                        .phaseIndicatorCount {
+                            width:33.33%;
+                        }
+
+                    }
+
+                    &.phase-1.phase-2, &.phase-2{
+
+                        .phaseIndicatorCount {
+                            width:66.66%;
+                        }
+
+                    }
+
+                    &.phase-2.phase-3, &.phase-1.phase-3, &.phase-3{
+
+                        .phaseIndicatorCount {
+                            width:100%;
+                        }
+
+                    }
+
+
+
+
+                    .phaseRowTxt {
+                        font-size:14px;
+                        line-height: 18px;
+                        letter-spacing: 0.04px;
+                        color:$grayColor;
+                        font-family: $BMSHumanityReg;
+                        position: relative;
+
+                        sup{
+                            font-size: 10px;
+                        }
+
+                        strong {
+                            font-family: $BMSHumanityBold;
+                        }
+                    }
+
+                    .phaseIndicatorBg {
+                        width:100%;
+                        max-width:118px;
+                        height:14px;
+                        display:block;
+                        background:#fff;
+                        box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.3);
+                        border-radius:15px;
+                        margin-top:2px;
+
+                        .phaseIndicatorCount {
+                            background:$pinkColor;
+                            text-align: right;
+                            height:14px;
+                            display:block;
+                            float:left;
+                            border-radius:15px;
+                            font-size:12px;
+                            line-height: 16px;
+                            color:#fff;
+                            padding:0 7px;
+
+                           
+                        }
+                    }
+
+                    .trialImg {
+                        width:17px;
+                        position: absolute;
+                        top:0px;
+                        left:0;
+                    }
+
+                }
+
+            }
+
+            .viewDisplayBx {
+                text-align: center;
+                // display: none;
+
+                .viewAllBut {
+                    display:inline-block;
+                    text-decoration: none;
+                    letter-spacing: 0.18px;
+                    font-family: $BMSHumanityReg;
+                    font-size:16px;
+                    line-height: 18px;
+                    color:$pinkColor;
+                    padding:0 20px 0 0;
+                    position: relative;
+                    margin:10px 0;
+
+                    &:after {
+                        width:15px;
+                        height:9px;
+                        background:url(#{$assetPath}/arrowDown.png) no-repeat right top / 100%;
+                        content:"";
+                        position: absolute;
+                        top:3px;
+                        right:0;
+                        // margin-top:-4px;
+                    }
+
+                    &.active {
+                        &:after {
+                            background:url(#{$assetPath}/arrowUp.png) no-repeat right top / 100%;
+                        }
+                    }
+                }
+
+                .displayTxt {
+                    display:block;
+						font-size:12px;
+						line-height: 12px;
+						color:$grayColor;
+						letter-spacing: 0.21px;
+						font-family: $BMSHumanityReg;
+                }
+            }
+
+        }
+
+        .footnoteBx {
+            padding:0px 0 30px;
+
+            .fnTrialImg {
+                width:3.5%;
+                float:left;
+
+                img {
+                    display:inline-block;
+                    vertical-align:middle;
+                }
+            }
+
+            .fnTrialTxt {
+                width:96%;
+                float:left;
+            }
+
+            .footnoteTrialImg {
+                display:inline-block;
+                vertical-align: middle;
+            }
+            p {
+                font-size:12px;
+                line-height:16px;
+                color:$grayColor;
+                letter-spacing: 0.21px;
+                padding:0 0 8px;
+                font-family: $BMSHumanityReg;
+
+                .symbolBx {
+                    width:7px;
+                    display: inline-block;
+                }
+
+                sup {
+                    font-size:70%;
+                    line-height: 1em;
+                    vertical-align: top;
+                    position: relative;
+                    top:2px;
+
+                    &.tradeMark {
+                        font-size:100%;
+                    }
+                }
+            }
+            ul {
+                padding-left: 40px;
+                li{
+                    font-size: 12px;
+                    line-height: 8px;
+                    color: #595454;
+                    letter-spacing: 0.21px;
+                    padding: 0 0 8px;
+                    font-family: "Conv_BMSHumanity-Regular";
+                }
+            }
+        }
+    }
+
+}
+
+#backToTop {
+    width:44px;
+    height:44px;
+    background:url(#{$assetPath}/backtotop.png) no-repeat left top / 100%;
+    display:none;
+    position: fixed;
+    bottom:40px;
+    right:10%;
+    z-index: 99;
+    border-radius: 50%;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+
+    &.footerVisible {
+        bottom:140px;
+    }
+}
+
+.abstractListBx {
+    width:100%;
+    padding:35px 0;
+
+    h3 {
+        font-size:46px;
+        line-height:46px;
+        letter-spacing: 0.8px;
+        color:$grayColor;
+        font-family: $BMSHumanityThin;
+        padding:0 0 12px;
+    }
+}
+
+.imageTxtBx {
+    width:100%;
+    max-width:380px;
+    position: relative;
+
+    .imagePlaceholder {
+        // background: url(../../images/bms/img-placeholder.png) no-repeat left top / 100%;
+        width:100px;
+        height:129px;
+        float:left;
+        margin:0 20px 0 0;
+        border: solid 1px #d2cac8;
+    }
+
+    .imageTxt {
+        font-size:18px;
+        line-height: 24px;
+        letter-spacing: 0.31px;
+        color:$grayColor;
+        font-family: $BMSHumanityBold;
+
+        a {
+            color:$pinkColor;
+            text-decoration: none;
+        }
+    }
+
+    .downloadBut {
+        position: absolute;
+			bottom:-11px;
+			left:120px;
+			width: 120px;
+			height: 34px;
+			border-radius: 8px;
+			box-shadow: 0 0 14px 0 rgba(89, 84, 84, 0.15);
+			background-color: #ffffff;
+			padding:10px 35px 0 15px;
+			font-size:16px;
+			line-height:16px;
+			color:$pinkColor;
+			letter-spacing: 0.18px;
+			font-family: $BMSHumanityReg;
+			text-decoration: none;
+
+			&:after {
+				width:15px;
+				height:15px;
+				background:url(#{$assetPath}/downloadIcon.png) no-repeat right center / 100%;
+				content:"";
+				position: absolute;
+				top:50%;
+				right:15px;
+				margin-top:-7px;
+			}
+    }
+}
+
+.keyPathwayBx {
+    width:100%;
+    padding:40px 0;
+
+    h6 {
+        font-size:20px;
+        line-height:20px;
+        letter-spacing: 0.35px;
+        color:$grayColor;
+        font-family: $BMSHumanityBold;
+        position: relative;
+        padding:0 0 19px;
+        margin:0 0 40px;
+
+        &:after {
+            width:100%;
+            height:2px;
+            background:$pinkColor;
+            content:"";
+            border-radius: 0px;
+            display:block;
+            position: absolute;
+            bottom:0;
+            left:0;
+        }
+    }
+
+    .keyPathwayList {
+        width:100%;
+        float:left;
+        display:block;
+
+        li {
+            width:50%;
+            float:left;
+            display:block;
+            padding-bottom:30px;
+
+            &:nth-child(odd) {
+                padding-right:15px;
+            }
+
+            &:nth-child(even) {
+                padding-left:15px;
+            }
+
+            .imageTxtBx {
+                max-width:100%;
+                border-radius: 8px;
+                box-shadow: 0 0 14px 0 rgba(89, 84, 84, 0.15);
+                background-color: #ffffff;
+                padding:20px;
+
+                .downloadBut {
+                    bottom:20px;
+                    left:140px;
+                    padding-left:0;
+                    width:auto;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+.resource-container{
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.resources-video{
+    .respurce-titles{
+        font-size:20px;
+        line-height:22px;
+        letter-spacing: 0.35px;
+        color:$grayColor;
+        font-family: $BMSHumanityBold;
+        position: relative;
+        padding:0 0 19px;
+        margin:0 0 40px;
+        &:after {
+            width:100%;
+            height:2px;
+            background:$pinkColor;
+            content:"";
+            border-radius: 0px;
+            display:block;
+            position: absolute;
+            bottom:0;
+            left:0;
+        }
+    }
+    .video-card{
+        background: #fff;
+        padding: 22px 38px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px 0 rgba(37, 0, 0, 0.2);
+        h3{
+            color:$grayColor;
+            font-family: $BMSHumanityBold;
+            font-size:20px;
+            line-height:24px;
+            margin-bottom: 20px;
+        }
+        a.video-icon{
+            position: relative;
+            min-width: 100%;
+            height: 140px;
+            background: #d8d8d8;
+            display: block;
+            overflow: hidden;
+            text-align: center;
+            &::before{
+                content: '';
+                width: 79px;
+                height: 79px;
+                position: absolute;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                background:url(#{$assetPath}/icon-play.png) no-repeat;
+            }
+            img{
+                display: block;
+                max-width: 100%;
+                height: 100%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+.bms-ref-video{
+    .modal {
+        text-align: center;
+    }
+}
+  
+.bms-ref-video{
+    .modal-dialog {
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+        width: 90%;
+        @media screen and (max-width: 767px) { 
+            width: 85%;
+            margin-left: -6%;
+        }
+        .modal-content{
+            border-radius: 0;
+            .modal-body{
+                padding: 0;
+                .player{
+                    width: 240px;
+                    height: 160px;
+                    margin-bottom: -5px;
+                    @media screen and (min-width: 768px) { 
+                        width: 600px;
+                        height: 400px;
+                    }
+                    @media screen and (min-width: 992px) { 
+                        width: 800px;
+                        height: 450px;
+                    }
+                }
+            }
+        }
+        button.close{
+            background:url(#{$assetPath}/x.png) no-repeat #fff;
+            display: block;
+            position: absolute;
+            background-size: 30px 30px;
+            background-position: center center;
+            width: 40px;
+            height: 40px;
+            opacity: 1;
+            z-index: 1;
+            right: -39px;
+            top: 1px;
+        }
+    }
+}
+
+// Modal Iframe Styling
+#myVideoModal {
+   .videoPlaceholder {
+        position: relative;
+        padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
+        @media screen  and (max-width: 1024px) {
+            padding-bottom: calc(var(--aspect-ratio, .563) * 100%);
+        }
+        iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+.video-source {
+    position: relative;
+    padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
+    @media screen  and (max-width: 1024px) {
+        padding-bottom: calc(var(--aspect-ratio, .563) * 100%);
+    }
+    iframe {
+        position: absolute;
+        width: 100%!important;
+        height: 100%!important;
+        top: 0;
+        left: 0;
+    }
+}
+
+.vjs-fluid {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (min-width: 768px) { 
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+    }
+    .bms-ref-video{
+        .modal-dialog {
+            width: 70%;
+            max-width: 800px;
+            max-height: 520px;
+        }
+    }
+}
+
+.unscrollable {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.ash-microsite{
+    @media (min-width:1200px){
+        .container{
+            &.trial-list{
+                max-width: 1170px;
+            }
+        }
+    }
+    .ashbg{
+        background: url(#{$assetPath}/hero-3-copy-2.jpg) no-repeat;
+        background-size: cover;
+        @media (max-width:767px){
+            background: url(#{$assetPath}/hero-hematology.png) no-repeat;
+            background-size: cover;
+        }
+    }
+    h3.hero-title{
+        strong{
+            font-weight: bold;
+        }
+    }
+    .filterByBx {
+        padding:30px 0;
+        @media (max-width:767px){
+            padding:10px 0;
+        }
+        .filterByTxt {
+            display: block;
+            float:left;
+            font-size:14px;
+            line-height:14px;
+            letter-spacing: 0.24px;
+            font-family: $BMSHumanityReg;
+            color:$grayColor;
+            padding:10px 12px 0 0;
+            @media (min-width:768px){
+                background: url(#{$assetPath}/icon-filter.png) no-repeat;
+                padding: 10px 12px 5px 20px;
+                background-position: 0 8px;
+            }
+        }
+
+        .filterPills {
+            float:left;
+            display:block;
+
+            li {
+                float:left;
+                display:block;
+                position: relative;
+                padding:0 12px 0 0;
+
+                .pillsLink {
+                    display:block;
+                    text-decoration: none;
+                    height: 34px;
+                    border-radius: 17px;
+                    border: solid 1px #a6a6a6;
+                    background-color: #ffffff;
+                    padding:9px 15px 0;
+                    font-size:16px;
+                    line-height:16px;
+                    letter-spacing: 0.28px;
+                    color:$grayColor;
+
+                    &.active {
+                        border: 2px solid $pinkColor;
+                        background: #fff;
+                        color: #595454;
+                    }
+                }
+                .filterPillsDropdown {
+                    width:224px;
+                    position: absolute;
+                    top:100%;
+                    left:0;
+                    border-radius: 8px;
+                    box-shadow: 0 0 14px 0 rgba(89, 84, 84, 0.24);
+                    border: solid 1px #d2cac8;
+                    background-color: #ffffff;
+                    padding:20px;
+                    text-align: center;
+                    margin-top:5px;
+                    z-index: 9;
+                    display:none;
+
+                    label {
+                        display:block;
+                        clear: both;
+                        padding:0;
+                        font-size:14px;
+                        line-height:16px;
+                        letter-spacing: 0.24px;
+                        color:#595454;
+                        font-family: $BMSHumanityReg;
+                        margin:0 0 14px;
+                        text-align: left;
+                        cursor: pointer;
+                        position: relative;
+                        padding-left:24px;
+
+                        .checkmark {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width:16px;
+                            height:16px;
+                            background: url(#{$assetPath}/checkboxSprite.png) no-repeat left top;
+                            display: block;
+                        }
+                    }
+
+                    input[type="checkbox"]{
+                        width:16px;
+                        height:16px;
+                        border:1px solid #a69f9f;
+                        border-radius:3px;
+                        margin:0 7px 0 0;
+                        float:left;
+                        display:block;
+                        position: absolute;
+                        top:0;
+                        opacity: 0;
+                        cursor: pointer;
+
+                        &:checked ~ .checkmark{
+                            background: url(#{$assetPath}/checkboxSprite.png) no-repeat left -16px;
+                        }
+                    }
+
+                    .clearAllLink {
+                        margin:0;
+                        display:inline-block;
+                        float:none;
+                    }
+                }
+            }
+        }
+
+        .clearAllLink {
+            float:left;
+            display:block;
+            font-size:14px;
+            line-height:14px;
+            color:#595454;
+            letter-spacing: 0.24px;
+            text-decoration: underline;
+            margin:10px 0 0 0;
+        }
+
+    }
+
+    .filterPillsSelected {
+        padding:20px 0 0 64px;
+        .output{
+            float: left;
+            // margin-right: 10px;
+            a {
+                display:inline-block;
+                height: 30px;
+                border-radius: 17px;
+                border: 2px solid #a6a6a6;
+                background-color: #a6a6a6;
+                text-decoration: none;
+                font-size:14px;
+                line-height:16px;
+                color:#3c3c3c;
+                letter-spacing: 0.24px;
+                font-family: $BMSHumanityReg;
+                padding:7px 14px 0 26px;
+                margin:0 12px 20px 0;
+                cursor: pointer;
+                position: relative;
+                &:before{
+                    position: absolute;
+                    /*top: 7px;
+                    left: 8px;
+                    width: 15px;
+                    height: 15px;*/
+                    top: 9px;
+                    left: 10px;
+                    width: 10px;
+                    height: 10px;
+                    background: url(#{$assetPath}/icon-close-black.png) no-repeat left top;
+                    display: block;
+                    content: "";
+                    background-size: cover;
+                }
+            }
+        }
+    }
+    .recruting-state{
+        margin-top: 25px;
+        // background: #fff;
+        // border: solid 1px #a69f9f;
+        padding: 8px 10px;
+        @media (min-width:992px){
+            padding: 8px 0;
+        }
+        width: auto;
+        @media (max-width:767px){
+            width: 100%;
+            margin: 15px auto;
+            background: none;
+            border: none;
+        }
+        ul{
+            @media (min-width:992px){
+                padding-right: 7px;
+            }
+            li{
+                font-size: 14px;
+                line-height: 16px;
+                padding-right: 10px;
+                @media (min-width:992px){
+                    padding-right: 0;
+                    text-align: right;
+                }
+                span{
+                    background: #fff;
+                    padding: 9px;
+                    border-radius: 20px;
+                    border: solid 1px #dedede;
+                    margin-right: 5px;
+                }
+                &.currently-recruting{
+                    span{
+                        color: #33d6f1;
+                    }
+                }
+                &.recruting-soon{
+                    span{
+                        color: #a69f9f;
+                    }
+                }
+            }
+        }
+    }
+    .trialContainer{
+        .card-sizer,
+        .card, .phaseItem { 
+            width: 100%;
+            margin: 3% 0; 
+            @media (min-width:768px){
+                width: 48%;
+                margin: 1%;
+            }
+            @media (min-width:990px){
+                width: 31%;
+                margin: 1%;
+            }
+        }
+        /* 2 columns */
+        .card--width2 { width: 40%; }
+    }
+    .trial-card{
+        // margin-bottom: 20px;
+        .card-title{
+            border-radius: 8px 8px 0 0;
+            border: solid 1px #a6a6a6;
+            color: #595454;
+            font-size: 14px;
+            padding: 5px 0;
+            text-align: center;
+            text-transform: uppercase;
+            line-height: 22px;
+            font-weight: bold;
+            &.myelofibrosis{
+                border-bottom: 2px solid #a69f9f;
+                background-color: rgba(210, 202, 200, 0.3);
+            }
+            &.acute-myeloid-leukemia{
+                border-bottom: 2px solid #be2bbb;
+                background-color: rgba(190, 43, 187, 0.06);
+            }
+            &.advanced-hematologic-disorders{
+                border-bottom: 2px solid #fda97d;
+                background-color: rgba(253, 169, 125, 0.15);
+            }
+            &.lymphoma-cll{
+                border-bottom: 2px solid #54bceb;
+                background-color: rgba(84, 188, 235, 0.1);
+            }
+            &.myelodysplastic-syndromes{
+                border-bottom: 2px solid #59ffb9;
+                background-color: rgba(89, 255, 185, 0.15);
+            }
+            &.multiple-myeloma{
+                border-bottom: 2px solid #cb7c78;
+                background-color: rgba(203, 124, 120, 0.22);
+            }
+        }
+        .card-box{
+            background: $white-color;
+            border-radius: 0 0 8px 8px;
+            border: solid 1px #a6a6a6;
+            border-top:none;
+            padding: 27px 17px 14px 22px;
+            min-height: 280px;
+            @media (min-width:768px){
+                min-height: 340px;
+            }
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .card-header{
+                h4{
+                    font-size: 28px;  
+                    margin-bottom: 5px;
+                    font-family: $BMSHumanityBold;
+                    color: #595454;
+                }
+                p{
+                    font-size: 14px;
+                    line-height: 22px;  
+                    margin-bottom: 5px;
+                    font-family: $BMSHumanityBold;
+                    font-style: italic;
+                    color: #595454;
+                }
+                .user-ico{
+                    font-size: 16px;padding: 9px;
+                    border-radius: 20px;
+                    border: solid 1px #dedede;
+                    color:#a69f9f;
+                    &.current{
+                        color: #33d6f1;
+                    }
+                    &.reccuring{
+                        color: #a69f9f;
+                    }
+                }
+                .image-icon{
+                    width: 36px;
+                    height: 36px;
+                    padding: 5px;
+                    border: 1px solid #dedede;
+                    border-radius: 50%;
+                }
+            }
+            .phase{
+                // border: solid 1px #7d7d7d;
+                border-right: none;
+                background: #C0F2FA;
+                color: #3c3c3c;
+                padding: 3px;
+                font-size: 12px;
+                position: relative;
+                padding-left: 10px;
+                line-height: 14px;
+                margin-bottom: 10px;
+                &.phase-1{
+                    max-width: calc(25% - 11px);
+                }
+                &.phase-2{
+                    max-width: calc(50% - 11px);
+                }
+                &.phase-3{
+                    max-width: calc(75% - 11px);
+                }
+                &::after{
+                    content: '';
+                    width: 14px;
+                    height: 14px;
+                    background: #C0F2FA;
+                    display: block;
+                    // border-right: solid 1px #7d7d7d;
+                    // border-top: solid 1px #7d7d7d;
+                    position: absolute;
+                    z-index: 2;
+                    right: -9px;
+                    top: 3px;
+                    transform: rotate(45deg);
+                }
+            }
+            .divider{
+                width: 100%;
+                border-top: 1px solid #a2a2a2;
+                margin: -10px 0 16px;
+                position: relative;
+                span{
+                    height: 9px;
+                    position: absolute;
+                    width: 2px;
+                    background: #a69f9f;
+                    opacity: 75%;
+                    top:-9px;
+                    &.slot-25{
+                        left: 25%;
+                    }
+                    &.slot-50{
+                        left: 50%;
+                    }
+                    &.slot-75{
+                        left: 75%;
+                    }
+                }
+            }
+            .card-content{
+                @media (min-width:768px){
+                    min-height: 120px;
+                }
+                // display: flex;
+                // justify-content: flex-end;
+                // /* align-items: flex-end; */
+                // flex-direction: column;
+                h5{
+                    font-size: 14px;
+                    line-height: 18px;
+                    margin-bottom: 5px;
+                }
+            }
+            .link-box{
+                text-align: right;
+                color: #be2bbb;
+                font-size: 14px;
+                font-family:$BMSHumanityThin;
+                a{
+                    color: #be2bbb;
+                    font-family:$BMSHumanityThin;    
+                    font-size: 14px;
+                    &.trial-link{
+                        background: url(#{$assetPath}/eye-pink.png) no-repeat left top;
+                        padding-left: 25px;
+                        background-size: contain;
+                    }
+                }
+            }
+        }
+    }
+    .bms-trials-noResult{
+        background: $white-color;
+        min-height: 300px;
+        display: none;
+        &.bms-trials-noResult-show{
+            display: flex;    
+        }
+        align-items: center;
+        align-content: center;
+        @media (min-width:768px){
+            min-height: 490px;
+        }
+        p{
+            width: 100%;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            color: #a6a6a6;
+            @media (min-width:768px){
+                font-size: 28px;
+            }
+        }
+    }
+}
+
+// Trial Finder Pills Active State
+.page-template-bms-trial-finder {
+    .filterByBx {
+        .filterPills {
+            li {
+                .pillsLink {
+                    &.active {
+                        background: #be2bbb;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bms-footer{
+    .container{
+        max-width: 1170px;
+        a.footerLogo{
+            display: inline-block;
+            width: 239px;
+            height: 34px;
+            @media (max-width:991px){
+                margin: 0 auto;
+                float: none;
+                align-self: center;
+                display: flex;
+            }
+        }
+        .footer-menu-note{
+            float: left;
+            position: relative;
+            .copyRightTxt{
+                float: left;
+                padding: 4px 0 0 0;
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+    }
+    .footerLinks{
+        padding: 5px 0 0 0px;
+    }
+    .menu{
+        padding: 18px 0 0 0px;
+        li{
+            a{
+                font-size: 12px;
+                line-height: 12px;
+            }
+        }
+    }
+    .bms-footer-trials-finder{
+        padding: 30px 50px;
+        .copyRightTxt{
+            padding: 0;
+            @media (max-width:991px){
+                padding: 10px 0;
+            }
+        }
+    }
+}
+
+/* Footer Styling Changes for BMS Microsite */
+.page-template-bms-home {
+    .bms-footer{
+        .container{
+            max-width: 976px;
+        }
+        .menu{
+            padding: 18px 0 0 0px;
+            @media screen and (max-width: 991px) {
+                padding: 25px 0;
+            }
+            li{
+                a{
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+}
+
+.bms-resource {
+    .bms-footer{
+        .container{
+            max-width: 976px;
+        }
+        .menu{
+            padding: 18px 0 0 0px;
+            @media screen and (max-width: 991px) {
+                padding: 25px 0;
+            }
+            li{
+                a{
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+}
+
+.page-template-bms-reference {
+    .resource-container {
+        max-width: 967px;
+    }
+    .bms-footer{
+        .container{
+            max-width: 976px;
+        }
+        .menu{
+            padding: 18px 0 0 0px;
+            @media screen and (max-width: 991px) {
+                padding: 25px 0;
+            }
+            li{
+                a{
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+}
+
+
+/* Responsive */
+@media (min-width:992px) and (max-width:1200px){
+    header {
+        padding:0 25px;
+    }
+
+    footer {
+        padding:80px 50px 50px;
+    }
+}
+
+@media (max-width:991px){
+    header {
+        padding:0 25px;
+        height:90px;
+
+        .logo {
+            width:200px;
+            margin-top:14px;
+        }
+
+        .mainNav {
+            width:auto;
+            clear: both;
+            margin:0 -15px;
+            float:none;
+            padding:8px 0 0 0;
+            border-top:1px solid #eee7e7;
+
+            ul {
+                width:100%;
+                text-align: center;
+
+                li {
+                    float:none;
+                    display:inline-block;
+
+                }
+            }
+        }
+
+        .learnMoreLink {
+            margin-top:7px;
+            margin-bottom: 7px;
+            width: 137px;
+        }
+    }
+
+    #content {
+        margin-top:90px;
+        &.ash-microsite{
+            margin-top: 60px;
+        }
+    }
+
+    .thankYouBx {
+        .container {
+            min-height:100px;
+            height: 366px;;
+        }
+
+        .thankYouLftCol {
+            padding-bottom:30px;
+        }
+        h3{
+            font-size: 39px;
+            padding-right: 30px;
+            line-height: normal;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+
+    footer {
+        padding:15px 30px;
+
+        .footerLogo {
+            width:155px;
+            margin:36px 0 0 0;
+        }
+
+        .menu-bms-footer-menu-macro-container{
+            width:100%;
+            float:none;
+        }
+
+        .footerLinks, .menu {
+            width:100%;
+            float:right;
+            padding:0;
+            padding:25px 0;
+            text-align: center;
+            li {
+                // width:100%;
+                float:none;
+                display: inline-block;
+                padding:10px;
+                line-height: 14px;
+                &:first-child{
+                    padding-left:10px;
+                }
+            }
+        }
+
+        .copyRightTxt {
+            clear:both;
+            width:100%;
+            text-align: center;
+            padding:10px 0;
+        }
+    }
+
+    #backToTop{
+        &.footerVisible {
+            bottom:125px;
+        }
+    }
+}
+
+@media (max-width:767px){
+    header {
+        padding:0 15px;
+
+        .logo {
+            width:155px;
+        }
+
+        .mainNav {
+            padding-top:10px;
+
+            ul{
+                li{
+                    a{
+                        padding: 0 0 6px 0;
+                    }
+                }
+            }
+        }
+
+        .learnMoreLink {
+            margin-top:7px;
+            margin-bottom:8px;
+            font-size:14px;
+            line-height:18px;
+        }
+    }
+
+    .thankYouBx {
+        p{
+            font-size:16px;
+            line-height:26px;
+            letter-spacing: 0.28px;
+        }
+
+        .thankYouLftCol {
+            margin:0px;
+            padding:30px 15px;
+        }
+    }
+
+    footer {
+        padding:15px 0;
+    }
+
+    .pipelineCont1 {
+        padding:30px 15px 10px;
+
+        h4 {
+            line-height: 26px;
+        }
+    }
+
+    .pipelineTab {
+        // .tab-thumb {
+        //     li {
+        //         &:first-child {
+        //             padding-right:6px;
+        //         }
+        //         &:last-child {
+        //             padding-left:6px;
+        //         }
+        //     }
+        // }
+
+        .tab-content {
+            .card {
+                .cardTitle {
+                    padding-left:0;
+                }
+                .phaseContainer {
+                    .phaseRow {
+                        padding:0 0 10px;
+                        margin:0 0 10px;
+                        border-bottom:1px solid #eee7e7;
+
+                        &:last-child {
+                            border:none;
+                            margin:0 0 20px;
+                            padding:0;
+                        }
+
+                        .trialImg {
+                            width:17px;
+                            height: 17px;
+                            position:static;
+                            display:inline-block;
+                            vertical-align: middle;
+                            margin-bottom: 2px;
+                        }
+                        .phaseRowTxt  {
+                            .modality{
+                                float: left;
+                                width: 22%;
+                                
+                                strong {
+                                    margin:0 5px 1px 0;
+                                    float:left;
+                                    display:block;
+                                }
+                            }
+                            .modalityArea{
+                                float: left;
+                                width: 78%;
+                            }
+
+                            .areaOfResearch{
+                                float: left;
+                                width: 39%;
+                            }
+                            .researchArea{
+                                float: left;
+                                width: 61%;
+                            }
+
+                        }
+                        .width1{
+                            padding:0 0 5px 0;
+
+                            .phaseRowTxt {
+                                font-family: $BMSHumanityBold;
+                            }
+                        }
+                        .width2, .width3, .width4 {
+                            padding:0 0 5px 30px;
+                        }
+                        .phaseIndicatorBg {
+                            width:118px;
+                            display:inline-block;
+                        }
+                    }
+                }
+            }
+            .width1, .width2, .width3, .width4 {
+                width:100%;
+            }
+            .filterPillsSelected {
+                padding:0;
+
+                a {
+                    margin-bottom:8px;
+                }
+            }
+            .filterByBx {
+                
+                padding-bottom:8px;
+
+                .clearAllLink {
+                    float:right;
+                    margin-top:14px;
+                }
+                .filterMobPill {
+                    height: 43px;
+                    border-radius: 21.5px;
+                    border: solid 1px #a69f9f;
+                    background-color: #ffffff;
+                    font-size:16px;
+                    line-height:16px;
+                    letter-spacing: 0.28px;
+                    color:$grayColor;
+                    float: left;
+                    padding:14px 12px 0;
+                    text-decoration: none;
+                }
+                .filterPills {
+                    width: 100%;
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 9999;
+                    display:none;
+
+                    li {
+                        width: 100%;
+                        padding: 0;
+
+                        .pillsLink {
+                            display:none;
+                        }
+
+                        .mobButton {
+                            margin:30px -15px 0;
+                            overflow: hidden;
+
+                            .whiteButton {
+                                width: 160px;
+                                @media (max-width:767px){
+                                    width: 155px;
+                                    text-align: center;
+                                }
+                                height: 44px;
+                                border-radius: 8px;
+                                border: solid 2px #be2bbb;
+                                background-color: #ffffff;
+                                font-size:16px;
+                                line-height:16px;
+                                letter-spacing: 0.18px;
+                                font-family: $BMSHumanityReg;
+                                color:$pinkColor;
+                                float:left;
+                                display:block;
+                                padding-top:13px;
+                                text-decoration: none;
+                            }
+
+                            .pinkButton {
+                                width: 160px;
+                                @media (max-width:767px){
+                                    width: 155px;
+                                    text-align: center;
+                                }
+                                height: 44px;
+                                border-radius: 8px;
+                                border: solid 2px #be2bbb;
+                                background-color: #be2bbb;
+                                font-size:16px;
+                                line-height:16px;
+                                letter-spacing: 0.18px;
+                                font-family: $BMSHumanityReg;
+                                color:#fff;
+                                float:right;
+                                display:block;
+                                padding-top:13px;
+                                text-decoration: none;
+                            }
+
+                        }
+
+                        .filterPillsDropdown {
+                            position: static;
+                            width: 100%;
+                            display:block;
+                            margin:0;
+                            padding:15px 30px;
+
+                            &.therapeuticAreaFilter {
+                                border-radius: 10px 10px 0 0;
+                                border-bottom: none;
+                            }
+                            &.phaseFilter {
+                                border-top: none;
+                                border-bottom: none;
+                                border-radius: 0;
+                                box-shadow: none;
+                                padding-top:0;
+                            }
+
+                            h6 {
+                                font-size:16px;
+                                line-height:16px;
+                                letter-spacing: 0.28px;
+                                color:$grayColor;
+                                font-family: $BMSHumanityReg;
+                                text-align: left;
+                                border-bottom:1px solid #eee7e7;
+                                padding:0 15px 12px;
+                                margin:0 -15px 12px;
+                            }
+
+                            h5 {
+                                font-size:16px;
+                                line-height:16px;
+                                letter-spacing: 0.28px;
+                                color:$pinkColor;
+                                font-family: $BMSHumanityBold;
+                                padding:0 0 18px;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ash-microsite{
+        .width1, .width2, .width3, .width4 {
+            width:100%;
+        }
+        .filterPillsSelected {
+            padding:0 0;
+
+            a {
+                margin:20px 10px 28px;
+            }
+        }
+        .filterByBx {
+            margin-top: 30px;
+            padding-bottom:8px;
+
+            .clearAllLink {
+                float:right;
+                margin-top:14px;
+            }
+            .filterMobPill {
+                height: 50px;
+                width: 100%;
+                border-radius: 25px;
+                // border: solid 2px #be2bbb;
+                border: solid 2px #a69f9f;
+                background-color: #ffffff;
+                font-size:14px;
+                line-height:20px;
+                letter-spacing: 0.28px;
+                color:$grayColor;
+                float: left;
+                padding:14px 12px 0 45px;
+                text-decoration: none;
+                position: relative;
+                margin-bottom: 10px;
+                // padding-left: 30px;
+                // background-position: 20px 15px;
+                // text-align: center;
+                &::before{
+                    content: '';
+                    width: 15px;
+                    height: 16px;
+                    background: url(#{$assetPath}/icon-filter.png) no-repeat;
+                    display: block;
+                    position: absolute;
+                    top: 15px;
+                    left: 20px;
+                    z-index: 1;
+                }
+            }
+            .filterPills {
+                width: 94%;
+                position: fixed;
+                bottom: 0;
+                left: 3%;
+                z-index: 9999;
+                display:none;
+                opacity: 95%;
+                background: #fff;
+                border-radius: 8px 8px 0 0;
+                border: solid 1px #d2cac8;
+                overflow: hidden;
+                li {
+                    width: 100%;
+                    padding: 0;
+
+                    .pillsLink {
+                        display:none;
+                    }
+
+                    .mobButton {
+                        margin:30px -15px 0;
+                        overflow: hidden;
+
+                        .whiteButton {
+                            width: 160px;
+                            @media (max-width:767px){
+                                width: 155px;
+                            }
+                            height: 44px;
+                            border-radius: 8px;
+                            border: solid 2px #be2bbb;
+                            background-color: #ffffff;
+                            font-size:16px;
+                            line-height:16px;
+                            letter-spacing: 0.18px;
+                            font-family: $BMSHumanityReg;
+                            color:$pinkColor;
+                            float:left;
+                            display:block;
+                            padding-top:13px;
+                            text-decoration: none;
+                        }
+
+                        .pinkButton {
+                            width: 160px;
+                            @media (max-width:767px){
+                                width: 155px;
+                            }
+                            height: 44px;
+                            border-radius: 8px;
+                            border: solid 2px #be2bbb;
+                            background-color: #be2bbb;
+                            font-size:16px;
+                            line-height:16px;
+                            letter-spacing: 0.18px;
+                            font-family: $BMSHumanityReg;
+                            color:#fff;
+                            float:right;
+                            display:block;
+                            padding-top:13px;
+                            text-decoration: none;
+                        }
+
+                    }
+
+                    .filterPillsDropdown {
+                        position: static;
+                        width: 100%;
+                        display:block;
+                        margin:0;
+                        padding:15px 30px;
+                        border: none;
+                        border-radius: 0;
+                        box-shadow:none;
+                        &.therapeuticAreaFilter {
+                            border-radius: 10px 10px 0 0;
+                            border-bottom: none;
+                        }
+                        &.phaseFilter {
+                            border-top: none;
+                            border-bottom: none;
+                            border-radius: 0;
+                            box-shadow: none;
+                            padding-top:0;
+                        }
+
+                        h6 {
+                            font-size:16px;
+                            line-height:16px;
+                            letter-spacing: 0.28px;
+                            color:$grayColor;
+                            font-family: $BMSHumanityReg;
+                            text-align: left;
+                            border-bottom:1px solid #eee7e7;
+                            padding:0 15px 12px;
+                            margin:0 -15px 12px;
+                        }
+
+                        h5 {
+                            font-size:16px;
+                            line-height:16px;
+                            letter-spacing: 0.28px;
+                            color:$pinkColor;
+                            font-family: $BMSHumanityBold;
+                            padding:0 0 18px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #cardContainer {
+        margin-top:12px;
+    }
+
+    #backToTop {
+        &.footerVisible {
+            bottom:125px;
+        }
+    }
+
+    .keyPathwayBx {
+        .keyPathwayList {
+            li {
+                width:100%;
+                padding:0 0 15px;
+
+                &:nth-child(odd), &:nth-child(even){
+                    padding-left:0;
+                    padding-right:0;
+                }
+            }
+        }
+    }
+
+    .abstractListBx {
+        h3 {
+            line-height:52px;
+            padding:0 0 20px;
+        }
+    }
+
+    .imageTxtBx{
+        .downloadBut{
+            height: 44px;
+            padding-top: 16px;
+        }
+    }
+
+    .page-template-bms-trial-finder{
+        .wrapper{
+            #backToTop.footerVisible{
+                bottom: 75px;
+            }
+        }
+    }
+}
+
+// Event - 1 back to top
+@media screen and (max-width: 468px) {
+    .event-1 {
+        + #backToTop.footerVisible {
+            bottom: 140px;
+        }
+       #backToTop.footerVisible {
+            bottom: 140px;
+        }
+    } 
+}
+
+
+@media (max-width:415px){
+
+    .pipelineTab .tab-content .footnoteBx ul li{
+        line-height: 15px !important;
+        padding-bottom: 2px;
+    }
+
+    .pipelineTab .tab-content .card .phaseContainer .phaseRow 
+    .phaseRowTxt  {
+        .modality{
+            width: 20%;
+        }
+        .modalityArea{
+            width: 80%;
+        }
+
+        .areaOfResearch{
+            width: 35%;
+        }
+        .researchArea{
+            width: 65%;
+        }
+
+    }
+}
+
+@media (max-width:375px){
+    .pipelineTab .tab-content .card .phaseContainer .phaseRow 
+    .phaseRowTxt  {
+        .modality{
+            width: 22%;
+        }
+        .modalityArea{
+            width: 78%;
+        }
+
+        .areaOfResearch{
+            width: 40%;
+        }
+        .researchArea{
+            width: 60%;
+        }
+
+    }
+}
+
+@media (max-width:366px){
+    .filterMobPill {
+        width: 270px;
+        font-size:15px !important;;
+    }
+
+    .pipelineTab .tab-thumb li a { 
+        font-size:17px;
+    }
+
+    .pipelineTab .tab-content .card .phaseContainer .phaseRow 
+    .phaseRowTxt  {
+        .modality{
+            width: 24%;
+        }
+        .modalityArea{
+            width: 76%;
+        }
+
+        .areaOfResearch{
+            width: 42%;
+        }
+        .researchArea{
+            width: 58%;
+        }
+
+    }
+    .ash-microsite .filterByBx .filterPills li .mobButton .whiteButton, .ash-microsite .filterByBx .filterPills li .mobButton .pinkButton{
+        width: 150px;
+    }
+    .ash-microsite .recruting-state ul li {
+        padding-right: 5px;
+    }
+}
+.test-ct{
+    display: none;
+}
+
+
+@media screen and (max-width: 350px) {
+    header .logo {
+        width: 132px;
+    }
+}
+
+.toggle-filter {
+    float: right;
+
+    @media screen and (max-width: 767px) {
+        width: 100%;
+        padding-top: 10px;
+        margin: 0 0 5px;
+        display: flex;
+        float: none;
+    }
+
+    .view-selected-only{
+        &.switch{
+            position: relative;
+            padding: 2px 5px 3px 18px;
+            border: 1.5px solid #595454;
+            border-radius: 17px;
+
+            @media screen and (max-width: 767px) {
+                max-width: 345px;
+                width: 100%;
+                padding: 3px 5px 3px 18px;
+            }
+
+            input[type=checkbox] {
+                margin-left: -99999px;
+                position: absolute;
+            }
+
+            label{
+                padding-right: 70px;
+                display: flex;
+                align-items: center;    
+                position: relative;
+                color: #be2bbb;
+                cursor: pointer;
+                font-family: $Helvatica;  
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 27px;
+
+                @media screen and (max-width: 767px) {
+                    font-size: 16px;
+                }
+      
+                &::after{
+                    content: 'OFF';
+                    width: 57px;
+                    height: 27px;
+                    padding: 6px 0 0 25px;
+                    transform: translateY(-50%);
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    z-index: 1;
+                    background: url(#{$assetPath}/phase-indicator-inactive.svg) no-repeat center/100%;
+                    color: #fff;
+                    font-size: 14px;
+                    line-height: 16px;
+
+                    @media screen and (max-width: 767px) {
+                        width: 67px;
+                        padding: 5px 0 0 30px;
+                    }
+                }
+
+                &::before{
+                    content: '';
+                    width: 19px;
+                    height: 21px;
+                    display: block;
+                    transform: translateY(-50%);
+                    position: absolute;
+                    top: 50%;
+                    right: 35px;
+                    z-index: 2; 
+                    background: url(#{$assetPath}/oval.svg) no-repeat center/100%;
+             
+                    @media screen and (max-width: 767px) {
+                        right: 43px;
+                    }
+                }
+            }
+
+            input[type=checkbox]{
+                &:checked{
+                    ~ label{
+                        &::after{
+                            content: 'ON'; 
+                            padding-left: 10px;
+                            background: url(#{$assetPath}/phase-indicator-active.png) no-repeat center/100%;
+                            @media screen and (max-width: 767px) {
+                                padding-left: 18px;
+                            }
+                        }
+ 
+                        &::before{
+                            right: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.diseaseItem {
+    width: 100%;
+    position: static!important;
+}

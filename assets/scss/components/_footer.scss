@@ -1,0 +1,107 @@
+footer {
+  &.bms-footer{
+      width:100%;
+      padding:30px 0;
+      @media screen and (max-width: 768px){
+          padding:15px 0 20px;
+      }
+      background:#f4f4f4;
+
+      .footerLogo {
+          display: block;
+          @media screen and (min-width: 992px){
+              float:left;
+              display:inline-block;
+          }
+          margin:0 30px 0 0;
+      }
+
+      .menu-bms-footer-menu-macro-container{
+          float: left;
+      }
+
+      .footerLinks, .menu {
+
+          float:left;
+          display: block;
+          padding:10px 0 0 0px;
+
+          @media(max-width:991px){
+              padding:10px 0 0 0;
+          }
+
+          li {
+              float:left;
+              display:block;
+              padding:0 10px;
+              font-size:14px;
+              line-height:16px;
+              letter-spacing: 0.24px;
+              color:$gray-color14;
+              font-family: $BMSHumanityReg;
+
+              @media(max-width:767px){
+                  font-size:12px;
+                  line-height:14px;
+                  padding:0 7px;
+              }
+
+              a {
+                  display:block;
+                  text-decoration:none;
+                  color:$gray-color14;
+                  text-transform: capitalize;
+                  @include responsive-type(12px,12px);
+                  &:hover, &:focus {
+                      color:$purple-color1;
+                  }
+              }
+
+              &.current-menu-item {
+                  a {
+                    color:$purple-color1;
+                  }
+              }
+              &:first-child{
+                  padding-left: 0px;;
+              }
+          }
+      }
+
+      .copyRightTxt {
+          font-size:12px;
+          line-height:14px;
+          color:$gray-color14;
+          font-family: $BMSHumanityReg;
+          float:right;
+          padding:14px 0 0 0;
+        //   @media (max-width:991px){
+        //     float:left;
+        //     width: 100%;
+        //     padding:10px 0 0 0;
+        // }
+          @media (max-width:991px){
+            float:right;
+            width: auto;
+            padding:12px 0 0 0;
+        }
+          @media (max-width:767px){
+              float:left;
+              width: 100%;
+              padding:10px 0 0 0;
+          }
+          display: block;
+          letter-spacing: 0.21px;
+          @media (max-width:360px){
+              font-size:11px;
+              line-height:14px;
+          }
+      }
+  }
+}
+
+// .page-template-bms-science{
+//   footer.bms-footer{
+//     background: $white-color;
+//   }
+// }

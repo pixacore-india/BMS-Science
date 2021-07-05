@@ -1,0 +1,2959 @@
+@charset "UTF-8";
+/* line 1, ../../scss/bms/style.scss */
+.bms-resource .header-resources a {
+  color: #be2bbb;
+  border-bottom: 3px solid #be2bbb;
+}
+
+/* line 6, ../../scss/bms/style.scss */
+.bms-resource .resource-container {
+  max-width: 967px;
+}
+
+/* line 12, ../../scss/bms/style.scss */
+strong {
+  font-family: "Conv_BMSHumanity-bold";
+}
+
+/* line 16, ../../scss/bms/style.scss */
+header.event-1 .header-resources,
+header.event-2 .header-resources,
+#menu-bms-header-nav [href*='resources/event-1'] {
+  display: none;
+}
+
+/* line 22, ../../scss/bms/style.scss */
+#menu-bms-header-nav [href*='resources/event-2'] {
+  display: none;
+}
+
+/* line 26, ../../scss/bms/style.scss */
+.event-1 .hide-for-event-1 {
+  display: none;
+}
+
+/* line 29, ../../scss/bms/style.scss */
+.event-2 .hide-for-event-2-3 {
+  display: none;
+}
+
+/* line 32, ../../scss/bms/style.scss */
+.event-2 .hide-for-event-2 {
+  display: none;
+}
+
+/* line 35, ../../scss/bms/style.scss */
+.event-3 .hide-for-event-2-3 {
+  display: none;
+}
+
+/* line 38, ../../scss/bms/style.scss */
+.event-3 .hide-for-event-3 {
+  display: none;
+}
+
+/* line 41, ../../scss/bms/style.scss */
+.event-0 .hide-for-event-2-3 {
+  display: none;
+}
+
+/* line 44, ../../scss/bms/style.scss */
+.event-0 .hide-for-event-0 {
+  display: none;
+}
+
+/* line 48, ../../scss/bms/style.scss */
+.event.event-2 .resources-video {
+  display: block;
+}
+
+/* line 50, ../../scss/bms/style.scss */
+.event.event-1 .resources-video {
+  display: none;
+}
+
+/* line 52, ../../scss/bms/style.scss */
+.event.event-0 .resources-video {
+  display: none;
+}
+
+/* line 54, ../../scss/bms/style.scss */
+.resources .resources-video {
+  display: none;
+}
+
+/* line 56, ../../scss/bms/style.scss */
+.player .vp-controls .custom-logo a {
+  display: none !important;
+}
+
+/* line 60, ../../scss/bms/style.scss */
+.ash-microsite .ashbg {
+  background: url(https://media.bolderscience.com/wp-content/uploads/2020/12/trial-finder-bg.png) no-repeat;
+  background-size: cover;
+}
+
+/* line 65, ../../scss/bms/style.scss */
+footer .copyRightTxt {
+  padding: 18px 0 0 0;
+}
+
+/* line 69, ../../scss/bms/style.scss */
+.hidespan {
+  display: none;
+}
+
+/* line 73, ../../scss/bms/style.scss */
+.hidespan + br {
+  display: none;
+}
+
+/* line 77, ../../scss/bms/style.scss */
+.showspan {
+  display: inline-block;
+}
+
+/* line 81, ../../scss/bms/style.scss */
+.showspan + br {
+  display: none;
+}
+
+/* line 85, ../../scss/bms/style.scss */
+.leftIndent {
+  margin-left: -5px;
+}
+
+/* line 89, ../../scss/bms/style.scss */
+.thankYouLftCol {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  /* line 96, ../../scss/bms/style.scss */
+  header .logo {
+    min-height: 58px;
+  }
+
+  /* line 100, ../../scss/bms/style.scss */
+  header .mainNav {
+    position: relative;
+    padding: 0px;
+    bottom: 10px;
+  }
+}
+/* line 107, ../../scss/bms/style.scss */
+.thankYouBx.ashbg .container {
+  height: 330px;
+}
+
+/* line 111, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .link-box a.trial-link {
+  position: absolute;
+  bottom: 14px;
+  right: 17px;
+  background: url(/wp-content/themes/bolder-science/assets/images/bms/eye-pink.png) no-repeat left center/contain;
+  line-height: 1;
+}
+
+@media (max-width: 767px) {
+  /* line 122, ../../scss/bms/style.scss */
+  header .logo {
+    min-height: 36px;
+  }
+
+  /* line 126, ../../scss/bms/style.scss */
+  header .mainNav {
+    position: relative;
+    padding-top: 10px;
+    bottom: 0px;
+  }
+
+  /* line 132, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .width1 {
+    padding: 0 0 5px 19px;
+  }
+
+  /* line 136, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .trialImg {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+  }
+
+  /* line 142, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseIndicatorBg {
+    position: relative;
+    top: 3px;
+  }
+}
+@media (max-width: 375px) {
+  /* line 149, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .researchArea {
+    margin-left: 0px;
+  }
+}
+/* Reset */
+/* line 155, ../../scss/bms/style.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 157, ../../scss/bms/style.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* fontface */
+@font-face {
+  font-family: 'Conv_BMSHumanity-Thin';
+  src: url("../../fonts/bms/BMSHumanity-Thin.eot");
+  src: local("Γÿ║"), url("../../fonts/bms/BMSHumanity-Thin.woff") format("woff"), url("../../fonts/bms/BMSHumanity-Thin.ttf") format("truetype"), url("../../fonts/bms/BMSHumanity-Thin.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_BMSHumanity-Regular';
+  src: url("../fonts/BMSHumanity-Regular.eot");
+  src: local("Γÿ║"), url("../../fonts/bms/BMSHumanity-Regular.woff") format("woff"), url("../../fonts/bms/BMSHumanity-Regular.ttf") format("truetype"), url("../../fonts/bms/BMSHumanity-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_BMSHumanity-Bold';
+  src: url("../../fonts/bms/BMSHumanity-Bold.eot");
+  src: local("Γÿ║"), url("../../fonts/bms/BMSHumanity-Bold.woff") format("woff"), url("../../fonts/bms/BMSHumanity-Bold.ttf") format("truetype"), url("../../fonts/bms/BMSHumanity-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvatica';
+  src: url("../../fonts/bms/Helvetica.eot");
+  src: local("Γÿ║"), url("../../fonts/bms/Helvetica.woff") format("woff"), url("../../fonts/bms/Helvetica.ttf") format("truetype"), url("../../fonts/bms/Helvetica.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font-family and color variables */
+/* main style */
+/* line 207, ../../scss/bms/style.scss */
+body {
+  font-family: "Conv_BMSHumanity-Regular";
+  color: #595454;
+  background: #f4f4f4;
+}
+/* line 213, ../../scss/bms/style.scss */
+body.bms-resource .download-resource a {
+  color: #be2bbb;
+  border-bottom: 3px solid #be2bbb;
+}
+
+/* line 219, ../../scss/bms/style.scss */
+.white-bg {
+  background: #fff;
+}
+
+/* line 222, ../../scss/bms/style.scss */
+.py-3 {
+  padding: 3rem 0;
+}
+
+/* line 225, ../../scss/bms/style.scss */
+.wrapper {
+  width: 100%;
+}
+
+/* line 229, ../../scss/bms/style.scss */
+.container {
+  max-width: 976px;
+}
+/* line 231, ../../scss/bms/style.scss */
+.container.bms-trials-page {
+  max-width: 1170px;
+}
+
+/* line 236, ../../scss/bms/style.scss */
+.dispTable {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+/* line 241, ../../scss/bms/style.scss */
+.dispTable .dispTableCell {
+  width: 100%;
+  display: table-cell;
+}
+/* line 245, ../../scss/bms/style.scss */
+.dispTable .dispTableCell.verticalMiddle {
+  vertical-align: middle;
+}
+
+/* line 251, ../../scss/bms/style.scss */
+header {
+  width: 100%;
+  height: 84px;
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 0 3.5%;
+  box-shadow: 2px 1px 15px 0 rgba(89, 84, 84, 0.15);
+}
+/* line 263, ../../scss/bms/style.scss */
+header .logo {
+  float: left;
+  display: block;
+  text-decoration: none;
+  margin: 25px 20px 0 0;
+}
+/* line 270, ../../scss/bms/style.scss */
+header .mainNav {
+  float: left;
+  padding: 36px 0 0 0;
+}
+/* line 274, ../../scss/bms/style.scss */
+header .mainNav ul {
+  float: left;
+  display: block;
+  width: auto;
+}
+/* line 279, ../../scss/bms/style.scss */
+header .mainNav ul li {
+  float: left;
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.31px;
+  color: #595454;
+  padding: 0 18px;
+}
+/* line 288, ../../scss/bms/style.scss */
+header .mainNav ul li a {
+  color: #595454;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  display: block;
+  padding: 2px 0;
+}
+/* line 295, ../../scss/bms/style.scss */
+header .mainNav ul li a:focus {
+  color: #595454;
+  text-decoration: none;
+}
+/* line 300, ../../scss/bms/style.scss */
+header .mainNav ul li a.active, header .mainNav ul li a:hover {
+  color: #be2bbb;
+  border-bottom: 3px solid #be2bbb;
+}
+/* line 307, ../../scss/bms/style.scss */
+header .mainNav ul li.current-menu-item a {
+  color: #be2bbb;
+  border-bottom: 3px solid #be2bbb;
+}
+/* line 316, ../../scss/bms/style.scss */
+header .learnMoreLink {
+  float: right;
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Regular";
+  text-decoration: none;
+  position: relative;
+  padding: 0 22px 0 0;
+  margin: 38px 0 0 0;
+}
+/* line 328, ../../scss/bms/style.scss */
+header .learnMoreLink:after {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/bms/externalLink.png) no-repeat right top/100%;
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: 0;
+}
+/* line 338, ../../scss/bms/style.scss */
+header .learnMoreLink:hover {
+  color: #be2bbb;
+}
+/* line 342, ../../scss/bms/style.scss */
+header.header-trials-finder {
+  height: 60px;
+  border-bottom: 2px solid #be2bbb;
+}
+@media screen and (min-width: 768px) {
+  /* line 342, ../../scss/bms/style.scss */
+  header.header-trials-finder {
+    border-bottom: 1px solid #be2bbb;
+  }
+}
+/* line 348, ../../scss/bms/style.scss */
+header.header-trials-finder .logo {
+  margin: 16px 20px 0 0;
+}
+
+/* line 354, ../../scss/bms/style.scss */
+#content {
+  margin-top: 60px;
+  min-height: 1000px;
+}
+
+/* line 362, ../../scss/bms/style.scss */
+#content.event-0 {
+  margin-top: 84px;
+}
+@media screen and (max-width: 991px) {
+  /* line 362, ../../scss/bms/style.scss */
+  #content.event-0 {
+    margin-top: 90px;
+  }
+}
+/* line 368, ../../scss/bms/style.scss */
+#content.event-1 {
+  margin-top: 84px;
+}
+@media screen and (max-width: 991px) {
+  /* line 368, ../../scss/bms/style.scss */
+  #content.event-1 {
+    margin-top: 90px;
+  }
+}
+/* line 374, ../../scss/bms/style.scss */
+#content.event-2 {
+  margin-top: 84px;
+}
+@media screen and (max-width: 991px) {
+  /* line 374, ../../scss/bms/style.scss */
+  #content.event-2 {
+    margin-top: 90px;
+  }
+}
+/* line 380, ../../scss/bms/style.scss */
+#content.event-3 {
+  margin-top: 84px;
+}
+@media screen and (max-width: 991px) {
+  /* line 380, ../../scss/bms/style.scss */
+  #content.event-3 {
+    margin-top: 90px;
+  }
+}
+
+/* line 391, ../../scss/bms/style.scss */
+.page-template-bms-reference #content,
+.bms-resource #content {
+  min-height: calc(100vh - 255px);
+}
+@media screen and (max-width: 991px) {
+  /* line 391, ../../scss/bms/style.scss */
+  .page-template-bms-reference #content,
+  .bms-resource #content {
+    min-height: calc(100vh - 238px);
+  }
+}
+
+/* line 399, ../../scss/bms/style.scss */
+.gradientBg {
+  background-image: linear-gradient(to right, #dac5c5 0%, #f5f0f0 83%, #f5f0f0 100%);
+}
+
+/* line 403, ../../scss/bms/style.scss */
+.thankYouBx {
+  width: 100%;
+  position: relative;
+}
+/* line 406, ../../scss/bms/style.scss */
+.thankYouBx .container {
+  height: 257px;
+}
+/* line 410, ../../scss/bms/style.scss */
+.thankYouBx.ashbg .container {
+  height: 310px;
+}
+/* line 415, ../../scss/bms/style.scss */
+.thankYouBx .thankYouLftCol {
+  margin: 0 -15px;
+  max-width: 825px;
+  height: 100%;
+}
+@media screen and (min-width: 992px) and (max-width: 1100px) {
+  /* line 415, ../../scss/bms/style.scss */
+  .thankYouBx .thankYouLftCol {
+    max-width: 800px;
+  }
+}
+/* line 424, ../../scss/bms/style.scss */
+.thankYouBx h3 {
+  font-size: 46px;
+  line-height: 48px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Thin";
+  letter-spacing: 0.8px;
+  padding: 0 0 12px;
+}
+/* line 433, ../../scss/bms/style.scss */
+.thankYouBx p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Regular";
+  letter-spacing: 0.31px;
+  margin-bottom: 5px;
+}
+/* line 443, ../../scss/bms/style.scss */
+.thankYouBx .bannerImage {
+  width: 246px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 451, ../../scss/bms/style.scss */
+footer {
+  width: 100%;
+  padding: 80px 0 50px;
+  background: #eee7e7;
+}
+/* line 456, ../../scss/bms/style.scss */
+footer .footerLogo {
+  float: left;
+  display: block;
+  display: none;
+  margin: 0 30px 0 0;
+}
+/* line 463, ../../scss/bms/style.scss */
+footer .menu-bms-footer-menu-macro-container {
+  float: left;
+}
+/* line 467, ../../scss/bms/style.scss */
+footer .footerLinks, footer .menu {
+  float: left;
+  display: block;
+  padding: 17px 0 0 0px;
+}
+/* line 473, ../../scss/bms/style.scss */
+footer .footerLinks li, footer .menu li {
+  float: left;
+  display: block;
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Regular";
+}
+/* line 483, ../../scss/bms/style.scss */
+footer .footerLinks li a, footer .menu li a {
+  display: block;
+  text-decoration: none;
+  color: #595454;
+  text-transform: capitalize;
+}
+/* line 489, ../../scss/bms/style.scss */
+footer .footerLinks li a:hover, footer .menu li a:hover {
+  color: #be2bbb;
+}
+/* line 493, ../../scss/bms/style.scss */
+footer .footerLinks li:first-child, footer .menu li:first-child {
+  padding-left: 0px;
+}
+/* line 499, ../../scss/bms/style.scss */
+footer .copyRightTxt {
+  font-size: 12px;
+  line-height: 14px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Regular";
+  float: right;
+  display: block;
+  letter-spacing: 0.21px;
+  padding: 0;
+}
+@media (max-width: 360px) {
+  /* line 499, ../../scss/bms/style.scss */
+  footer .copyRightTxt {
+    font-size: 11px;
+    line-height: 14px;
+  }
+}
+
+/* line 515, ../../scss/bms/style.scss */
+.pipelineCont1 {
+  width: 100%;
+  padding: 40px 0 20px;
+}
+/* line 519, ../../scss/bms/style.scss */
+.pipelineCont1 h4 {
+  font-size: 20px;
+  line-height: 20px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Bold";
+  letter-spacing: 0.35px;
+  padding: 0 0 10px;
+}
+/* line 528, ../../scss/bms/style.scss */
+.pipelineCont1 p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #595454;
+  letter-spacing: 0.25px;
+  font-family: "Conv_BMSHumanity-Regular";
+  padding: 0 0 20px;
+}
+
+/* line 540, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb {
+  width: 100%;
+  float: left;
+  display: block;
+  position: relative;
+  padding: 0px;
+  margin: 0 0 20px;
+}
+/* line 548, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb:after {
+  width: 100%;
+  height: 13px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url(../../images/bms/navPinkLine.png) repeat-x left bottom;
+  content: "";
+}
+/* line 558, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb li {
+  width: 50%;
+  float: left;
+  display: block;
+  padding: 0;
+}
+/* line 566, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb li:nth-child(1) a {
+  margin-right: -7px;
+}
+/* line 572, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb li:nth-child(2) a {
+  margin-left: -9px;
+}
+/* line 577, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb li a {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Bold";
+  letter-spacing: 0.31px;
+  text-decoration: none;
+}
+/* line 587, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb li a .lftBg {
+  display: block;
+  background: url(../../images/bms/tabThumbLft.png) no-repeat left top;
+  padding: 0 0 0 30px;
+}
+/* line 592, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb li a .lftBg .rhtBg {
+  display: block;
+  background: url(../../images/bms/tabThumbRht.png) no-repeat right top;
+  padding: 0 30px 0 0;
+}
+/* line 597, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb li a .lftBg .rhtBg .midBg {
+  display: block;
+  background: url(../../images/bms/tabThumbRep.png) repeat-x left top;
+  height: 56px;
+  padding-top: 22px;
+}
+/* line 607, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb li.active {
+  position: relative;
+  z-index: 1;
+}
+/* line 611, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb li.active a {
+  color: #be2bbb;
+}
+/* line 615, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb li.active a .lftBg {
+  background: url(../../images/bms/tabThumbActLft.png) no-repeat left top;
+}
+/* line 618, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb li.active a .lftBg .rhtBg {
+  background: url(../../images/bms/tabThumbActRht.png) no-repeat right top;
+}
+/* line 621, ../../scss/bms/style.scss */
+.pipelineTab .tab-thumb li.active a .lftBg .rhtBg .midBg {
+  background: url(../../images/bms/tabThumbActRep.png) repeat-x left top;
+}
+/* line 633, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx {
+  padding: 0 0 20px;
+}
+/* line 636, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx .filterByTxt {
+  display: block;
+  float: left;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.24px;
+  font-family: "Conv_BMSHumanity-Regular";
+  color: #595454;
+  padding: 10px 12px 0 0;
+}
+/* line 647, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx .filterPills {
+  float: left;
+  display: block;
+}
+/* line 651, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx .filterPills li {
+  float: left;
+  display: block;
+  position: relative;
+  padding: 0 12px 0 0;
+}
+/* line 657, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx .filterPills li .pillsLink {
+  display: block;
+  text-decoration: none;
+  height: 34px;
+  border-radius: 17px;
+  border: solid 1px #a69f9f;
+  background-color: #ffffff;
+  padding: 9px 15px 0;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #595454;
+}
+/* line 670, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx .filterPills li .pillsLink.active {
+  background: #be2bbb;
+  color: #fff;
+}
+/* line 676, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown {
+  width: 224px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 14px 0 rgba(89, 84, 84, 0.24);
+  border: solid 1px #d2cac8;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: left;
+  margin-top: 5px;
+  z-index: 9;
+  display: none;
+}
+/* line 691, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown label {
+  display: block;
+  clear: both;
+  padding: 0;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Regular";
+  margin: 0 0 14px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  padding-left: 24px;
+}
+/* line 706, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown label .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background: url(../../images/bms/checkboxSprite.png) no-repeat left top;
+  display: block;
+}
+/* line 717, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #a69f9f;
+  border-radius: 3px;
+  margin: 0 7px 0 0;
+  float: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+/* line 730, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown input[type="checkbox"]:checked ~ .checkmark {
+  background: url(../../images/bms/checkboxSprite.png) no-repeat left -16px;
+}
+/* line 735, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown .clearAllLink {
+  margin: 0;
+  display: inline-block;
+  float: none;
+}
+/* line 744, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterByBx .clearAllLink {
+  float: left;
+  display: block;
+  font-size: 14px;
+  line-height: 14px;
+  color: #be2bbb;
+  letter-spacing: 0.24px;
+  text-decoration: underline;
+  margin: 10px 0 0 0;
+}
+/* line 757, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterPillsSelected {
+  padding: 0 0 0 64px;
+}
+/* line 760, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterPillsSelected a {
+  display: inline-block;
+  height: 30px;
+  border-radius: 17px;
+  background-color: #a69f9f;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  letter-spacing: 0.24px;
+  font-family: "Conv_BMSHumanity-Regular";
+  padding: 7px 14px 0 26px;
+  margin: 0 12px 20px 0;
+  cursor: pointer;
+  position: relative;
+}
+/* line 775, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .filterPillsSelected a:before {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 15px;
+  height: 15px;
+  background: url(../../images/bms/close.png) no-repeat left top;
+  display: block;
+  content: "";
+  background-size: cover;
+}
+/* line 789, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .cardHeadBx {
+  padding: 0 15px 15px;
+}
+/* line 792, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .cardHeadBx .cardHeadTxt {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Bold";
+  display: block;
+}
+/* line 802, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .width1 {
+  float: left;
+  display: block;
+  width: 37%;
+  position: relative;
+  padding: 0 15px 0 18px;
+}
+/* line 810, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .width2 {
+  float: left;
+  display: block;
+  width: 22%;
+  padding: 0 15px 0 0;
+}
+/* line 817, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .width3 {
+  float: left;
+  display: block;
+  width: 27%;
+  padding: 0 15px 0 0;
+}
+/* line 824, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .width4 {
+  float: left;
+  display: block;
+  width: 14%;
+}
+/* line 830, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 14px 0 rgba(89, 84, 84, 0.15);
+  background-color: #ffffff;
+  margin: 0 0 20px 0;
+  padding: 20px 15px;
+  overflow: hidden;
+}
+/* line 840, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .cardContent {
+  width: 100%;
+}
+/* line 842, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .cardContent .additionalComponents {
+  display: none;
+}
+/* line 847, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .cardNoResult {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.31px;
+  color: #a69f9f;
+  display: none;
+}
+/* line 853, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .cardNoResult p {
+  text-align: center;
+  padding: 88px 0;
+  font-family: "Conv_BMSHumanity-Bold";
+}
+/* line 860, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .cardTitle {
+  font-size: 18px;
+  line-height: 18px;
+  color: #be2bbb;
+  letter-spacing: 0.31px;
+  font-family: "Conv_BMSHumanity-Bold";
+  padding: 0 0 16px 18px;
+}
+/* line 871, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .phaseContainer .phaseRow {
+  width: 100%;
+  margin: 0 0 18px 0;
+}
+/* line 878, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .phaseContainer .phaseRow.phase-1 .phaseIndicatorCount {
+  width: 33.33%;
+}
+/* line 886, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .phaseContainer .phaseRow.phase-1.phase-2 .phaseIndicatorCount, .pipelineTab .tab-content .card .phaseContainer .phaseRow.phase-2 .phaseIndicatorCount {
+  width: 66.66%;
+}
+/* line 894, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .phaseContainer .phaseRow.phase-2.phase-3 .phaseIndicatorCount, .pipelineTab .tab-content .card .phaseContainer .phaseRow.phase-1.phase-3 .phaseIndicatorCount, .pipelineTab .tab-content .card .phaseContainer .phaseRow.phase-3 .phaseIndicatorCount {
+  width: 100%;
+}
+/* line 903, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.04px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Regular";
+  position: relative;
+}
+/* line 911, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt sup {
+  font-size: 10px;
+}
+/* line 915, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt strong {
+  font-family: "Conv_BMSHumanity-Bold";
+}
+/* line 920, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseIndicatorBg {
+  width: 100%;
+  max-width: 118px;
+  height: 14px;
+  display: block;
+  background: #fff;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  margin-top: 2px;
+}
+/* line 930, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseIndicatorBg .phaseIndicatorCount {
+  background: #be2bbb;
+  text-align: right;
+  height: 14px;
+  display: block;
+  float: left;
+  border-radius: 15px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  padding: 0 7px;
+}
+/* line 946, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .phaseContainer .phaseRow .trialImg {
+  width: 17px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+/* line 957, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .viewDisplayBx {
+  text-align: center;
+}
+/* line 961, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .viewDisplayBx .viewAllBut {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 0.18px;
+  font-family: "Conv_BMSHumanity-Regular";
+  font-size: 16px;
+  line-height: 18px;
+  color: #be2bbb;
+  padding: 0 20px 0 0;
+  position: relative;
+  margin: 10px 0;
+}
+/* line 973, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .viewDisplayBx .viewAllBut:after {
+  width: 15px;
+  height: 9px;
+  background: url(../../images/bms/arrowDown.png) no-repeat right top/100%;
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+/* line 985, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .viewDisplayBx .viewAllBut.active:after {
+  background: url(../../images/bms/arrowUp.png) no-repeat right top/100%;
+}
+/* line 991, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .card .viewDisplayBx .displayTxt {
+  display: block;
+  font-size: 12px;
+  line-height: 12px;
+  color: #595454;
+  letter-spacing: 0.21px;
+  font-family: "Conv_BMSHumanity-Regular";
+}
+/* line 1003, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .footnoteBx {
+  padding: 0px 0 30px;
+}
+/* line 1006, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .footnoteBx .fnTrialImg {
+  width: 3.5%;
+  float: left;
+}
+/* line 1010, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .footnoteBx .fnTrialImg img {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 1016, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .footnoteBx .fnTrialTxt {
+  width: 96%;
+  float: left;
+}
+/* line 1021, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .footnoteBx .footnoteTrialImg {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 1025, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .footnoteBx p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #595454;
+  letter-spacing: 0.21px;
+  padding: 0 0 8px;
+  font-family: "Conv_BMSHumanity-Regular";
+}
+/* line 1033, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .footnoteBx p .symbolBx {
+  width: 7px;
+  display: inline-block;
+}
+/* line 1038, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .footnoteBx p sup {
+  font-size: 70%;
+  line-height: 1em;
+  vertical-align: top;
+  position: relative;
+  top: 2px;
+}
+/* line 1045, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .footnoteBx p sup.tradeMark {
+  font-size: 100%;
+}
+/* line 1050, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .footnoteBx ul {
+  padding-left: 40px;
+}
+/* line 1052, ../../scss/bms/style.scss */
+.pipelineTab .tab-content .footnoteBx ul li {
+  font-size: 12px;
+  line-height: 8px;
+  color: #595454;
+  letter-spacing: 0.21px;
+  padding: 0 0 8px;
+  font-family: "Conv_BMSHumanity-Regular";
+}
+
+/* line 1066, ../../scss/bms/style.scss */
+#backToTop {
+  width: 44px;
+  height: 44px;
+  background: url(../../images/bms/backtotop.png) no-repeat left top/100%;
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 10%;
+  z-index: 99;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+/* line 1080, ../../scss/bms/style.scss */
+#backToTop.footerVisible {
+  bottom: 140px;
+}
+
+/* line 1085, ../../scss/bms/style.scss */
+.abstractListBx {
+  width: 100%;
+  padding: 35px 0;
+}
+/* line 1089, ../../scss/bms/style.scss */
+.abstractListBx h3 {
+  font-size: 46px;
+  line-height: 46px;
+  letter-spacing: 0.8px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Thin";
+  padding: 0 0 12px;
+}
+
+/* line 1099, ../../scss/bms/style.scss */
+.imageTxtBx {
+  width: 100%;
+  max-width: 380px;
+  position: relative;
+}
+/* line 1104, ../../scss/bms/style.scss */
+.imageTxtBx .imagePlaceholder {
+  width: 100px;
+  height: 129px;
+  float: left;
+  margin: 0 20px 0 0;
+  border: solid 1px #d2cac8;
+}
+/* line 1113, ../../scss/bms/style.scss */
+.imageTxtBx .imageTxt {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.31px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Bold";
+}
+/* line 1120, ../../scss/bms/style.scss */
+.imageTxtBx .imageTxt a {
+  color: #be2bbb;
+  text-decoration: none;
+}
+/* line 1126, ../../scss/bms/style.scss */
+.imageTxtBx .downloadBut {
+  position: absolute;
+  bottom: -11px;
+  left: 120px;
+  width: 120px;
+  height: 34px;
+  border-radius: 8px;
+  box-shadow: 0 0 14px 0 rgba(89, 84, 84, 0.15);
+  background-color: #ffffff;
+  padding: 10px 35px 0 15px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #be2bbb;
+  letter-spacing: 0.18px;
+  font-family: "Conv_BMSHumanity-Regular";
+  text-decoration: none;
+}
+/* line 1143, ../../scss/bms/style.scss */
+.imageTxtBx .downloadBut:after {
+  width: 15px;
+  height: 15px;
+  background: url(../../images/bms/downloadIcon.png) no-repeat right center/100%;
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -7px;
+}
+
+/* line 1156, ../../scss/bms/style.scss */
+.keyPathwayBx {
+  width: 100%;
+  padding: 40px 0;
+}
+/* line 1160, ../../scss/bms/style.scss */
+.keyPathwayBx h6 {
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.35px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Bold";
+  position: relative;
+  padding: 0 0 19px;
+  margin: 0 0 40px;
+}
+/* line 1170, ../../scss/bms/style.scss */
+.keyPathwayBx h6:after {
+  width: 100%;
+  height: 2px;
+  background: #be2bbb;
+  content: "";
+  border-radius: 0px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* line 1183, ../../scss/bms/style.scss */
+.keyPathwayBx .keyPathwayList {
+  width: 100%;
+  float: left;
+  display: block;
+}
+/* line 1188, ../../scss/bms/style.scss */
+.keyPathwayBx .keyPathwayList li {
+  width: 50%;
+  float: left;
+  display: block;
+  padding-bottom: 30px;
+}
+/* line 1194, ../../scss/bms/style.scss */
+.keyPathwayBx .keyPathwayList li:nth-child(odd) {
+  padding-right: 15px;
+}
+/* line 1198, ../../scss/bms/style.scss */
+.keyPathwayBx .keyPathwayList li:nth-child(even) {
+  padding-left: 15px;
+}
+/* line 1202, ../../scss/bms/style.scss */
+.keyPathwayBx .keyPathwayList li .imageTxtBx {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 14px 0 rgba(89, 84, 84, 0.15);
+  background-color: #ffffff;
+  padding: 20px;
+}
+/* line 1209, ../../scss/bms/style.scss */
+.keyPathwayBx .keyPathwayList li .imageTxtBx .downloadBut {
+  bottom: 20px;
+  left: 140px;
+  padding-left: 0;
+  width: auto;
+  box-shadow: none;
+}
+
+/* line 1220, ../../scss/bms/style.scss */
+.resource-container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 1226, ../../scss/bms/style.scss */
+.resources-video .respurce-titles {
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.35px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Bold";
+  position: relative;
+  padding: 0 0 19px;
+  margin: 0 0 40px;
+}
+/* line 1235, ../../scss/bms/style.scss */
+.resources-video .respurce-titles:after {
+  width: 100%;
+  height: 2px;
+  background: #be2bbb;
+  content: "";
+  border-radius: 0px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* line 1247, ../../scss/bms/style.scss */
+.resources-video .video-card {
+  background: #fff;
+  padding: 22px 38px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 0 rgba(37, 0, 0, 0.2);
+}
+/* line 1253, ../../scss/bms/style.scss */
+.resources-video .video-card h3 {
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Bold";
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+/* line 1260, ../../scss/bms/style.scss */
+.resources-video .video-card a.video-icon {
+  position: relative;
+  min-width: 100%;
+  height: 140px;
+  background: #d8d8d8;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+/* line 1268, ../../scss/bms/style.scss */
+.resources-video .video-card a.video-icon::before {
+  content: '';
+  width: 79px;
+  height: 79px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background: url(../../images/bms/icon-play.png) no-repeat;
+}
+/* line 1281, ../../scss/bms/style.scss */
+.resources-video .video-card a.video-icon img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+/* line 1292, ../../scss/bms/style.scss */
+.bms-ref-video .modal {
+  text-align: center;
+}
+
+/* line 1298, ../../scss/bms/style.scss */
+.bms-ref-video .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width: 90%;
+}
+@media screen and (max-width: 767px) {
+  /* line 1298, ../../scss/bms/style.scss */
+  .bms-ref-video .modal-dialog {
+    width: 85%;
+    margin-left: -6%;
+  }
+}
+/* line 1307, ../../scss/bms/style.scss */
+.bms-ref-video .modal-dialog .modal-content {
+  border-radius: 0;
+}
+/* line 1309, ../../scss/bms/style.scss */
+.bms-ref-video .modal-dialog .modal-content .modal-body {
+  padding: 0;
+}
+/* line 1311, ../../scss/bms/style.scss */
+.bms-ref-video .modal-dialog .modal-content .modal-body .player {
+  width: 240px;
+  height: 160px;
+  margin-bottom: -5px;
+}
+@media screen and (min-width: 768px) {
+  /* line 1311, ../../scss/bms/style.scss */
+  .bms-ref-video .modal-dialog .modal-content .modal-body .player {
+    width: 600px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 1311, ../../scss/bms/style.scss */
+  .bms-ref-video .modal-dialog .modal-content .modal-body .player {
+    width: 800px;
+    height: 450px;
+  }
+}
+/* line 1326, ../../scss/bms/style.scss */
+.bms-ref-video .modal-dialog button.close {
+  background: url(../../images/bms/x.png) no-repeat #fff;
+  display: block;
+  position: absolute;
+  background-size: 30px 30px;
+  background-position: center center;
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+  z-index: 1;
+  right: -39px;
+  top: 1px;
+}
+
+/* line 1344, ../../scss/bms/style.scss */
+#myVideoModal .videoPlaceholder {
+  position: relative;
+  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
+}
+@media screen and (max-width: 1024px) {
+  /* line 1344, ../../scss/bms/style.scss */
+  #myVideoModal .videoPlaceholder {
+    padding-bottom: calc(var(--aspect-ratio, .563) * 100%);
+  }
+}
+/* line 1350, ../../scss/bms/style.scss */
+#myVideoModal .videoPlaceholder iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* line 1360, ../../scss/bms/style.scss */
+.video-source {
+  position: relative;
+  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
+}
+@media screen and (max-width: 1024px) {
+  /* line 1360, ../../scss/bms/style.scss */
+  .video-source {
+    padding-bottom: calc(var(--aspect-ratio, .563) * 100%);
+  }
+}
+/* line 1366, ../../scss/bms/style.scss */
+.video-source iframe {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0;
+  left: 0;
+}
+
+/* line 1375, ../../scss/bms/style.scss */
+.vjs-fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 1382, ../../scss/bms/style.scss */
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+
+  /* line 1389, ../../scss/bms/style.scss */
+  .bms-ref-video .modal-dialog {
+    width: 70%;
+    max-width: 800px;
+    max-height: 520px;
+  }
+}
+/* line 1397, ../../scss/bms/style.scss */
+.unscrollable {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+  /* line 1406, ../../scss/bms/style.scss */
+  .ash-microsite .container.trial-list {
+    max-width: 1170px;
+  }
+}
+/* line 1411, ../../scss/bms/style.scss */
+.ash-microsite .ashbg {
+  background: url(../../images/bms/hero-3-copy-2.jpg) no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  /* line 1411, ../../scss/bms/style.scss */
+  .ash-microsite .ashbg {
+    background: url(../../images/bms/hero-hematology.png) no-repeat;
+    background-size: cover;
+  }
+}
+/* line 1420, ../../scss/bms/style.scss */
+.ash-microsite h3.hero-title strong {
+  font-weight: bold;
+}
+/* line 1424, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx {
+  padding: 30px 0;
+}
+@media (max-width: 767px) {
+  /* line 1424, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx {
+    padding: 10px 0;
+  }
+}
+/* line 1429, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx .filterByTxt {
+  display: block;
+  float: left;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.24px;
+  font-family: "Conv_BMSHumanity-Regular";
+  color: #595454;
+  padding: 10px 12px 0 0;
+}
+@media (min-width: 768px) {
+  /* line 1429, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterByTxt {
+    background: url(../../images/bms/icon-filter.png) no-repeat;
+    padding: 10px 12px 5px 20px;
+    background-position: 0 8px;
+  }
+}
+/* line 1445, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx .filterPills {
+  float: left;
+  display: block;
+}
+/* line 1449, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx .filterPills li {
+  float: left;
+  display: block;
+  position: relative;
+  padding: 0 12px 0 0;
+}
+/* line 1455, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx .filterPills li .pillsLink {
+  display: block;
+  text-decoration: none;
+  height: 34px;
+  border-radius: 17px;
+  border: solid 1px #a6a6a6;
+  background-color: #ffffff;
+  padding: 9px 15px 0;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #595454;
+}
+/* line 1468, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx .filterPills li .pillsLink.active {
+  border: 2px solid #be2bbb;
+  background: #fff;
+  color: #595454;
+}
+/* line 1474, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx .filterPills li .filterPillsDropdown {
+  width: 224px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 14px 0 rgba(89, 84, 84, 0.24);
+  border: solid 1px #d2cac8;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 5px;
+  z-index: 9;
+  display: none;
+}
+/* line 1489, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx .filterPills li .filterPillsDropdown label {
+  display: block;
+  clear: both;
+  padding: 0;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+  color: #595454;
+  font-family: "Conv_BMSHumanity-Regular";
+  margin: 0 0 14px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  padding-left: 24px;
+}
+/* line 1504, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx .filterPills li .filterPillsDropdown label .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background: url(../../images/bms/checkboxSprite.png) no-repeat left top;
+  display: block;
+}
+/* line 1515, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx .filterPills li .filterPillsDropdown input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #a69f9f;
+  border-radius: 3px;
+  margin: 0 7px 0 0;
+  float: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+/* line 1528, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx .filterPills li .filterPillsDropdown input[type="checkbox"]:checked ~ .checkmark {
+  background: url(../../images/bms/checkboxSprite.png) no-repeat left -16px;
+}
+/* line 1533, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx .filterPills li .filterPillsDropdown .clearAllLink {
+  margin: 0;
+  display: inline-block;
+  float: none;
+}
+/* line 1542, ../../scss/bms/style.scss */
+.ash-microsite .filterByBx .clearAllLink {
+  float: left;
+  display: block;
+  font-size: 14px;
+  line-height: 14px;
+  color: #595454;
+  letter-spacing: 0.24px;
+  text-decoration: underline;
+  margin: 10px 0 0 0;
+}
+/* line 1555, ../../scss/bms/style.scss */
+.ash-microsite .filterPillsSelected {
+  padding: 20px 0 0 64px;
+}
+/* line 1557, ../../scss/bms/style.scss */
+.ash-microsite .filterPillsSelected .output {
+  float: left;
+}
+/* line 1560, ../../scss/bms/style.scss */
+.ash-microsite .filterPillsSelected .output a {
+  display: inline-block;
+  height: 30px;
+  border-radius: 17px;
+  border: 2px solid #a6a6a6;
+  background-color: #a6a6a6;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3c3c3c;
+  letter-spacing: 0.24px;
+  font-family: "Conv_BMSHumanity-Regular";
+  padding: 7px 14px 0 26px;
+  margin: 0 12px 20px 0;
+  cursor: pointer;
+  position: relative;
+}
+/* line 1576, ../../scss/bms/style.scss */
+.ash-microsite .filterPillsSelected .output a:before {
+  position: absolute;
+  /*top: 7px;
+  left: 8px;
+  width: 15px;
+  height: 15px;*/
+  top: 9px;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  background: url(../../images/bms/icon-close-black.png) no-repeat left top;
+  display: block;
+  content: "";
+  background-size: cover;
+}
+/* line 1594, ../../scss/bms/style.scss */
+.ash-microsite .recruting-state {
+  margin-top: 25px;
+  padding: 8px 10px;
+  width: auto;
+}
+@media (min-width: 992px) {
+  /* line 1594, ../../scss/bms/style.scss */
+  .ash-microsite .recruting-state {
+    padding: 8px 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1594, ../../scss/bms/style.scss */
+  .ash-microsite .recruting-state {
+    width: 100%;
+    margin: 15px auto;
+    background: none;
+    border: none;
+  }
+}
+@media (min-width: 992px) {
+  /* line 1609, ../../scss/bms/style.scss */
+  .ash-microsite .recruting-state ul {
+    padding-right: 7px;
+  }
+}
+/* line 1613, ../../scss/bms/style.scss */
+.ash-microsite .recruting-state ul li {
+  font-size: 14px;
+  line-height: 16px;
+  padding-right: 10px;
+}
+@media (min-width: 992px) {
+  /* line 1613, ../../scss/bms/style.scss */
+  .ash-microsite .recruting-state ul li {
+    padding-right: 0;
+    text-align: right;
+  }
+}
+/* line 1621, ../../scss/bms/style.scss */
+.ash-microsite .recruting-state ul li span {
+  background: #fff;
+  padding: 9px;
+  border-radius: 20px;
+  border: solid 1px #dedede;
+  margin-right: 5px;
+}
+/* line 1629, ../../scss/bms/style.scss */
+.ash-microsite .recruting-state ul li.currently-recruting span {
+  color: #33d6f1;
+}
+/* line 1634, ../../scss/bms/style.scss */
+.ash-microsite .recruting-state ul li.recruting-soon span {
+  color: #a69f9f;
+}
+/* line 1641, ../../scss/bms/style.scss */
+.ash-microsite .trialContainer {
+  /* 2 columns */
+}
+/* line 1642, ../../scss/bms/style.scss */
+.ash-microsite .trialContainer .card-sizer,
+.ash-microsite .trialContainer .card, .ash-microsite .trialContainer .phaseItem {
+  width: 100%;
+  margin: 3% 0;
+}
+@media (min-width: 768px) {
+  /* line 1642, ../../scss/bms/style.scss */
+  .ash-microsite .trialContainer .card-sizer,
+  .ash-microsite .trialContainer .card, .ash-microsite .trialContainer .phaseItem {
+    width: 48%;
+    margin: 1%;
+  }
+}
+@media (min-width: 990px) {
+  /* line 1642, ../../scss/bms/style.scss */
+  .ash-microsite .trialContainer .card-sizer,
+  .ash-microsite .trialContainer .card, .ash-microsite .trialContainer .phaseItem {
+    width: 31%;
+    margin: 1%;
+  }
+}
+/* line 1656, ../../scss/bms/style.scss */
+.ash-microsite .trialContainer .card--width2 {
+  width: 40%;
+}
+/* line 1660, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-title {
+  border-radius: 8px 8px 0 0;
+  border: solid 1px #a6a6a6;
+  color: #595454;
+  font-size: 14px;
+  padding: 5px 0;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 22px;
+  font-weight: bold;
+}
+/* line 1670, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-title.myelofibrosis {
+  border-bottom: 2px solid #a69f9f;
+  background-color: rgba(210, 202, 200, 0.3);
+}
+/* line 1674, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-title.acute-myeloid-leukemia {
+  border-bottom: 2px solid #be2bbb;
+  background-color: rgba(190, 43, 187, 0.06);
+}
+/* line 1678, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-title.advanced-hematologic-disorders {
+  border-bottom: 2px solid #fda97d;
+  background-color: rgba(253, 169, 125, 0.15);
+}
+/* line 1682, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-title.lymphoma-cll {
+  border-bottom: 2px solid #54bceb;
+  background-color: rgba(84, 188, 235, 0.1);
+}
+/* line 1686, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-title.myelodysplastic-syndromes {
+  border-bottom: 2px solid #59ffb9;
+  background-color: rgba(89, 255, 185, 0.15);
+}
+/* line 1690, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-title.multiple-myeloma {
+  border-bottom: 2px solid #cb7c78;
+  background-color: rgba(203, 124, 120, 0.22);
+}
+/* line 1695, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box {
+  background: #fff;
+  border-radius: 0 0 8px 8px;
+  border: solid 1px #a6a6a6;
+  border-top: none;
+  padding: 27px 17px 14px 22px;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  /* line 1695, ../../scss/bms/style.scss */
+  .ash-microsite .trial-card .card-box {
+    min-height: 340px;
+  }
+}
+/* line 1709, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .card-header h4 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  font-family: "Conv_BMSHumanity-Bold";
+  color: #595454;
+}
+/* line 1715, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .card-header p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  font-family: "Conv_BMSHumanity-Bold";
+  font-style: italic;
+  color: #595454;
+}
+/* line 1723, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .card-header .user-ico {
+  font-size: 16px;
+  padding: 9px;
+  border-radius: 20px;
+  border: solid 1px #dedede;
+  color: #a69f9f;
+}
+/* line 1728, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .card-header .user-ico.current {
+  color: #33d6f1;
+}
+/* line 1731, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .card-header .user-ico.reccuring {
+  color: #a69f9f;
+}
+/* line 1735, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .card-header .image-icon {
+  width: 36px;
+  height: 36px;
+  padding: 5px;
+  border: 1px solid #dedede;
+  border-radius: 50%;
+}
+/* line 1743, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .phase {
+  border-right: none;
+  background: #C0F2FA;
+  color: #3c3c3c;
+  padding: 3px;
+  font-size: 12px;
+  position: relative;
+  padding-left: 10px;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+/* line 1754, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .phase.phase-1 {
+  max-width: calc(25% - 11px);
+}
+/* line 1757, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .phase.phase-2 {
+  max-width: calc(50% - 11px);
+}
+/* line 1760, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .phase.phase-3 {
+  max-width: calc(75% - 11px);
+}
+/* line 1763, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .phase::after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #C0F2FA;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  right: -9px;
+  top: 3px;
+  transform: rotate(45deg);
+}
+/* line 1778, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .divider {
+  width: 100%;
+  border-top: 1px solid #a2a2a2;
+  margin: -10px 0 16px;
+  position: relative;
+}
+/* line 1783, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .divider span {
+  height: 9px;
+  position: absolute;
+  width: 2px;
+  background: #a69f9f;
+  opacity: 75%;
+  top: -9px;
+}
+/* line 1790, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .divider span.slot-25 {
+  left: 25%;
+}
+/* line 1793, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .divider span.slot-50 {
+  left: 50%;
+}
+/* line 1796, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .divider span.slot-75 {
+  left: 75%;
+}
+@media (min-width: 768px) {
+  /* line 1801, ../../scss/bms/style.scss */
+  .ash-microsite .trial-card .card-box .card-content {
+    min-height: 120px;
+  }
+}
+/* line 1809, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .card-content h5 {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+/* line 1815, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .link-box {
+  text-align: right;
+  color: #be2bbb;
+  font-size: 14px;
+  font-family: "Conv_BMSHumanity-Thin";
+}
+/* line 1820, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .link-box a {
+  color: #be2bbb;
+  font-family: "Conv_BMSHumanity-Thin";
+  font-size: 14px;
+}
+/* line 1824, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .link-box a.trial-link {
+  background: url(../../images/bms/eye-pink.png) no-repeat left top;
+  padding-left: 25px;
+  background-size: contain;
+}
+/* line 1833, ../../scss/bms/style.scss */
+.ash-microsite .bms-trials-noResult {
+  background: #fff;
+  min-height: 300px;
+  display: none;
+  align-items: center;
+  align-content: center;
+}
+/* line 1837, ../../scss/bms/style.scss */
+.ash-microsite .bms-trials-noResult.bms-trials-noResult-show {
+  display: flex;
+}
+@media (min-width: 768px) {
+  /* line 1833, ../../scss/bms/style.scss */
+  .ash-microsite .bms-trials-noResult {
+    min-height: 490px;
+  }
+}
+/* line 1845, ../../scss/bms/style.scss */
+.ash-microsite .bms-trials-noResult p {
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #a6a6a6;
+}
+@media (min-width: 768px) {
+  /* line 1845, ../../scss/bms/style.scss */
+  .ash-microsite .bms-trials-noResult p {
+    font-size: 28px;
+  }
+}
+
+/* line 1864, ../../scss/bms/style.scss */
+.page-template-bms-trial-finder .filterByBx .filterPills li .pillsLink.active {
+  background: #be2bbb;
+  color: #fff;
+}
+
+/* line 1875, ../../scss/bms/style.scss */
+.bms-footer .container {
+  max-width: 1170px;
+}
+/* line 1877, ../../scss/bms/style.scss */
+.bms-footer .container a.footerLogo {
+  display: inline-block;
+  width: 239px;
+  height: 34px;
+}
+@media (max-width: 991px) {
+  /* line 1877, ../../scss/bms/style.scss */
+  .bms-footer .container a.footerLogo {
+    margin: 0 auto;
+    float: none;
+    align-self: center;
+    display: flex;
+  }
+}
+/* line 1888, ../../scss/bms/style.scss */
+.bms-footer .container .footer-menu-note {
+  float: left;
+  position: relative;
+}
+/* line 1891, ../../scss/bms/style.scss */
+.bms-footer .container .footer-menu-note .copyRightTxt {
+  float: left;
+  padding: 4px 0 0 0;
+  font-size: 12px;
+  line-height: 14px;
+}
+/* line 1899, ../../scss/bms/style.scss */
+.bms-footer .footerLinks {
+  padding: 5px 0 0 0px;
+}
+/* line 1902, ../../scss/bms/style.scss */
+.bms-footer .menu {
+  padding: 18px 0 0 0px;
+}
+/* line 1905, ../../scss/bms/style.scss */
+.bms-footer .menu li a {
+  font-size: 12px;
+  line-height: 12px;
+}
+/* line 1911, ../../scss/bms/style.scss */
+.bms-footer .bms-footer-trials-finder {
+  padding: 30px 50px;
+}
+/* line 1913, ../../scss/bms/style.scss */
+.bms-footer .bms-footer-trials-finder .copyRightTxt {
+  padding: 0;
+}
+@media (max-width: 991px) {
+  /* line 1913, ../../scss/bms/style.scss */
+  .bms-footer .bms-footer-trials-finder .copyRightTxt {
+    padding: 10px 0;
+  }
+}
+
+/* Footer Styling Changes for BMS Microsite */
+/* line 1925, ../../scss/bms/style.scss */
+.page-template-bms-home .bms-footer .container {
+  max-width: 976px;
+}
+/* line 1928, ../../scss/bms/style.scss */
+.page-template-bms-home .bms-footer .menu {
+  padding: 18px 0 0 0px;
+}
+@media screen and (max-width: 991px) {
+  /* line 1928, ../../scss/bms/style.scss */
+  .page-template-bms-home .bms-footer .menu {
+    padding: 25px 0;
+  }
+}
+/* line 1934, ../../scss/bms/style.scss */
+.page-template-bms-home .bms-footer .menu li a {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* line 1945, ../../scss/bms/style.scss */
+.bms-resource .bms-footer .container {
+  max-width: 976px;
+}
+/* line 1948, ../../scss/bms/style.scss */
+.bms-resource .bms-footer .menu {
+  padding: 18px 0 0 0px;
+}
+@media screen and (max-width: 991px) {
+  /* line 1948, ../../scss/bms/style.scss */
+  .bms-resource .bms-footer .menu {
+    padding: 25px 0;
+  }
+}
+/* line 1954, ../../scss/bms/style.scss */
+.bms-resource .bms-footer .menu li a {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* line 1964, ../../scss/bms/style.scss */
+.page-template-bms-reference .resource-container {
+  max-width: 967px;
+}
+/* line 1968, ../../scss/bms/style.scss */
+.page-template-bms-reference .bms-footer .container {
+  max-width: 976px;
+}
+/* line 1971, ../../scss/bms/style.scss */
+.page-template-bms-reference .bms-footer .menu {
+  padding: 18px 0 0 0px;
+}
+@media screen and (max-width: 991px) {
+  /* line 1971, ../../scss/bms/style.scss */
+  .page-template-bms-reference .bms-footer .menu {
+    padding: 25px 0;
+  }
+}
+/* line 1977, ../../scss/bms/style.scss */
+.page-template-bms-reference .bms-footer .menu li a {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* Responsive */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 1989, ../../scss/bms/style.scss */
+  header {
+    padding: 0 25px;
+  }
+
+  /* line 1993, ../../scss/bms/style.scss */
+  footer {
+    padding: 80px 50px 50px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 1999, ../../scss/bms/style.scss */
+  header {
+    padding: 0 25px;
+    height: 90px;
+  }
+  /* line 2003, ../../scss/bms/style.scss */
+  header .logo {
+    width: 200px;
+    margin-top: 14px;
+  }
+  /* line 2008, ../../scss/bms/style.scss */
+  header .mainNav {
+    width: auto;
+    clear: both;
+    margin: 0 -15px;
+    float: none;
+    padding: 8px 0 0 0;
+    border-top: 1px solid #eee7e7;
+  }
+  /* line 2016, ../../scss/bms/style.scss */
+  header .mainNav ul {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 2020, ../../scss/bms/style.scss */
+  header .mainNav ul li {
+    float: none;
+    display: inline-block;
+  }
+  /* line 2028, ../../scss/bms/style.scss */
+  header .learnMoreLink {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 137px;
+  }
+
+  /* line 2035, ../../scss/bms/style.scss */
+  #content {
+    margin-top: 90px;
+  }
+  /* line 2037, ../../scss/bms/style.scss */
+  #content.ash-microsite {
+    margin-top: 60px;
+  }
+
+  /* line 2043, ../../scss/bms/style.scss */
+  .thankYouBx .container {
+    min-height: 100px;
+    height: 366px;
+  }
+  /* line 2048, ../../scss/bms/style.scss */
+  .thankYouBx .thankYouLftCol {
+    padding-bottom: 30px;
+  }
+  /* line 2051, ../../scss/bms/style.scss */
+  .thankYouBx h3 {
+    font-size: 39px;
+    padding-right: 30px;
+    line-height: normal;
+  }
+  /* line 2056, ../../scss/bms/style.scss */
+  .thankYouBx p {
+    font-size: 16px;
+  }
+
+  /* line 2061, ../../scss/bms/style.scss */
+  footer {
+    padding: 15px 30px;
+  }
+  /* line 2064, ../../scss/bms/style.scss */
+  footer .footerLogo {
+    width: 155px;
+    margin: 36px 0 0 0;
+  }
+  /* line 2069, ../../scss/bms/style.scss */
+  footer .menu-bms-footer-menu-macro-container {
+    width: 100%;
+    float: none;
+  }
+  /* line 2074, ../../scss/bms/style.scss */
+  footer .footerLinks, footer .menu {
+    width: 100%;
+    float: right;
+    padding: 0;
+    padding: 25px 0;
+    text-align: center;
+  }
+  /* line 2080, ../../scss/bms/style.scss */
+  footer .footerLinks li, footer .menu li {
+    float: none;
+    display: inline-block;
+    padding: 10px;
+    line-height: 14px;
+  }
+  /* line 2086, ../../scss/bms/style.scss */
+  footer .footerLinks li:first-child, footer .menu li:first-child {
+    padding-left: 10px;
+  }
+  /* line 2092, ../../scss/bms/style.scss */
+  footer .copyRightTxt {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  /* line 2101, ../../scss/bms/style.scss */
+  #backToTop.footerVisible {
+    bottom: 125px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 2108, ../../scss/bms/style.scss */
+  header {
+    padding: 0 15px;
+  }
+  /* line 2111, ../../scss/bms/style.scss */
+  header .logo {
+    width: 155px;
+  }
+  /* line 2115, ../../scss/bms/style.scss */
+  header .mainNav {
+    padding-top: 10px;
+  }
+  /* line 2120, ../../scss/bms/style.scss */
+  header .mainNav ul li a {
+    padding: 0 0 6px 0;
+  }
+  /* line 2127, ../../scss/bms/style.scss */
+  header .learnMoreLink {
+    margin-top: 7px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  /* line 2136, ../../scss/bms/style.scss */
+  .thankYouBx p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.28px;
+  }
+  /* line 2142, ../../scss/bms/style.scss */
+  .thankYouBx .thankYouLftCol {
+    margin: 0px;
+    padding: 30px 15px;
+  }
+
+  /* line 2148, ../../scss/bms/style.scss */
+  footer {
+    padding: 15px 0;
+  }
+
+  /* line 2152, ../../scss/bms/style.scss */
+  .pipelineCont1 {
+    padding: 30px 15px 10px;
+  }
+  /* line 2155, ../../scss/bms/style.scss */
+  .pipelineCont1 h4 {
+    line-height: 26px;
+  }
+
+  /* line 2174, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .cardTitle {
+    padding-left: 0;
+  }
+  /* line 2178, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow {
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+    border-bottom: 1px solid #eee7e7;
+  }
+  /* line 2183, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow:last-child {
+    border: none;
+    margin: 0 0 20px;
+    padding: 0;
+  }
+  /* line 2189, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .trialImg {
+    width: 17px;
+    height: 17px;
+    position: static;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
+  }
+  /* line 2198, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .modality {
+    float: left;
+    width: 22%;
+  }
+  /* line 2202, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .modality strong {
+    margin: 0 5px 1px 0;
+    float: left;
+    display: block;
+  }
+  /* line 2208, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .modalityArea {
+    float: left;
+    width: 78%;
+  }
+  /* line 2213, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .areaOfResearch {
+    float: left;
+    width: 39%;
+  }
+  /* line 2217, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .researchArea {
+    float: left;
+    width: 61%;
+  }
+  /* line 2223, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .width1 {
+    padding: 0 0 5px 0;
+  }
+  /* line 2226, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .width1 .phaseRowTxt {
+    font-family: "Conv_BMSHumanity-Bold";
+  }
+  /* line 2230, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .width2, .pipelineTab .tab-content .card .phaseContainer .phaseRow .width3, .pipelineTab .tab-content .card .phaseContainer .phaseRow .width4 {
+    padding: 0 0 5px 30px;
+  }
+  /* line 2233, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseIndicatorBg {
+    width: 118px;
+    display: inline-block;
+  }
+  /* line 2240, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .width1, .pipelineTab .tab-content .width2, .pipelineTab .tab-content .width3, .pipelineTab .tab-content .width4 {
+    width: 100%;
+  }
+  /* line 2243, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterPillsSelected {
+    padding: 0;
+  }
+  /* line 2246, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterPillsSelected a {
+    margin-bottom: 8px;
+  }
+  /* line 2250, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx {
+    padding-bottom: 8px;
+  }
+  /* line 2254, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .clearAllLink {
+    float: right;
+    margin-top: 14px;
+  }
+  /* line 2258, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterMobPill {
+    height: 43px;
+    border-radius: 21.5px;
+    border: solid 1px #a69f9f;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.28px;
+    color: #595454;
+    float: left;
+    padding: 14px 12px 0;
+    text-decoration: none;
+  }
+  /* line 2271, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+  }
+  /* line 2279, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills li {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 2283, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills li .pillsLink {
+    display: none;
+  }
+  /* line 2287, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills li .mobButton {
+    margin: 30px -15px 0;
+    overflow: hidden;
+  }
+  /* line 2291, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills li .mobButton .whiteButton {
+    width: 160px;
+    height: 44px;
+    border-radius: 8px;
+    border: solid 2px #be2bbb;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.18px;
+    font-family: "Conv_BMSHumanity-Regular";
+    color: #be2bbb;
+    float: left;
+    display: block;
+    padding-top: 13px;
+    text-decoration: none;
+  }
+}
+@media (max-width: 767px) and (max-width: 767px) {
+  /* line 2291, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills li .mobButton .whiteButton {
+    width: 155px;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  /* line 2312, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills li .mobButton .pinkButton {
+    width: 160px;
+    height: 44px;
+    border-radius: 8px;
+    border: solid 2px #be2bbb;
+    background-color: #be2bbb;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.18px;
+    font-family: "Conv_BMSHumanity-Regular";
+    color: #fff;
+    float: right;
+    display: block;
+    padding-top: 13px;
+    text-decoration: none;
+  }
+}
+@media (max-width: 767px) and (max-width: 767px) {
+  /* line 2312, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills li .mobButton .pinkButton {
+    width: 155px;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  /* line 2335, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown {
+    position: static;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 15px 30px;
+  }
+  /* line 2342, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown.therapeuticAreaFilter {
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+  }
+  /* line 2346, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown.phaseFilter {
+    border-top: none;
+    border-bottom: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding-top: 0;
+  }
+  /* line 2354, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown h6 {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.28px;
+    color: #595454;
+    font-family: "Conv_BMSHumanity-Regular";
+    text-align: left;
+    border-bottom: 1px solid #eee7e7;
+    padding: 0 15px 12px;
+    margin: 0 -15px 12px;
+  }
+  /* line 2366, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown h5 {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.28px;
+    color: #be2bbb;
+    font-family: "Conv_BMSHumanity-Bold";
+    padding: 0 0 18px;
+    text-align: left;
+  }
+
+  /* line 2382, ../../scss/bms/style.scss */
+  .ash-microsite .width1, .ash-microsite .width2, .ash-microsite .width3, .ash-microsite .width4 {
+    width: 100%;
+  }
+  /* line 2385, ../../scss/bms/style.scss */
+  .ash-microsite .filterPillsSelected {
+    padding: 0 0;
+  }
+  /* line 2388, ../../scss/bms/style.scss */
+  .ash-microsite .filterPillsSelected a {
+    margin: 20px 10px 28px;
+  }
+  /* line 2392, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx {
+    margin-top: 30px;
+    padding-bottom: 8px;
+  }
+  /* line 2396, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .clearAllLink {
+    float: right;
+    margin-top: 14px;
+  }
+  /* line 2400, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterMobPill {
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    border: solid 2px #a69f9f;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.28px;
+    color: #595454;
+    float: left;
+    padding: 14px 12px 0 45px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  /* line 2419, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterMobPill::before {
+    content: '';
+    width: 15px;
+    height: 16px;
+    background: url(../../images/bms/icon-filter.png) no-repeat;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    z-index: 1;
+  }
+  /* line 2431, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills {
+    width: 94%;
+    position: fixed;
+    bottom: 0;
+    left: 3%;
+    z-index: 9999;
+    display: none;
+    opacity: 95%;
+    background: #fff;
+    border-radius: 8px 8px 0 0;
+    border: solid 1px #d2cac8;
+    overflow: hidden;
+  }
+  /* line 2443, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 2447, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li .pillsLink {
+    display: none;
+  }
+  /* line 2451, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li .mobButton {
+    margin: 30px -15px 0;
+    overflow: hidden;
+  }
+  /* line 2455, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li .mobButton .whiteButton {
+    width: 160px;
+    height: 44px;
+    border-radius: 8px;
+    border: solid 2px #be2bbb;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.18px;
+    font-family: "Conv_BMSHumanity-Regular";
+    color: #be2bbb;
+    float: left;
+    display: block;
+    padding-top: 13px;
+    text-decoration: none;
+  }
+}
+@media (max-width: 767px) and (max-width: 767px) {
+  /* line 2455, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li .mobButton .whiteButton {
+    width: 155px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 2475, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li .mobButton .pinkButton {
+    width: 160px;
+    height: 44px;
+    border-radius: 8px;
+    border: solid 2px #be2bbb;
+    background-color: #be2bbb;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.18px;
+    font-family: "Conv_BMSHumanity-Regular";
+    color: #fff;
+    float: right;
+    display: block;
+    padding-top: 13px;
+    text-decoration: none;
+  }
+}
+@media (max-width: 767px) and (max-width: 767px) {
+  /* line 2475, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li .mobButton .pinkButton {
+    width: 155px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 2497, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li .filterPillsDropdown {
+    position: static;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  /* line 2506, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li .filterPillsDropdown.therapeuticAreaFilter {
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+  }
+  /* line 2510, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li .filterPillsDropdown.phaseFilter {
+    border-top: none;
+    border-bottom: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding-top: 0;
+  }
+  /* line 2518, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li .filterPillsDropdown h6 {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.28px;
+    color: #595454;
+    font-family: "Conv_BMSHumanity-Regular";
+    text-align: left;
+    border-bottom: 1px solid #eee7e7;
+    padding: 0 15px 12px;
+    margin: 0 -15px 12px;
+  }
+  /* line 2530, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li .filterPillsDropdown h5 {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.28px;
+    color: #be2bbb;
+    font-family: "Conv_BMSHumanity-Bold";
+    padding: 0 0 18px;
+    text-align: left;
+  }
+
+  /* line 2545, ../../scss/bms/style.scss */
+  #cardContainer {
+    margin-top: 12px;
+  }
+
+  /* line 2550, ../../scss/bms/style.scss */
+  #backToTop.footerVisible {
+    bottom: 125px;
+  }
+
+  /* line 2557, ../../scss/bms/style.scss */
+  .keyPathwayBx .keyPathwayList li {
+    width: 100%;
+    padding: 0 0 15px;
+  }
+  /* line 2561, ../../scss/bms/style.scss */
+  .keyPathwayBx .keyPathwayList li:nth-child(odd), .keyPathwayBx .keyPathwayList li:nth-child(even) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 2570, ../../scss/bms/style.scss */
+  .abstractListBx h3 {
+    line-height: 52px;
+    padding: 0 0 20px;
+  }
+
+  /* line 2577, ../../scss/bms/style.scss */
+  .imageTxtBx .downloadBut {
+    height: 44px;
+    padding-top: 16px;
+  }
+
+  /* line 2585, ../../scss/bms/style.scss */
+  .page-template-bms-trial-finder .wrapper #backToTop.footerVisible {
+    bottom: 75px;
+  }
+}
+@media screen and (max-width: 468px) {
+  /* line 2595, ../../scss/bms/style.scss */
+  .event-1 + #backToTop.footerVisible {
+    bottom: 140px;
+  }
+  /* line 2598, ../../scss/bms/style.scss */
+  .event-1 #backToTop.footerVisible {
+    bottom: 140px;
+  }
+}
+@media (max-width: 415px) {
+  /* line 2607, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .footnoteBx ul li {
+    line-height: 15px !important;
+    padding-bottom: 2px;
+  }
+
+  /* line 2614, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow
+  .phaseRowTxt .modality {
+    width: 20%;
+  }
+  /* line 2617, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow
+  .phaseRowTxt .modalityArea {
+    width: 80%;
+  }
+  /* line 2621, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow
+  .phaseRowTxt .areaOfResearch {
+    width: 35%;
+  }
+  /* line 2624, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow
+  .phaseRowTxt .researchArea {
+    width: 65%;
+  }
+}
+@media (max-width: 375px) {
+  /* line 2634, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow
+  .phaseRowTxt .modality {
+    width: 22%;
+  }
+  /* line 2637, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow
+  .phaseRowTxt .modalityArea {
+    width: 78%;
+  }
+  /* line 2641, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow
+  .phaseRowTxt .areaOfResearch {
+    width: 40%;
+  }
+  /* line 2644, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow
+  .phaseRowTxt .researchArea {
+    width: 60%;
+  }
+}
+@media (max-width: 366px) {
+  /* line 2652, ../../scss/bms/style.scss */
+  .filterMobPill {
+    width: 270px;
+    font-size: 15px !important;
+  }
+
+  /* line 2657, ../../scss/bms/style.scss */
+  .pipelineTab .tab-thumb li a {
+    font-size: 17px;
+  }
+
+  /* line 2663, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow
+  .phaseRowTxt .modality {
+    width: 24%;
+  }
+  /* line 2666, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow
+  .phaseRowTxt .modalityArea {
+    width: 76%;
+  }
+  /* line 2670, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow
+  .phaseRowTxt .areaOfResearch {
+    width: 42%;
+  }
+  /* line 2673, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow
+  .phaseRowTxt .researchArea {
+    width: 58%;
+  }
+
+  /* line 2678, ../../scss/bms/style.scss */
+  .ash-microsite .filterByBx .filterPills li .mobButton .whiteButton, .ash-microsite .filterByBx .filterPills li .mobButton .pinkButton {
+    width: 150px;
+  }
+
+  /* line 2681, ../../scss/bms/style.scss */
+  .ash-microsite .recruting-state ul li {
+    padding-right: 5px;
+  }
+}
+/* line 2685, ../../scss/bms/style.scss */
+.test-ct {
+  display: none;
+}
+
+@media screen and (max-width: 350px) {
+  /* line 2691, ../../scss/bms/style.scss */
+  header .logo {
+    width: 132px;
+  }
+}
+/* line 2696, ../../scss/bms/style.scss */
+.toggle-filter {
+  float: right;
+}
+@media screen and (max-width: 767px) {
+  /* line 2696, ../../scss/bms/style.scss */
+  .toggle-filter {
+    width: 100%;
+    padding-top: 10px;
+    margin: 0 0 5px;
+    display: flex;
+    float: none;
+  }
+}
+/* line 2708, ../../scss/bms/style.scss */
+.toggle-filter .view-selected-only.switch {
+  position: relative;
+  padding: 2px 5px 3px 18px;
+  border: 1.5px solid #595454;
+  border-radius: 17px;
+}
+@media screen and (max-width: 767px) {
+  /* line 2708, ../../scss/bms/style.scss */
+  .toggle-filter .view-selected-only.switch {
+    max-width: 345px;
+    width: 100%;
+    padding: 3px 5px 3px 18px;
+  }
+}
+/* line 2720, ../../scss/bms/style.scss */
+.toggle-filter .view-selected-only.switch input[type=checkbox] {
+  margin-left: -99999px;
+  position: absolute;
+}
+/* line 2725, ../../scss/bms/style.scss */
+.toggle-filter .view-selected-only.switch label {
+  padding-right: 70px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #be2bbb;
+  cursor: pointer;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 27px;
+}
+@media screen and (max-width: 767px) {
+  /* line 2725, ../../scss/bms/style.scss */
+  .toggle-filter .view-selected-only.switch label {
+    font-size: 16px;
+  }
+}
+/* line 2741, ../../scss/bms/style.scss */
+.toggle-filter .view-selected-only.switch label::after {
+  content: 'OFF';
+  width: 57px;
+  height: 27px;
+  padding: 6px 0 0 25px;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+  background: url(../../images/bms/phase-indicator-inactive.svg) no-repeat center/100%;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+}
+@media screen and (max-width: 767px) {
+  /* line 2741, ../../scss/bms/style.scss */
+  .toggle-filter .view-selected-only.switch label::after {
+    width: 67px;
+    padding: 5px 0 0 30px;
+  }
+}
+/* line 2762, ../../scss/bms/style.scss */
+.toggle-filter .view-selected-only.switch label::before {
+  content: '';
+  width: 19px;
+  height: 21px;
+  display: block;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  right: 35px;
+  z-index: 2;
+  background: url(../../images/bms/oval.svg) no-repeat center/100%;
+}
+@media screen and (max-width: 767px) {
+  /* line 2762, ../../scss/bms/style.scss */
+  .toggle-filter .view-selected-only.switch label::before {
+    right: 43px;
+  }
+}
+/* line 2783, ../../scss/bms/style.scss */
+.toggle-filter .view-selected-only.switch input[type=checkbox]:checked ~ label::after {
+  content: 'ON';
+  padding-left: 10px;
+  background: url(../../images/bms/phase-indicator-active.png) no-repeat center/100%;
+}
+@media screen and (max-width: 767px) {
+  /* line 2783, ../../scss/bms/style.scss */
+  .toggle-filter .view-selected-only.switch input[type=checkbox]:checked ~ label::after {
+    padding-left: 18px;
+  }
+}
+/* line 2792, ../../scss/bms/style.scss */
+.toggle-filter .view-selected-only.switch input[type=checkbox]:checked ~ label::before {
+  right: 3px;
+}
+
+/* line 2802, ../../scss/bms/style.scss */
+.diseaseItem {
+  width: 100%;
+  position: static !important;
+}

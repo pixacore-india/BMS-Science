@@ -46,4 +46,25 @@ collections:
             widget: string
           - label: Project Code
             name: project-code   
-            widget: string               
+            widget: string
+  - label: pages
+    name: pages
+    files: 
+      - label: Pipeline
+        name: pipeline
+        file: _data/pipeline.yml
+        fields:
+          - label: Banner
+            name: banner
+            widget: object
+            fields: 
+              - label: Banner Heading
+                name: banner-heading
+                widget: string
+              - label: Banner Paragraph
+                name: banner-para
+                widget: string
+              - label: Banner Image
+                name: banner-image
+                widget: image 
+

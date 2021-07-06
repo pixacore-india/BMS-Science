@@ -28,3 +28,22 @@ collections:
                 fields:
                   - {label: Label, name: label, widget: string}
                   - {label: Path, name: path, widget: string} 
+      - label: Footer
+        name: footer
+        file: _data/footer.yml
+        fields:
+          - label: Footer Links
+            name: footer-links
+            widget: list
+            fields:
+              - {label: Label, name: label, widget: string}
+              - {label: Path, name: path, widget: string}
+          - label: Copyright Text
+            name: copyright-text   
+            widget: string
+          - label: Last Updated
+            name: last-update   
+            widget: string
+          - label: Project Code
+            name: project-code   
+            widget: string               

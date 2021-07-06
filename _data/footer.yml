@@ -1,0 +1,14 @@
+footer-links:
+  - label: Pipeline
+    path: /index
+  - label: Resources
+    path: /resources
+  - label: Resources
+    path: /resources
+copyright:
+  - label: Copyright
+    name: copyright-text
+  - label: Last Updated
+    name: last-update
+  - label: Project Code
+    name: project-code          

@@ -11,12 +11,12 @@
     <nav class="mainNav">
         <div class="menu-bms-header-nav-container">
             <ul id="menu-bms-header-nav" class="menu">
-                <li id="menu-item-1684813" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-1684803 current_page_item menu-item-1684813 {% if page.pageName contains 'pipeline' %} current-menu-item{% endif %}">
-                    <a href="/" aria-current="page">Pipeline</a>
-                </li>
-                <li id="menu-item-1685187" class="header-resources menu-item menu-item-type-post_type menu-item-object-page menu-item-1685187 {% if page.url contains 'resources' %} current-menu-item{% endif %}">
-                    <a href="/resources/">Resources</a>
-                </li>
+                {% for item in site.data.header.primary-links %}
+                    <li class="header-resources menu-item menu-item-type-post_type menu-item-object-page {% if page.url contains item.path %} current-menu-item{% endif %}">
+                        <a href="{{ item.path }}">{{ item.label }}</a>
+                  </li>
+              {% endfor %}
+
             </ul>
         </div>
         <div class="clearfix"></div>

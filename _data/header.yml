@@ -1,6 +1,6 @@
 logo: /images/logo-bms-3.png
 primary-links:
-  - label: Pipeline
+  - label: Pipeline cms
     path: /
-  - label: Resources
+  - label: Resources cms
     path: /resources

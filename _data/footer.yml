@@ -1,0 +1,7 @@
+footer-links:
+  - label: Legal Notice
+    path: https://www.bms.com/legal-notice.html
+  - label: Privacy Policy
+    path: https://www.bms.com/privacy-policy.html
+  - label: Contact Us
+    path: https://www.bms.com/about-us/contact-us.html

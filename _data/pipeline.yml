@@ -1,5 +1,4 @@
 banner:
-  banner-heading: test head
-  banner-para: test para
-  banner-image:
-  
+  banner-heading: Pipeline banner Heading Text
+  banner-para: Pipeline banner paragraph Text
+  banner-image: /images/bms-science-getty-images.png

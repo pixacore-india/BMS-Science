@@ -1,156 +1,3 @@
-.bms-resource .header-resources a {
-    color: #be2bbb;
-     border-bottom: 3px solid #be2bbb;
-    }
-    
-    .bms-resource .resource-container {
-    
-    max-width: 967px;
-    
-    }
-    
-    strong {
-    font-family: "Conv_BMSHumanity-bold";
-    }
-    
-    header.event-1 .header-resources,
-    header.event-2 .header-resources,
-    #menu-bms-header-nav [href*='resources/event-1'] {
-    display: none;
-    }
-    
-    #menu-bms-header-nav [href*='resources/event-2'] {
-    display: none;
-    }
-    
-    .event-1 .hide-for-event-1 {
-    display: none;
-    }
-    .event-2 .hide-for-event-2-3 {
-    display: none;
-    }
-    .event-2 .hide-for-event-2 {
-    display: none;
-    }
-    .event-3 .hide-for-event-2-3 {
-    display: none;
-    }
-    .event-3 .hide-for-event-3 {
-    display: none;
-    }
-    .event-0 .hide-for-event-2-3 {
-    display: none;
-    }
-    .event-0 .hide-for-event-0 {
-    display: none;
-    }
-    
-    .event.event-2 .resources-video{display: block}
-    
-    .event.event-1 .resources-video{display: none}
-    
-    .event.event-0 .resources-video{display: none}
-    
-    .resources .resources-video {display:none}
-    
-    .player .vp-controls .custom-logo a{
-     display: none !important;
-    }
-    
-    .ash-microsite .ashbg{
-      background: url(https://media.bolderscience.com/wp-content/uploads/2020/12/trial-finder-bg.png)  no-repeat;
-      background-size: cover;
-    }
-    
-      footer .copyRightTxt{
-          padding: 18px 0 0 0;
-      }
-    
-    .hidespan{
-     display : none;
-    }
-    
-    .hidespan+br{
-     display : none;
-    }
-    
-    .showspan {
-      display: inline-block;
-    }
-    
-    .showspan+br{
-     display : none;
-    }
-    
-    .leftIndent {
-        margin-left: -5px;
-    }
-    
-    .thankYouLftCol{
-      position: relative;
-      z-index: 1;
-    }
-    
-    @media (max-width:991px){
-    
-         header .logo{
-               min-height: 58px;
-          }
-    
-           header .mainNav{
-              position: relative;
-              padding: 0px;
-              bottom: 10px;
-           }
-    }
-    
-    .thankYouBx.ashbg .container {
-      height: 330px;
-    }
-    
-    .ash-microsite .trial-card .card-box .link-box a.trial-link {
-        position: absolute;
-        bottom: 14px;
-        right: 17px;
-        background: url(/wp-content/themes/bolder-science/assets/images/bms/eye-pink.png) no-repeat left center/contain;
-        line-height: 1;
-    }
-    
-    
-    @media (max-width: 767px){
-    
-           header .logo{
-               min-height: 36px;
-          }
-    
-            header .mainNav{
-              position: relative;
-              padding-top: 10px;
-              bottom: 0px;
-           }
-    
-        .pipelineTab .tab-content .card .phaseContainer .phaseRow .width1{
-            padding: 0 0 5px 19px;
-         }
-    
-        .pipelineTab .tab-content .card .phaseContainer .phaseRow .trialImg {
-          width: 17px;
-          height: 17px;
-          position: absolute;
-       }
-    
-        .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseIndicatorBg{
-            position: relative;
-            top: 3px;
-         }
-    }
-    
-    @media (max-width: 375px) {
-    .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .researchArea{
-        margin-left: 0px;
-     }
-    }
-
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; font-size:100%; font:inherit; vertical-align:baseline;}
 /* HTML5 display-role reset for older browsers */
@@ -2803,3 +2650,156 @@ footer {
     width: 100%;
     position: static!important;
 }
+
+.bms-resource .header-resources a {
+    color: #be2bbb;
+     border-bottom: 3px solid #be2bbb;
+    }
+    
+    .bms-resource .resource-container {
+    
+    max-width: 967px;
+    
+    }
+    
+    strong {
+    font-family: "Conv_BMSHumanity-bold";
+    }
+    
+    header.event-1 .header-resources,
+    header.event-2 .header-resources,
+    #menu-bms-header-nav [href*='resources/event-1'] {
+    display: none;
+    }
+    
+    #menu-bms-header-nav [href*='resources/event-2'] {
+    display: none;
+    }
+    
+    .event-1 .hide-for-event-1 {
+    display: none;
+    }
+    .event-2 .hide-for-event-2-3 {
+    display: none;
+    }
+    .event-2 .hide-for-event-2 {
+    display: none;
+    }
+    .event-3 .hide-for-event-2-3 {
+    display: none;
+    }
+    .event-3 .hide-for-event-3 {
+    display: none;
+    }
+    .event-0 .hide-for-event-2-3 {
+    display: none;
+    }
+    .event-0 .hide-for-event-0 {
+    display: none;
+    }
+    
+    .event.event-2 .resources-video{display: block}
+    
+    .event.event-1 .resources-video{display: none}
+    
+    .event.event-0 .resources-video{display: none}
+    
+    .resources .resources-video {display:none}
+    
+    .player .vp-controls .custom-logo a{
+     display: none !important;
+    }
+    
+    .ash-microsite .ashbg{
+      background: url(https://media.bolderscience.com/wp-content/uploads/2020/12/trial-finder-bg.png)  no-repeat;
+      background-size: cover;
+    }
+    
+      footer .copyRightTxt{
+          padding: 18px 0 0 0;
+      }
+    
+    .hidespan{
+     display : none;
+    }
+    
+    .hidespan+br{
+     display : none;
+    }
+    
+    .showspan {
+      display: inline-block;
+    }
+    
+    .showspan+br{
+     display : none;
+    }
+    
+    .leftIndent {
+        margin-left: -5px;
+    }
+    
+    .thankYouLftCol{
+      position: relative;
+      z-index: 1;
+    }
+    
+    @media (max-width:991px){
+    
+         header .logo{
+               min-height: 58px;
+          }
+    
+           header .mainNav{
+              position: relative;
+              padding: 0px;
+              bottom: 10px;
+           }
+    }
+    
+    .thankYouBx.ashbg .container {
+      height: 330px;
+    }
+    
+    .ash-microsite .trial-card .card-box .link-box a.trial-link {
+        position: absolute;
+        bottom: 14px;
+        right: 17px;
+        background: url(/wp-content/themes/bolder-science/assets/images/bms/eye-pink.png) no-repeat left center/contain;
+        line-height: 1;
+    }
+    
+    
+    @media (max-width: 767px){
+    
+           header .logo{
+               min-height: 36px;
+          }
+    
+            header .mainNav{
+              position: relative;
+              padding-top: 10px;
+              bottom: 0px;
+           }
+    
+        .pipelineTab .tab-content .card .phaseContainer .phaseRow .width1{
+            padding: 0 0 5px 19px;
+         }
+    
+        .pipelineTab .tab-content .card .phaseContainer .phaseRow .trialImg {
+          width: 17px;
+          height: 17px;
+          position: absolute;
+       }
+    
+        .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseIndicatorBg{
+            position: relative;
+            top: 3px;
+         }
+    }
+    
+    @media (max-width: 375px) {
+    .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .researchArea{
+        margin-left: 0px;
+     }
+    }

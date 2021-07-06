@@ -1,0 +1,6 @@
+logo: /img/dummy_logo.png
+primary-links:
+  - label: Pipeline
+    path: /
+  - label: Resources
+    path: /resources

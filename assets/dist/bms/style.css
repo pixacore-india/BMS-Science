@@ -1,200 +1,6 @@
 @charset "UTF-8";
-/* line 1, ../../scss/bms/style.scss */
-.bms-resource .header-resources a {
-  color: #be2bbb;
-  border-bottom: 3px solid #be2bbb;
-}
-
-/* line 6, ../../scss/bms/style.scss */
-.bms-resource .resource-container {
-  max-width: 967px;
-}
-
-/* line 12, ../../scss/bms/style.scss */
-strong {
-  font-family: "Conv_BMSHumanity-bold";
-}
-
-/* line 16, ../../scss/bms/style.scss */
-header.event-1 .header-resources,
-header.event-2 .header-resources,
-#menu-bms-header-nav [href*='resources/event-1'] {
-  display: none;
-}
-
-/* line 22, ../../scss/bms/style.scss */
-#menu-bms-header-nav [href*='resources/event-2'] {
-  display: none;
-}
-
-/* line 26, ../../scss/bms/style.scss */
-.event-1 .hide-for-event-1 {
-  display: none;
-}
-
-/* line 29, ../../scss/bms/style.scss */
-.event-2 .hide-for-event-2-3 {
-  display: none;
-}
-
-/* line 32, ../../scss/bms/style.scss */
-.event-2 .hide-for-event-2 {
-  display: none;
-}
-
-/* line 35, ../../scss/bms/style.scss */
-.event-3 .hide-for-event-2-3 {
-  display: none;
-}
-
-/* line 38, ../../scss/bms/style.scss */
-.event-3 .hide-for-event-3 {
-  display: none;
-}
-
-/* line 41, ../../scss/bms/style.scss */
-.event-0 .hide-for-event-2-3 {
-  display: none;
-}
-
-/* line 44, ../../scss/bms/style.scss */
-.event-0 .hide-for-event-0 {
-  display: none;
-}
-
-/* line 48, ../../scss/bms/style.scss */
-.event.event-2 .resources-video {
-  display: block;
-}
-
-/* line 50, ../../scss/bms/style.scss */
-.event.event-1 .resources-video {
-  display: none;
-}
-
-/* line 52, ../../scss/bms/style.scss */
-.event.event-0 .resources-video {
-  display: none;
-}
-
-/* line 54, ../../scss/bms/style.scss */
-.resources .resources-video {
-  display: none;
-}
-
-/* line 56, ../../scss/bms/style.scss */
-.player .vp-controls .custom-logo a {
-  display: none !important;
-}
-
-/* line 60, ../../scss/bms/style.scss */
-.ash-microsite .ashbg {
-  background: url(https://media.bolderscience.com/wp-content/uploads/2020/12/trial-finder-bg.png) no-repeat;
-  background-size: cover;
-}
-
-/* line 65, ../../scss/bms/style.scss */
-footer .copyRightTxt {
-  padding: 18px 0 0 0;
-}
-
-/* line 69, ../../scss/bms/style.scss */
-.hidespan {
-  display: none;
-}
-
-/* line 73, ../../scss/bms/style.scss */
-.hidespan + br {
-  display: none;
-}
-
-/* line 77, ../../scss/bms/style.scss */
-.showspan {
-  display: inline-block;
-}
-
-/* line 81, ../../scss/bms/style.scss */
-.showspan + br {
-  display: none;
-}
-
-/* line 85, ../../scss/bms/style.scss */
-.leftIndent {
-  margin-left: -5px;
-}
-
-/* line 89, ../../scss/bms/style.scss */
-.thankYouLftCol {
-  position: relative;
-  z-index: 1;
-}
-
-@media (max-width: 991px) {
-  /* line 96, ../../scss/bms/style.scss */
-  header .logo {
-    min-height: 58px;
-  }
-
-  /* line 100, ../../scss/bms/style.scss */
-  header .mainNav {
-    position: relative;
-    padding: 0px;
-    bottom: 10px;
-  }
-}
-/* line 107, ../../scss/bms/style.scss */
-.thankYouBx.ashbg .container {
-  height: 330px;
-}
-
-/* line 111, ../../scss/bms/style.scss */
-.ash-microsite .trial-card .card-box .link-box a.trial-link {
-  position: absolute;
-  bottom: 14px;
-  right: 17px;
-  background: url(/wp-content/themes/bolder-science/assets/images/bms/eye-pink.png) no-repeat left center/contain;
-  line-height: 1;
-}
-
-@media (max-width: 767px) {
-  /* line 122, ../../scss/bms/style.scss */
-  header .logo {
-    min-height: 36px;
-  }
-
-  /* line 126, ../../scss/bms/style.scss */
-  header .mainNav {
-    position: relative;
-    padding-top: 10px;
-    bottom: 0px;
-  }
-
-  /* line 132, ../../scss/bms/style.scss */
-  .pipelineTab .tab-content .card .phaseContainer .phaseRow .width1 {
-    padding: 0 0 5px 19px;
-  }
-
-  /* line 136, ../../scss/bms/style.scss */
-  .pipelineTab .tab-content .card .phaseContainer .phaseRow .trialImg {
-    width: 17px;
-    height: 17px;
-    position: absolute;
-  }
-
-  /* line 142, ../../scss/bms/style.scss */
-  .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseIndicatorBg {
-    position: relative;
-    top: 3px;
-  }
-}
-@media (max-width: 375px) {
-  /* line 149, ../../scss/bms/style.scss */
-  .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .researchArea {
-    margin-left: 0px;
-  }
-}
 /* Reset */
-/* line 155, ../../scss/bms/style.scss */
+/* line 2, ../../scss/bms/style.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -205,7 +11,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 157, ../../scss/bms/style.scss */
+/* line 4, ../../scss/bms/style.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -241,59 +47,59 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 /* font-family and color variables */
 /* main style */
-/* line 207, ../../scss/bms/style.scss */
+/* line 54, ../../scss/bms/style.scss */
 body {
   font-family: "Conv_BMSHumanity-Regular";
   color: #595454;
   background: #f4f4f4;
 }
-/* line 213, ../../scss/bms/style.scss */
+/* line 60, ../../scss/bms/style.scss */
 body.bms-resource .download-resource a {
   color: #be2bbb;
   border-bottom: 3px solid #be2bbb;
 }
 
-/* line 219, ../../scss/bms/style.scss */
+/* line 66, ../../scss/bms/style.scss */
 .white-bg {
   background: #fff;
 }
 
-/* line 222, ../../scss/bms/style.scss */
+/* line 69, ../../scss/bms/style.scss */
 .py-3 {
   padding: 3rem 0;
 }
 
-/* line 225, ../../scss/bms/style.scss */
+/* line 72, ../../scss/bms/style.scss */
 .wrapper {
   width: 100%;
 }
 
-/* line 229, ../../scss/bms/style.scss */
+/* line 76, ../../scss/bms/style.scss */
 .container {
   max-width: 976px;
 }
-/* line 231, ../../scss/bms/style.scss */
+/* line 78, ../../scss/bms/style.scss */
 .container.bms-trials-page {
   max-width: 1170px;
 }
 
-/* line 236, ../../scss/bms/style.scss */
+/* line 83, ../../scss/bms/style.scss */
 .dispTable {
   width: 100%;
   height: 100%;
   display: table;
 }
-/* line 241, ../../scss/bms/style.scss */
+/* line 88, ../../scss/bms/style.scss */
 .dispTable .dispTableCell {
   width: 100%;
   display: table-cell;
 }
-/* line 245, ../../scss/bms/style.scss */
+/* line 92, ../../scss/bms/style.scss */
 .dispTable .dispTableCell.verticalMiddle {
   vertical-align: middle;
 }
 
-/* line 251, ../../scss/bms/style.scss */
+/* line 98, ../../scss/bms/style.scss */
 header {
   width: 100%;
   height: 84px;
@@ -305,25 +111,25 @@ header {
   padding: 0 3.5%;
   box-shadow: 2px 1px 15px 0 rgba(89, 84, 84, 0.15);
 }
-/* line 263, ../../scss/bms/style.scss */
+/* line 110, ../../scss/bms/style.scss */
 header .logo {
   float: left;
   display: block;
   text-decoration: none;
   margin: 25px 20px 0 0;
 }
-/* line 270, ../../scss/bms/style.scss */
+/* line 117, ../../scss/bms/style.scss */
 header .mainNav {
   float: left;
   padding: 36px 0 0 0;
 }
-/* line 274, ../../scss/bms/style.scss */
+/* line 121, ../../scss/bms/style.scss */
 header .mainNav ul {
   float: left;
   display: block;
   width: auto;
 }
-/* line 279, ../../scss/bms/style.scss */
+/* line 126, ../../scss/bms/style.scss */
 header .mainNav ul li {
   float: left;
   display: block;
@@ -333,7 +139,7 @@ header .mainNav ul li {
   color: #595454;
   padding: 0 18px;
 }
-/* line 288, ../../scss/bms/style.scss */
+/* line 135, ../../scss/bms/style.scss */
 header .mainNav ul li a {
   color: #595454;
   text-decoration: none;
@@ -341,22 +147,22 @@ header .mainNav ul li a {
   display: block;
   padding: 2px 0;
 }
-/* line 295, ../../scss/bms/style.scss */
+/* line 142, ../../scss/bms/style.scss */
 header .mainNav ul li a:focus {
   color: #595454;
   text-decoration: none;
 }
-/* line 300, ../../scss/bms/style.scss */
+/* line 147, ../../scss/bms/style.scss */
 header .mainNav ul li a.active, header .mainNav ul li a:hover {
   color: #be2bbb;
   border-bottom: 3px solid #be2bbb;
 }
-/* line 307, ../../scss/bms/style.scss */
+/* line 154, ../../scss/bms/style.scss */
 header .mainNav ul li.current-menu-item a {
   color: #be2bbb;
   border-bottom: 3px solid #be2bbb;
 }
-/* line 316, ../../scss/bms/style.scss */
+/* line 163, ../../scss/bms/style.scss */
 header .learnMoreLink {
   float: right;
   display: block;
@@ -369,7 +175,7 @@ header .learnMoreLink {
   padding: 0 22px 0 0;
   margin: 38px 0 0 0;
 }
-/* line 328, ../../scss/bms/style.scss */
+/* line 175, ../../scss/bms/style.scss */
 header .learnMoreLink:after {
   width: 16px;
   height: 16px;
@@ -379,117 +185,117 @@ header .learnMoreLink:after {
   top: -1px;
   right: 0;
 }
-/* line 338, ../../scss/bms/style.scss */
+/* line 185, ../../scss/bms/style.scss */
 header .learnMoreLink:hover {
   color: #be2bbb;
 }
-/* line 342, ../../scss/bms/style.scss */
+/* line 189, ../../scss/bms/style.scss */
 header.header-trials-finder {
   height: 60px;
   border-bottom: 2px solid #be2bbb;
 }
 @media screen and (min-width: 768px) {
-  /* line 342, ../../scss/bms/style.scss */
+  /* line 189, ../../scss/bms/style.scss */
   header.header-trials-finder {
     border-bottom: 1px solid #be2bbb;
   }
 }
-/* line 348, ../../scss/bms/style.scss */
+/* line 195, ../../scss/bms/style.scss */
 header.header-trials-finder .logo {
   margin: 16px 20px 0 0;
 }
 
-/* line 354, ../../scss/bms/style.scss */
+/* line 201, ../../scss/bms/style.scss */
 #content {
   margin-top: 60px;
   min-height: 1000px;
 }
 
-/* line 362, ../../scss/bms/style.scss */
+/* line 209, ../../scss/bms/style.scss */
 #content.event-0 {
   margin-top: 84px;
 }
 @media screen and (max-width: 991px) {
-  /* line 362, ../../scss/bms/style.scss */
+  /* line 209, ../../scss/bms/style.scss */
   #content.event-0 {
     margin-top: 90px;
   }
 }
-/* line 368, ../../scss/bms/style.scss */
+/* line 215, ../../scss/bms/style.scss */
 #content.event-1 {
   margin-top: 84px;
 }
 @media screen and (max-width: 991px) {
-  /* line 368, ../../scss/bms/style.scss */
+  /* line 215, ../../scss/bms/style.scss */
   #content.event-1 {
     margin-top: 90px;
   }
 }
-/* line 374, ../../scss/bms/style.scss */
+/* line 221, ../../scss/bms/style.scss */
 #content.event-2 {
   margin-top: 84px;
 }
 @media screen and (max-width: 991px) {
-  /* line 374, ../../scss/bms/style.scss */
+  /* line 221, ../../scss/bms/style.scss */
   #content.event-2 {
     margin-top: 90px;
   }
 }
-/* line 380, ../../scss/bms/style.scss */
+/* line 227, ../../scss/bms/style.scss */
 #content.event-3 {
   margin-top: 84px;
 }
 @media screen and (max-width: 991px) {
-  /* line 380, ../../scss/bms/style.scss */
+  /* line 227, ../../scss/bms/style.scss */
   #content.event-3 {
     margin-top: 90px;
   }
 }
 
-/* line 391, ../../scss/bms/style.scss */
+/* line 238, ../../scss/bms/style.scss */
 .page-template-bms-reference #content,
 .bms-resource #content {
   min-height: calc(100vh - 255px);
 }
 @media screen and (max-width: 991px) {
-  /* line 391, ../../scss/bms/style.scss */
+  /* line 238, ../../scss/bms/style.scss */
   .page-template-bms-reference #content,
   .bms-resource #content {
     min-height: calc(100vh - 238px);
   }
 }
 
-/* line 399, ../../scss/bms/style.scss */
+/* line 246, ../../scss/bms/style.scss */
 .gradientBg {
   background-image: linear-gradient(to right, #dac5c5 0%, #f5f0f0 83%, #f5f0f0 100%);
 }
 
-/* line 403, ../../scss/bms/style.scss */
+/* line 250, ../../scss/bms/style.scss */
 .thankYouBx {
   width: 100%;
   position: relative;
 }
-/* line 406, ../../scss/bms/style.scss */
+/* line 253, ../../scss/bms/style.scss */
 .thankYouBx .container {
   height: 257px;
 }
-/* line 410, ../../scss/bms/style.scss */
+/* line 257, ../../scss/bms/style.scss */
 .thankYouBx.ashbg .container {
   height: 310px;
 }
-/* line 415, ../../scss/bms/style.scss */
+/* line 262, ../../scss/bms/style.scss */
 .thankYouBx .thankYouLftCol {
   margin: 0 -15px;
   max-width: 825px;
   height: 100%;
 }
 @media screen and (min-width: 992px) and (max-width: 1100px) {
-  /* line 415, ../../scss/bms/style.scss */
+  /* line 262, ../../scss/bms/style.scss */
   .thankYouBx .thankYouLftCol {
     max-width: 800px;
   }
 }
-/* line 424, ../../scss/bms/style.scss */
+/* line 271, ../../scss/bms/style.scss */
 .thankYouBx h3 {
   font-size: 46px;
   line-height: 48px;
@@ -498,7 +304,7 @@ header.header-trials-finder .logo {
   letter-spacing: 0.8px;
   padding: 0 0 12px;
 }
-/* line 433, ../../scss/bms/style.scss */
+/* line 280, ../../scss/bms/style.scss */
 .thankYouBx p {
   font-size: 18px;
   line-height: 26px;
@@ -507,7 +313,7 @@ header.header-trials-finder .logo {
   letter-spacing: 0.31px;
   margin-bottom: 5px;
 }
-/* line 443, ../../scss/bms/style.scss */
+/* line 290, ../../scss/bms/style.scss */
 .thankYouBx .bannerImage {
   width: 246px;
   position: absolute;
@@ -515,30 +321,30 @@ header.header-trials-finder .logo {
   right: 0;
 }
 
-/* line 451, ../../scss/bms/style.scss */
+/* line 298, ../../scss/bms/style.scss */
 footer {
   width: 100%;
   padding: 80px 0 50px;
   background: #eee7e7;
 }
-/* line 456, ../../scss/bms/style.scss */
+/* line 303, ../../scss/bms/style.scss */
 footer .footerLogo {
   float: left;
   display: block;
   display: none;
   margin: 0 30px 0 0;
 }
-/* line 463, ../../scss/bms/style.scss */
+/* line 310, ../../scss/bms/style.scss */
 footer .menu-bms-footer-menu-macro-container {
   float: left;
 }
-/* line 467, ../../scss/bms/style.scss */
+/* line 314, ../../scss/bms/style.scss */
 footer .footerLinks, footer .menu {
   float: left;
   display: block;
   padding: 17px 0 0 0px;
 }
-/* line 473, ../../scss/bms/style.scss */
+/* line 320, ../../scss/bms/style.scss */
 footer .footerLinks li, footer .menu li {
   float: left;
   display: block;
@@ -549,22 +355,22 @@ footer .footerLinks li, footer .menu li {
   color: #595454;
   font-family: "Conv_BMSHumanity-Regular";
 }
-/* line 483, ../../scss/bms/style.scss */
+/* line 330, ../../scss/bms/style.scss */
 footer .footerLinks li a, footer .menu li a {
   display: block;
   text-decoration: none;
   color: #595454;
   text-transform: capitalize;
 }
-/* line 489, ../../scss/bms/style.scss */
+/* line 336, ../../scss/bms/style.scss */
 footer .footerLinks li a:hover, footer .menu li a:hover {
   color: #be2bbb;
 }
-/* line 493, ../../scss/bms/style.scss */
+/* line 340, ../../scss/bms/style.scss */
 footer .footerLinks li:first-child, footer .menu li:first-child {
   padding-left: 0px;
 }
-/* line 499, ../../scss/bms/style.scss */
+/* line 346, ../../scss/bms/style.scss */
 footer .copyRightTxt {
   font-size: 12px;
   line-height: 14px;
@@ -576,19 +382,19 @@ footer .copyRightTxt {
   padding: 0;
 }
 @media (max-width: 360px) {
-  /* line 499, ../../scss/bms/style.scss */
+  /* line 346, ../../scss/bms/style.scss */
   footer .copyRightTxt {
     font-size: 11px;
     line-height: 14px;
   }
 }
 
-/* line 515, ../../scss/bms/style.scss */
+/* line 362, ../../scss/bms/style.scss */
 .pipelineCont1 {
   width: 100%;
   padding: 40px 0 20px;
 }
-/* line 519, ../../scss/bms/style.scss */
+/* line 366, ../../scss/bms/style.scss */
 .pipelineCont1 h4 {
   font-size: 20px;
   line-height: 20px;
@@ -597,7 +403,7 @@ footer .copyRightTxt {
   letter-spacing: 0.35px;
   padding: 0 0 10px;
 }
-/* line 528, ../../scss/bms/style.scss */
+/* line 375, ../../scss/bms/style.scss */
 .pipelineCont1 p {
   font-size: 14px;
   line-height: 18px;
@@ -607,7 +413,7 @@ footer .copyRightTxt {
   padding: 0 0 20px;
 }
 
-/* line 540, ../../scss/bms/style.scss */
+/* line 387, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb {
   width: 100%;
   float: left;
@@ -616,7 +422,7 @@ footer .copyRightTxt {
   padding: 0px;
   margin: 0 0 20px;
 }
-/* line 548, ../../scss/bms/style.scss */
+/* line 395, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb:after {
   width: 100%;
   height: 13px;
@@ -626,22 +432,22 @@ footer .copyRightTxt {
   background: url(../../images/bms/navPinkLine.png) repeat-x left bottom;
   content: "";
 }
-/* line 558, ../../scss/bms/style.scss */
+/* line 405, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb li {
   width: 50%;
   float: left;
   display: block;
   padding: 0;
 }
-/* line 566, ../../scss/bms/style.scss */
+/* line 413, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb li:nth-child(1) a {
   margin-right: -7px;
 }
-/* line 572, ../../scss/bms/style.scss */
+/* line 419, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb li:nth-child(2) a {
   margin-left: -9px;
 }
-/* line 577, ../../scss/bms/style.scss */
+/* line 424, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb li a {
   display: block;
   text-align: center;
@@ -652,51 +458,51 @@ footer .copyRightTxt {
   letter-spacing: 0.31px;
   text-decoration: none;
 }
-/* line 587, ../../scss/bms/style.scss */
+/* line 434, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb li a .lftBg {
   display: block;
   background: url(../../images/bms/tabThumbLft.png) no-repeat left top;
   padding: 0 0 0 30px;
 }
-/* line 592, ../../scss/bms/style.scss */
+/* line 439, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb li a .lftBg .rhtBg {
   display: block;
   background: url(../../images/bms/tabThumbRht.png) no-repeat right top;
   padding: 0 30px 0 0;
 }
-/* line 597, ../../scss/bms/style.scss */
+/* line 444, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb li a .lftBg .rhtBg .midBg {
   display: block;
   background: url(../../images/bms/tabThumbRep.png) repeat-x left top;
   height: 56px;
   padding-top: 22px;
 }
-/* line 607, ../../scss/bms/style.scss */
+/* line 454, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb li.active {
   position: relative;
   z-index: 1;
 }
-/* line 611, ../../scss/bms/style.scss */
+/* line 458, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb li.active a {
   color: #be2bbb;
 }
-/* line 615, ../../scss/bms/style.scss */
+/* line 462, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb li.active a .lftBg {
   background: url(../../images/bms/tabThumbActLft.png) no-repeat left top;
 }
-/* line 618, ../../scss/bms/style.scss */
+/* line 465, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb li.active a .lftBg .rhtBg {
   background: url(../../images/bms/tabThumbActRht.png) no-repeat right top;
 }
-/* line 621, ../../scss/bms/style.scss */
+/* line 468, ../../scss/bms/style.scss */
 .pipelineTab .tab-thumb li.active a .lftBg .rhtBg .midBg {
   background: url(../../images/bms/tabThumbActRep.png) repeat-x left top;
 }
-/* line 633, ../../scss/bms/style.scss */
+/* line 480, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx {
   padding: 0 0 20px;
 }
-/* line 636, ../../scss/bms/style.scss */
+/* line 483, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx .filterByTxt {
   display: block;
   float: left;
@@ -707,19 +513,19 @@ footer .copyRightTxt {
   color: #595454;
   padding: 10px 12px 0 0;
 }
-/* line 647, ../../scss/bms/style.scss */
+/* line 494, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx .filterPills {
   float: left;
   display: block;
 }
-/* line 651, ../../scss/bms/style.scss */
+/* line 498, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx .filterPills li {
   float: left;
   display: block;
   position: relative;
   padding: 0 12px 0 0;
 }
-/* line 657, ../../scss/bms/style.scss */
+/* line 504, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx .filterPills li .pillsLink {
   display: block;
   text-decoration: none;
@@ -733,12 +539,12 @@ footer .copyRightTxt {
   letter-spacing: 0.28px;
   color: #595454;
 }
-/* line 670, ../../scss/bms/style.scss */
+/* line 517, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx .filterPills li .pillsLink.active {
   background: #be2bbb;
   color: #fff;
 }
-/* line 676, ../../scss/bms/style.scss */
+/* line 523, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown {
   width: 224px;
   position: absolute;
@@ -754,7 +560,7 @@ footer .copyRightTxt {
   z-index: 9;
   display: none;
 }
-/* line 691, ../../scss/bms/style.scss */
+/* line 538, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown label {
   display: block;
   clear: both;
@@ -770,7 +576,7 @@ footer .copyRightTxt {
   position: relative;
   padding-left: 24px;
 }
-/* line 706, ../../scss/bms/style.scss */
+/* line 553, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown label .checkmark {
   position: absolute;
   top: 0;
@@ -780,7 +586,7 @@ footer .copyRightTxt {
   background: url(../../images/bms/checkboxSprite.png) no-repeat left top;
   display: block;
 }
-/* line 717, ../../scss/bms/style.scss */
+/* line 564, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown input[type="checkbox"] {
   width: 16px;
   height: 16px;
@@ -794,17 +600,17 @@ footer .copyRightTxt {
   opacity: 0;
   cursor: pointer;
 }
-/* line 730, ../../scss/bms/style.scss */
+/* line 577, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown input[type="checkbox"]:checked ~ .checkmark {
   background: url(../../images/bms/checkboxSprite.png) no-repeat left -16px;
 }
-/* line 735, ../../scss/bms/style.scss */
+/* line 582, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown .clearAllLink {
   margin: 0;
   display: inline-block;
   float: none;
 }
-/* line 744, ../../scss/bms/style.scss */
+/* line 591, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterByBx .clearAllLink {
   float: left;
   display: block;
@@ -815,11 +621,11 @@ footer .copyRightTxt {
   text-decoration: underline;
   margin: 10px 0 0 0;
 }
-/* line 757, ../../scss/bms/style.scss */
+/* line 604, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterPillsSelected {
   padding: 0 0 0 64px;
 }
-/* line 760, ../../scss/bms/style.scss */
+/* line 607, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterPillsSelected a {
   display: inline-block;
   height: 30px;
@@ -836,7 +642,7 @@ footer .copyRightTxt {
   cursor: pointer;
   position: relative;
 }
-/* line 775, ../../scss/bms/style.scss */
+/* line 622, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .filterPillsSelected a:before {
   position: absolute;
   top: 7px;
@@ -848,11 +654,11 @@ footer .copyRightTxt {
   content: "";
   background-size: cover;
 }
-/* line 789, ../../scss/bms/style.scss */
+/* line 636, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .cardHeadBx {
   padding: 0 15px 15px;
 }
-/* line 792, ../../scss/bms/style.scss */
+/* line 639, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .cardHeadBx .cardHeadTxt {
   font-size: 16px;
   line-height: 16px;
@@ -861,7 +667,7 @@ footer .copyRightTxt {
   font-family: "Conv_BMSHumanity-Bold";
   display: block;
 }
-/* line 802, ../../scss/bms/style.scss */
+/* line 649, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .width1 {
   float: left;
   display: block;
@@ -869,27 +675,27 @@ footer .copyRightTxt {
   position: relative;
   padding: 0 15px 0 18px;
 }
-/* line 810, ../../scss/bms/style.scss */
+/* line 657, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .width2 {
   float: left;
   display: block;
   width: 22%;
   padding: 0 15px 0 0;
 }
-/* line 817, ../../scss/bms/style.scss */
+/* line 664, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .width3 {
   float: left;
   display: block;
   width: 27%;
   padding: 0 15px 0 0;
 }
-/* line 824, ../../scss/bms/style.scss */
+/* line 671, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .width4 {
   float: left;
   display: block;
   width: 14%;
 }
-/* line 830, ../../scss/bms/style.scss */
+/* line 677, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card {
   width: 100%;
   height: auto;
@@ -900,15 +706,15 @@ footer .copyRightTxt {
   padding: 20px 15px;
   overflow: hidden;
 }
-/* line 840, ../../scss/bms/style.scss */
+/* line 687, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .cardContent {
   width: 100%;
 }
-/* line 842, ../../scss/bms/style.scss */
+/* line 689, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .cardContent .additionalComponents {
   display: none;
 }
-/* line 847, ../../scss/bms/style.scss */
+/* line 694, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .cardNoResult {
   font-size: 18px;
   line-height: 22px;
@@ -916,13 +722,13 @@ footer .copyRightTxt {
   color: #a69f9f;
   display: none;
 }
-/* line 853, ../../scss/bms/style.scss */
+/* line 700, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .cardNoResult p {
   text-align: center;
   padding: 88px 0;
   font-family: "Conv_BMSHumanity-Bold";
 }
-/* line 860, ../../scss/bms/style.scss */
+/* line 707, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .cardTitle {
   font-size: 18px;
   line-height: 18px;
@@ -931,24 +737,24 @@ footer .copyRightTxt {
   font-family: "Conv_BMSHumanity-Bold";
   padding: 0 0 16px 18px;
 }
-/* line 871, ../../scss/bms/style.scss */
+/* line 718, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .phaseContainer .phaseRow {
   width: 100%;
   margin: 0 0 18px 0;
 }
-/* line 878, ../../scss/bms/style.scss */
+/* line 725, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .phaseContainer .phaseRow.phase-1 .phaseIndicatorCount {
   width: 33.33%;
 }
-/* line 886, ../../scss/bms/style.scss */
+/* line 733, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .phaseContainer .phaseRow.phase-1.phase-2 .phaseIndicatorCount, .pipelineTab .tab-content .card .phaseContainer .phaseRow.phase-2 .phaseIndicatorCount {
   width: 66.66%;
 }
-/* line 894, ../../scss/bms/style.scss */
+/* line 741, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .phaseContainer .phaseRow.phase-2.phase-3 .phaseIndicatorCount, .pipelineTab .tab-content .card .phaseContainer .phaseRow.phase-1.phase-3 .phaseIndicatorCount, .pipelineTab .tab-content .card .phaseContainer .phaseRow.phase-3 .phaseIndicatorCount {
   width: 100%;
 }
-/* line 903, ../../scss/bms/style.scss */
+/* line 750, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt {
   font-size: 14px;
   line-height: 18px;
@@ -957,15 +763,15 @@ footer .copyRightTxt {
   font-family: "Conv_BMSHumanity-Regular";
   position: relative;
 }
-/* line 911, ../../scss/bms/style.scss */
+/* line 758, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt sup {
   font-size: 10px;
 }
-/* line 915, ../../scss/bms/style.scss */
+/* line 762, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt strong {
   font-family: "Conv_BMSHumanity-Bold";
 }
-/* line 920, ../../scss/bms/style.scss */
+/* line 767, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseIndicatorBg {
   width: 100%;
   max-width: 118px;
@@ -976,7 +782,7 @@ footer .copyRightTxt {
   border-radius: 15px;
   margin-top: 2px;
 }
-/* line 930, ../../scss/bms/style.scss */
+/* line 777, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseIndicatorBg .phaseIndicatorCount {
   background: #be2bbb;
   text-align: right;
@@ -989,18 +795,18 @@ footer .copyRightTxt {
   color: #fff;
   padding: 0 7px;
 }
-/* line 946, ../../scss/bms/style.scss */
+/* line 793, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .phaseContainer .phaseRow .trialImg {
   width: 17px;
   position: absolute;
   top: 0px;
   left: 0;
 }
-/* line 957, ../../scss/bms/style.scss */
+/* line 804, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .viewDisplayBx {
   text-align: center;
 }
-/* line 961, ../../scss/bms/style.scss */
+/* line 808, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .viewDisplayBx .viewAllBut {
   display: inline-block;
   text-decoration: none;
@@ -1013,7 +819,7 @@ footer .copyRightTxt {
   position: relative;
   margin: 10px 0;
 }
-/* line 973, ../../scss/bms/style.scss */
+/* line 820, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .viewDisplayBx .viewAllBut:after {
   width: 15px;
   height: 9px;
@@ -1023,11 +829,11 @@ footer .copyRightTxt {
   top: 3px;
   right: 0;
 }
-/* line 985, ../../scss/bms/style.scss */
+/* line 832, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .viewDisplayBx .viewAllBut.active:after {
   background: url(../../images/bms/arrowUp.png) no-repeat right top/100%;
 }
-/* line 991, ../../scss/bms/style.scss */
+/* line 838, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .card .viewDisplayBx .displayTxt {
   display: block;
   font-size: 12px;
@@ -1036,31 +842,31 @@ footer .copyRightTxt {
   letter-spacing: 0.21px;
   font-family: "Conv_BMSHumanity-Regular";
 }
-/* line 1003, ../../scss/bms/style.scss */
+/* line 850, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .footnoteBx {
   padding: 0px 0 30px;
 }
-/* line 1006, ../../scss/bms/style.scss */
+/* line 853, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .footnoteBx .fnTrialImg {
   width: 3.5%;
   float: left;
 }
-/* line 1010, ../../scss/bms/style.scss */
+/* line 857, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .footnoteBx .fnTrialImg img {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 1016, ../../scss/bms/style.scss */
+/* line 863, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .footnoteBx .fnTrialTxt {
   width: 96%;
   float: left;
 }
-/* line 1021, ../../scss/bms/style.scss */
+/* line 868, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .footnoteBx .footnoteTrialImg {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 1025, ../../scss/bms/style.scss */
+/* line 872, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .footnoteBx p {
   font-size: 12px;
   line-height: 16px;
@@ -1069,12 +875,12 @@ footer .copyRightTxt {
   padding: 0 0 8px;
   font-family: "Conv_BMSHumanity-Regular";
 }
-/* line 1033, ../../scss/bms/style.scss */
+/* line 880, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .footnoteBx p .symbolBx {
   width: 7px;
   display: inline-block;
 }
-/* line 1038, ../../scss/bms/style.scss */
+/* line 885, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .footnoteBx p sup {
   font-size: 70%;
   line-height: 1em;
@@ -1082,15 +888,15 @@ footer .copyRightTxt {
   position: relative;
   top: 2px;
 }
-/* line 1045, ../../scss/bms/style.scss */
+/* line 892, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .footnoteBx p sup.tradeMark {
   font-size: 100%;
 }
-/* line 1050, ../../scss/bms/style.scss */
+/* line 897, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .footnoteBx ul {
   padding-left: 40px;
 }
-/* line 1052, ../../scss/bms/style.scss */
+/* line 899, ../../scss/bms/style.scss */
 .pipelineTab .tab-content .footnoteBx ul li {
   font-size: 12px;
   line-height: 8px;
@@ -1100,7 +906,7 @@ footer .copyRightTxt {
   font-family: "Conv_BMSHumanity-Regular";
 }
 
-/* line 1066, ../../scss/bms/style.scss */
+/* line 913, ../../scss/bms/style.scss */
 #backToTop {
   width: 44px;
   height: 44px;
@@ -1115,17 +921,17 @@ footer .copyRightTxt {
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
 }
-/* line 1080, ../../scss/bms/style.scss */
+/* line 927, ../../scss/bms/style.scss */
 #backToTop.footerVisible {
   bottom: 140px;
 }
 
-/* line 1085, ../../scss/bms/style.scss */
+/* line 932, ../../scss/bms/style.scss */
 .abstractListBx {
   width: 100%;
   padding: 35px 0;
 }
-/* line 1089, ../../scss/bms/style.scss */
+/* line 936, ../../scss/bms/style.scss */
 .abstractListBx h3 {
   font-size: 46px;
   line-height: 46px;
@@ -1135,13 +941,13 @@ footer .copyRightTxt {
   padding: 0 0 12px;
 }
 
-/* line 1099, ../../scss/bms/style.scss */
+/* line 946, ../../scss/bms/style.scss */
 .imageTxtBx {
   width: 100%;
   max-width: 380px;
   position: relative;
 }
-/* line 1104, ../../scss/bms/style.scss */
+/* line 951, ../../scss/bms/style.scss */
 .imageTxtBx .imagePlaceholder {
   width: 100px;
   height: 129px;
@@ -1149,7 +955,7 @@ footer .copyRightTxt {
   margin: 0 20px 0 0;
   border: solid 1px #d2cac8;
 }
-/* line 1113, ../../scss/bms/style.scss */
+/* line 960, ../../scss/bms/style.scss */
 .imageTxtBx .imageTxt {
   font-size: 18px;
   line-height: 24px;
@@ -1157,12 +963,12 @@ footer .copyRightTxt {
   color: #595454;
   font-family: "Conv_BMSHumanity-Bold";
 }
-/* line 1120, ../../scss/bms/style.scss */
+/* line 967, ../../scss/bms/style.scss */
 .imageTxtBx .imageTxt a {
   color: #be2bbb;
   text-decoration: none;
 }
-/* line 1126, ../../scss/bms/style.scss */
+/* line 973, ../../scss/bms/style.scss */
 .imageTxtBx .downloadBut {
   position: absolute;
   bottom: -11px;
@@ -1180,7 +986,7 @@ footer .copyRightTxt {
   font-family: "Conv_BMSHumanity-Regular";
   text-decoration: none;
 }
-/* line 1143, ../../scss/bms/style.scss */
+/* line 990, ../../scss/bms/style.scss */
 .imageTxtBx .downloadBut:after {
   width: 15px;
   height: 15px;
@@ -1192,12 +998,12 @@ footer .copyRightTxt {
   margin-top: -7px;
 }
 
-/* line 1156, ../../scss/bms/style.scss */
+/* line 1003, ../../scss/bms/style.scss */
 .keyPathwayBx {
   width: 100%;
   padding: 40px 0;
 }
-/* line 1160, ../../scss/bms/style.scss */
+/* line 1007, ../../scss/bms/style.scss */
 .keyPathwayBx h6 {
   font-size: 20px;
   line-height: 20px;
@@ -1208,7 +1014,7 @@ footer .copyRightTxt {
   padding: 0 0 19px;
   margin: 0 0 40px;
 }
-/* line 1170, ../../scss/bms/style.scss */
+/* line 1017, ../../scss/bms/style.scss */
 .keyPathwayBx h6:after {
   width: 100%;
   height: 2px;
@@ -1220,28 +1026,28 @@ footer .copyRightTxt {
   bottom: 0;
   left: 0;
 }
-/* line 1183, ../../scss/bms/style.scss */
+/* line 1030, ../../scss/bms/style.scss */
 .keyPathwayBx .keyPathwayList {
   width: 100%;
   float: left;
   display: block;
 }
-/* line 1188, ../../scss/bms/style.scss */
+/* line 1035, ../../scss/bms/style.scss */
 .keyPathwayBx .keyPathwayList li {
   width: 50%;
   float: left;
   display: block;
   padding-bottom: 30px;
 }
-/* line 1194, ../../scss/bms/style.scss */
+/* line 1041, ../../scss/bms/style.scss */
 .keyPathwayBx .keyPathwayList li:nth-child(odd) {
   padding-right: 15px;
 }
-/* line 1198, ../../scss/bms/style.scss */
+/* line 1045, ../../scss/bms/style.scss */
 .keyPathwayBx .keyPathwayList li:nth-child(even) {
   padding-left: 15px;
 }
-/* line 1202, ../../scss/bms/style.scss */
+/* line 1049, ../../scss/bms/style.scss */
 .keyPathwayBx .keyPathwayList li .imageTxtBx {
   max-width: 100%;
   border-radius: 8px;
@@ -1249,7 +1055,7 @@ footer .copyRightTxt {
   background-color: #ffffff;
   padding: 20px;
 }
-/* line 1209, ../../scss/bms/style.scss */
+/* line 1056, ../../scss/bms/style.scss */
 .keyPathwayBx .keyPathwayList li .imageTxtBx .downloadBut {
   bottom: 20px;
   left: 140px;
@@ -1258,14 +1064,14 @@ footer .copyRightTxt {
   box-shadow: none;
 }
 
-/* line 1220, ../../scss/bms/style.scss */
+/* line 1067, ../../scss/bms/style.scss */
 .resource-container {
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 1226, ../../scss/bms/style.scss */
+/* line 1073, ../../scss/bms/style.scss */
 .resources-video .respurce-titles {
   font-size: 20px;
   line-height: 22px;
@@ -1276,7 +1082,7 @@ footer .copyRightTxt {
   padding: 0 0 19px;
   margin: 0 0 40px;
 }
-/* line 1235, ../../scss/bms/style.scss */
+/* line 1082, ../../scss/bms/style.scss */
 .resources-video .respurce-titles:after {
   width: 100%;
   height: 2px;
@@ -1288,7 +1094,7 @@ footer .copyRightTxt {
   bottom: 0;
   left: 0;
 }
-/* line 1247, ../../scss/bms/style.scss */
+/* line 1094, ../../scss/bms/style.scss */
 .resources-video .video-card {
   background: #fff;
   padding: 22px 38px;
@@ -1296,7 +1102,7 @@ footer .copyRightTxt {
   border-radius: 10px;
   box-shadow: 2px 2px 10px 0 rgba(37, 0, 0, 0.2);
 }
-/* line 1253, ../../scss/bms/style.scss */
+/* line 1100, ../../scss/bms/style.scss */
 .resources-video .video-card h3 {
   color: #595454;
   font-family: "Conv_BMSHumanity-Bold";
@@ -1304,7 +1110,7 @@ footer .copyRightTxt {
   line-height: 24px;
   margin-bottom: 20px;
 }
-/* line 1260, ../../scss/bms/style.scss */
+/* line 1107, ../../scss/bms/style.scss */
 .resources-video .video-card a.video-icon {
   position: relative;
   min-width: 100%;
@@ -1314,7 +1120,7 @@ footer .copyRightTxt {
   overflow: hidden;
   text-align: center;
 }
-/* line 1268, ../../scss/bms/style.scss */
+/* line 1115, ../../scss/bms/style.scss */
 .resources-video .video-card a.video-icon::before {
   content: '';
   width: 79px;
@@ -1328,7 +1134,7 @@ footer .copyRightTxt {
   margin: auto;
   background: url(../../images/bms/icon-play.png) no-repeat;
 }
-/* line 1281, ../../scss/bms/style.scss */
+/* line 1128, ../../scss/bms/style.scss */
 .resources-video .video-card a.video-icon img {
   display: block;
   max-width: 100%;
@@ -1336,12 +1142,12 @@ footer .copyRightTxt {
   margin: auto;
 }
 
-/* line 1292, ../../scss/bms/style.scss */
+/* line 1139, ../../scss/bms/style.scss */
 .bms-ref-video .modal {
   text-align: center;
 }
 
-/* line 1298, ../../scss/bms/style.scss */
+/* line 1145, ../../scss/bms/style.scss */
 .bms-ref-video .modal-dialog {
   display: inline-block;
   text-align: left;
@@ -1349,41 +1155,41 @@ footer .copyRightTxt {
   width: 90%;
 }
 @media screen and (max-width: 767px) {
-  /* line 1298, ../../scss/bms/style.scss */
+  /* line 1145, ../../scss/bms/style.scss */
   .bms-ref-video .modal-dialog {
     width: 85%;
     margin-left: -6%;
   }
 }
-/* line 1307, ../../scss/bms/style.scss */
+/* line 1154, ../../scss/bms/style.scss */
 .bms-ref-video .modal-dialog .modal-content {
   border-radius: 0;
 }
-/* line 1309, ../../scss/bms/style.scss */
+/* line 1156, ../../scss/bms/style.scss */
 .bms-ref-video .modal-dialog .modal-content .modal-body {
   padding: 0;
 }
-/* line 1311, ../../scss/bms/style.scss */
+/* line 1158, ../../scss/bms/style.scss */
 .bms-ref-video .modal-dialog .modal-content .modal-body .player {
   width: 240px;
   height: 160px;
   margin-bottom: -5px;
 }
 @media screen and (min-width: 768px) {
-  /* line 1311, ../../scss/bms/style.scss */
+  /* line 1158, ../../scss/bms/style.scss */
   .bms-ref-video .modal-dialog .modal-content .modal-body .player {
     width: 600px;
     height: 400px;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 1311, ../../scss/bms/style.scss */
+  /* line 1158, ../../scss/bms/style.scss */
   .bms-ref-video .modal-dialog .modal-content .modal-body .player {
     width: 800px;
     height: 450px;
   }
 }
-/* line 1326, ../../scss/bms/style.scss */
+/* line 1173, ../../scss/bms/style.scss */
 .bms-ref-video .modal-dialog button.close {
   background: url(../../images/bms/x.png) no-repeat #fff;
   display: block;
@@ -1398,18 +1204,18 @@ footer .copyRightTxt {
   top: 1px;
 }
 
-/* line 1344, ../../scss/bms/style.scss */
+/* line 1191, ../../scss/bms/style.scss */
 #myVideoModal .videoPlaceholder {
   position: relative;
   padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
 }
 @media screen and (max-width: 1024px) {
-  /* line 1344, ../../scss/bms/style.scss */
+  /* line 1191, ../../scss/bms/style.scss */
   #myVideoModal .videoPlaceholder {
     padding-bottom: calc(var(--aspect-ratio, .563) * 100%);
   }
 }
-/* line 1350, ../../scss/bms/style.scss */
+/* line 1197, ../../scss/bms/style.scss */
 #myVideoModal .videoPlaceholder iframe {
   position: absolute;
   width: 100%;
@@ -1418,18 +1224,18 @@ footer .copyRightTxt {
   left: 0;
 }
 
-/* line 1360, ../../scss/bms/style.scss */
+/* line 1207, ../../scss/bms/style.scss */
 .video-source {
   position: relative;
   padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
 }
 @media screen and (max-width: 1024px) {
-  /* line 1360, ../../scss/bms/style.scss */
+  /* line 1207, ../../scss/bms/style.scss */
   .video-source {
     padding-bottom: calc(var(--aspect-ratio, .563) * 100%);
   }
 }
-/* line 1366, ../../scss/bms/style.scss */
+/* line 1213, ../../scss/bms/style.scss */
 .video-source iframe {
   position: absolute;
   width: 100% !important;
@@ -1438,7 +1244,7 @@ footer .copyRightTxt {
   left: 0;
 }
 
-/* line 1375, ../../scss/bms/style.scss */
+/* line 1222, ../../scss/bms/style.scss */
 .vjs-fluid {
   position: absolute;
   top: 0;
@@ -1446,7 +1252,7 @@ footer .copyRightTxt {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 1382, ../../scss/bms/style.scss */
+  /* line 1229, ../../scss/bms/style.scss */
   .modal:before {
     display: inline-block;
     vertical-align: middle;
@@ -1454,14 +1260,14 @@ footer .copyRightTxt {
     height: 100%;
   }
 
-  /* line 1389, ../../scss/bms/style.scss */
+  /* line 1236, ../../scss/bms/style.scss */
   .bms-ref-video .modal-dialog {
     width: 70%;
     max-width: 800px;
     max-height: 520px;
   }
 }
-/* line 1397, ../../scss/bms/style.scss */
+/* line 1244, ../../scss/bms/style.scss */
 .unscrollable {
   margin: 0;
   height: 100%;
@@ -1469,38 +1275,38 @@ footer .copyRightTxt {
 }
 
 @media (min-width: 1200px) {
-  /* line 1406, ../../scss/bms/style.scss */
+  /* line 1253, ../../scss/bms/style.scss */
   .ash-microsite .container.trial-list {
     max-width: 1170px;
   }
 }
-/* line 1411, ../../scss/bms/style.scss */
+/* line 1258, ../../scss/bms/style.scss */
 .ash-microsite .ashbg {
   background: url(../../images/bms/hero-3-copy-2.jpg) no-repeat;
   background-size: cover;
 }
 @media (max-width: 767px) {
-  /* line 1411, ../../scss/bms/style.scss */
+  /* line 1258, ../../scss/bms/style.scss */
   .ash-microsite .ashbg {
     background: url(../../images/bms/hero-hematology.png) no-repeat;
     background-size: cover;
   }
 }
-/* line 1420, ../../scss/bms/style.scss */
+/* line 1267, ../../scss/bms/style.scss */
 .ash-microsite h3.hero-title strong {
   font-weight: bold;
 }
-/* line 1424, ../../scss/bms/style.scss */
+/* line 1271, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx {
   padding: 30px 0;
 }
 @media (max-width: 767px) {
-  /* line 1424, ../../scss/bms/style.scss */
+  /* line 1271, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx {
     padding: 10px 0;
   }
 }
-/* line 1429, ../../scss/bms/style.scss */
+/* line 1276, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx .filterByTxt {
   display: block;
   float: left;
@@ -1512,26 +1318,26 @@ footer .copyRightTxt {
   padding: 10px 12px 0 0;
 }
 @media (min-width: 768px) {
-  /* line 1429, ../../scss/bms/style.scss */
+  /* line 1276, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterByTxt {
     background: url(../../images/bms/icon-filter.png) no-repeat;
     padding: 10px 12px 5px 20px;
     background-position: 0 8px;
   }
 }
-/* line 1445, ../../scss/bms/style.scss */
+/* line 1292, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx .filterPills {
   float: left;
   display: block;
 }
-/* line 1449, ../../scss/bms/style.scss */
+/* line 1296, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx .filterPills li {
   float: left;
   display: block;
   position: relative;
   padding: 0 12px 0 0;
 }
-/* line 1455, ../../scss/bms/style.scss */
+/* line 1302, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx .filterPills li .pillsLink {
   display: block;
   text-decoration: none;
@@ -1545,13 +1351,13 @@ footer .copyRightTxt {
   letter-spacing: 0.28px;
   color: #595454;
 }
-/* line 1468, ../../scss/bms/style.scss */
+/* line 1315, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx .filterPills li .pillsLink.active {
   border: 2px solid #be2bbb;
   background: #fff;
   color: #595454;
 }
-/* line 1474, ../../scss/bms/style.scss */
+/* line 1321, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx .filterPills li .filterPillsDropdown {
   width: 224px;
   position: absolute;
@@ -1567,7 +1373,7 @@ footer .copyRightTxt {
   z-index: 9;
   display: none;
 }
-/* line 1489, ../../scss/bms/style.scss */
+/* line 1336, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx .filterPills li .filterPillsDropdown label {
   display: block;
   clear: both;
@@ -1583,7 +1389,7 @@ footer .copyRightTxt {
   position: relative;
   padding-left: 24px;
 }
-/* line 1504, ../../scss/bms/style.scss */
+/* line 1351, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx .filterPills li .filterPillsDropdown label .checkmark {
   position: absolute;
   top: 0;
@@ -1593,7 +1399,7 @@ footer .copyRightTxt {
   background: url(../../images/bms/checkboxSprite.png) no-repeat left top;
   display: block;
 }
-/* line 1515, ../../scss/bms/style.scss */
+/* line 1362, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx .filterPills li .filterPillsDropdown input[type="checkbox"] {
   width: 16px;
   height: 16px;
@@ -1607,17 +1413,17 @@ footer .copyRightTxt {
   opacity: 0;
   cursor: pointer;
 }
-/* line 1528, ../../scss/bms/style.scss */
+/* line 1375, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx .filterPills li .filterPillsDropdown input[type="checkbox"]:checked ~ .checkmark {
   background: url(../../images/bms/checkboxSprite.png) no-repeat left -16px;
 }
-/* line 1533, ../../scss/bms/style.scss */
+/* line 1380, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx .filterPills li .filterPillsDropdown .clearAllLink {
   margin: 0;
   display: inline-block;
   float: none;
 }
-/* line 1542, ../../scss/bms/style.scss */
+/* line 1389, ../../scss/bms/style.scss */
 .ash-microsite .filterByBx .clearAllLink {
   float: left;
   display: block;
@@ -1628,15 +1434,15 @@ footer .copyRightTxt {
   text-decoration: underline;
   margin: 10px 0 0 0;
 }
-/* line 1555, ../../scss/bms/style.scss */
+/* line 1402, ../../scss/bms/style.scss */
 .ash-microsite .filterPillsSelected {
   padding: 20px 0 0 64px;
 }
-/* line 1557, ../../scss/bms/style.scss */
+/* line 1404, ../../scss/bms/style.scss */
 .ash-microsite .filterPillsSelected .output {
   float: left;
 }
-/* line 1560, ../../scss/bms/style.scss */
+/* line 1407, ../../scss/bms/style.scss */
 .ash-microsite .filterPillsSelected .output a {
   display: inline-block;
   height: 30px;
@@ -1654,7 +1460,7 @@ footer .copyRightTxt {
   cursor: pointer;
   position: relative;
 }
-/* line 1576, ../../scss/bms/style.scss */
+/* line 1423, ../../scss/bms/style.scss */
 .ash-microsite .filterPillsSelected .output a:before {
   position: absolute;
   /*top: 7px;
@@ -1670,20 +1476,20 @@ footer .copyRightTxt {
   content: "";
   background-size: cover;
 }
-/* line 1594, ../../scss/bms/style.scss */
+/* line 1441, ../../scss/bms/style.scss */
 .ash-microsite .recruting-state {
   margin-top: 25px;
   padding: 8px 10px;
   width: auto;
 }
 @media (min-width: 992px) {
-  /* line 1594, ../../scss/bms/style.scss */
+  /* line 1441, ../../scss/bms/style.scss */
   .ash-microsite .recruting-state {
     padding: 8px 0;
   }
 }
 @media (max-width: 767px) {
-  /* line 1594, ../../scss/bms/style.scss */
+  /* line 1441, ../../scss/bms/style.scss */
   .ash-microsite .recruting-state {
     width: 100%;
     margin: 15px auto;
@@ -1692,25 +1498,25 @@ footer .copyRightTxt {
   }
 }
 @media (min-width: 992px) {
-  /* line 1609, ../../scss/bms/style.scss */
+  /* line 1456, ../../scss/bms/style.scss */
   .ash-microsite .recruting-state ul {
     padding-right: 7px;
   }
 }
-/* line 1613, ../../scss/bms/style.scss */
+/* line 1460, ../../scss/bms/style.scss */
 .ash-microsite .recruting-state ul li {
   font-size: 14px;
   line-height: 16px;
   padding-right: 10px;
 }
 @media (min-width: 992px) {
-  /* line 1613, ../../scss/bms/style.scss */
+  /* line 1460, ../../scss/bms/style.scss */
   .ash-microsite .recruting-state ul li {
     padding-right: 0;
     text-align: right;
   }
 }
-/* line 1621, ../../scss/bms/style.scss */
+/* line 1468, ../../scss/bms/style.scss */
 .ash-microsite .recruting-state ul li span {
   background: #fff;
   padding: 9px;
@@ -1718,26 +1524,26 @@ footer .copyRightTxt {
   border: solid 1px #dedede;
   margin-right: 5px;
 }
-/* line 1629, ../../scss/bms/style.scss */
+/* line 1476, ../../scss/bms/style.scss */
 .ash-microsite .recruting-state ul li.currently-recruting span {
   color: #33d6f1;
 }
-/* line 1634, ../../scss/bms/style.scss */
+/* line 1481, ../../scss/bms/style.scss */
 .ash-microsite .recruting-state ul li.recruting-soon span {
   color: #a69f9f;
 }
-/* line 1641, ../../scss/bms/style.scss */
+/* line 1488, ../../scss/bms/style.scss */
 .ash-microsite .trialContainer {
   /* 2 columns */
 }
-/* line 1642, ../../scss/bms/style.scss */
+/* line 1489, ../../scss/bms/style.scss */
 .ash-microsite .trialContainer .card-sizer,
 .ash-microsite .trialContainer .card, .ash-microsite .trialContainer .phaseItem {
   width: 100%;
   margin: 3% 0;
 }
 @media (min-width: 768px) {
-  /* line 1642, ../../scss/bms/style.scss */
+  /* line 1489, ../../scss/bms/style.scss */
   .ash-microsite .trialContainer .card-sizer,
   .ash-microsite .trialContainer .card, .ash-microsite .trialContainer .phaseItem {
     width: 48%;
@@ -1745,18 +1551,18 @@ footer .copyRightTxt {
   }
 }
 @media (min-width: 990px) {
-  /* line 1642, ../../scss/bms/style.scss */
+  /* line 1489, ../../scss/bms/style.scss */
   .ash-microsite .trialContainer .card-sizer,
   .ash-microsite .trialContainer .card, .ash-microsite .trialContainer .phaseItem {
     width: 31%;
     margin: 1%;
   }
 }
-/* line 1656, ../../scss/bms/style.scss */
+/* line 1503, ../../scss/bms/style.scss */
 .ash-microsite .trialContainer .card--width2 {
   width: 40%;
 }
-/* line 1660, ../../scss/bms/style.scss */
+/* line 1507, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-title {
   border-radius: 8px 8px 0 0;
   border: solid 1px #a6a6a6;
@@ -1768,37 +1574,37 @@ footer .copyRightTxt {
   line-height: 22px;
   font-weight: bold;
 }
-/* line 1670, ../../scss/bms/style.scss */
+/* line 1517, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-title.myelofibrosis {
   border-bottom: 2px solid #a69f9f;
   background-color: rgba(210, 202, 200, 0.3);
 }
-/* line 1674, ../../scss/bms/style.scss */
+/* line 1521, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-title.acute-myeloid-leukemia {
   border-bottom: 2px solid #be2bbb;
   background-color: rgba(190, 43, 187, 0.06);
 }
-/* line 1678, ../../scss/bms/style.scss */
+/* line 1525, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-title.advanced-hematologic-disorders {
   border-bottom: 2px solid #fda97d;
   background-color: rgba(253, 169, 125, 0.15);
 }
-/* line 1682, ../../scss/bms/style.scss */
+/* line 1529, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-title.lymphoma-cll {
   border-bottom: 2px solid #54bceb;
   background-color: rgba(84, 188, 235, 0.1);
 }
-/* line 1686, ../../scss/bms/style.scss */
+/* line 1533, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-title.myelodysplastic-syndromes {
   border-bottom: 2px solid #59ffb9;
   background-color: rgba(89, 255, 185, 0.15);
 }
-/* line 1690, ../../scss/bms/style.scss */
+/* line 1537, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-title.multiple-myeloma {
   border-bottom: 2px solid #cb7c78;
   background-color: rgba(203, 124, 120, 0.22);
 }
-/* line 1695, ../../scss/bms/style.scss */
+/* line 1542, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box {
   background: #fff;
   border-radius: 0 0 8px 8px;
@@ -1811,19 +1617,19 @@ footer .copyRightTxt {
   justify-content: space-between;
 }
 @media (min-width: 768px) {
-  /* line 1695, ../../scss/bms/style.scss */
+  /* line 1542, ../../scss/bms/style.scss */
   .ash-microsite .trial-card .card-box {
     min-height: 340px;
   }
 }
-/* line 1709, ../../scss/bms/style.scss */
+/* line 1556, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .card-header h4 {
   font-size: 28px;
   margin-bottom: 5px;
   font-family: "Conv_BMSHumanity-Bold";
   color: #595454;
 }
-/* line 1715, ../../scss/bms/style.scss */
+/* line 1562, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .card-header p {
   font-size: 14px;
   line-height: 22px;
@@ -1832,7 +1638,7 @@ footer .copyRightTxt {
   font-style: italic;
   color: #595454;
 }
-/* line 1723, ../../scss/bms/style.scss */
+/* line 1570, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .card-header .user-ico {
   font-size: 16px;
   padding: 9px;
@@ -1840,15 +1646,15 @@ footer .copyRightTxt {
   border: solid 1px #dedede;
   color: #a69f9f;
 }
-/* line 1728, ../../scss/bms/style.scss */
+/* line 1575, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .card-header .user-ico.current {
   color: #33d6f1;
 }
-/* line 1731, ../../scss/bms/style.scss */
+/* line 1578, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .card-header .user-ico.reccuring {
   color: #a69f9f;
 }
-/* line 1735, ../../scss/bms/style.scss */
+/* line 1582, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .card-header .image-icon {
   width: 36px;
   height: 36px;
@@ -1856,7 +1662,7 @@ footer .copyRightTxt {
   border: 1px solid #dedede;
   border-radius: 50%;
 }
-/* line 1743, ../../scss/bms/style.scss */
+/* line 1590, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .phase {
   border-right: none;
   background: #C0F2FA;
@@ -1868,19 +1674,19 @@ footer .copyRightTxt {
   line-height: 14px;
   margin-bottom: 10px;
 }
-/* line 1754, ../../scss/bms/style.scss */
+/* line 1601, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .phase.phase-1 {
   max-width: calc(25% - 11px);
 }
-/* line 1757, ../../scss/bms/style.scss */
+/* line 1604, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .phase.phase-2 {
   max-width: calc(50% - 11px);
 }
-/* line 1760, ../../scss/bms/style.scss */
+/* line 1607, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .phase.phase-3 {
   max-width: calc(75% - 11px);
 }
-/* line 1763, ../../scss/bms/style.scss */
+/* line 1610, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .phase::after {
   content: '';
   width: 14px;
@@ -1893,14 +1699,14 @@ footer .copyRightTxt {
   top: 3px;
   transform: rotate(45deg);
 }
-/* line 1778, ../../scss/bms/style.scss */
+/* line 1625, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .divider {
   width: 100%;
   border-top: 1px solid #a2a2a2;
   margin: -10px 0 16px;
   position: relative;
 }
-/* line 1783, ../../scss/bms/style.scss */
+/* line 1630, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .divider span {
   height: 9px;
   position: absolute;
@@ -1909,50 +1715,50 @@ footer .copyRightTxt {
   opacity: 75%;
   top: -9px;
 }
-/* line 1790, ../../scss/bms/style.scss */
+/* line 1637, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .divider span.slot-25 {
   left: 25%;
 }
-/* line 1793, ../../scss/bms/style.scss */
+/* line 1640, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .divider span.slot-50 {
   left: 50%;
 }
-/* line 1796, ../../scss/bms/style.scss */
+/* line 1643, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .divider span.slot-75 {
   left: 75%;
 }
 @media (min-width: 768px) {
-  /* line 1801, ../../scss/bms/style.scss */
+  /* line 1648, ../../scss/bms/style.scss */
   .ash-microsite .trial-card .card-box .card-content {
     min-height: 120px;
   }
 }
-/* line 1809, ../../scss/bms/style.scss */
+/* line 1656, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .card-content h5 {
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 5px;
 }
-/* line 1815, ../../scss/bms/style.scss */
+/* line 1662, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .link-box {
   text-align: right;
   color: #be2bbb;
   font-size: 14px;
   font-family: "Conv_BMSHumanity-Thin";
 }
-/* line 1820, ../../scss/bms/style.scss */
+/* line 1667, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .link-box a {
   color: #be2bbb;
   font-family: "Conv_BMSHumanity-Thin";
   font-size: 14px;
 }
-/* line 1824, ../../scss/bms/style.scss */
+/* line 1671, ../../scss/bms/style.scss */
 .ash-microsite .trial-card .card-box .link-box a.trial-link {
   background: url(../../images/bms/eye-pink.png) no-repeat left top;
   padding-left: 25px;
   background-size: contain;
 }
-/* line 1833, ../../scss/bms/style.scss */
+/* line 1680, ../../scss/bms/style.scss */
 .ash-microsite .bms-trials-noResult {
   background: #fff;
   min-height: 300px;
@@ -1960,17 +1766,17 @@ footer .copyRightTxt {
   align-items: center;
   align-content: center;
 }
-/* line 1837, ../../scss/bms/style.scss */
+/* line 1684, ../../scss/bms/style.scss */
 .ash-microsite .bms-trials-noResult.bms-trials-noResult-show {
   display: flex;
 }
 @media (min-width: 768px) {
-  /* line 1833, ../../scss/bms/style.scss */
+  /* line 1680, ../../scss/bms/style.scss */
   .ash-microsite .bms-trials-noResult {
     min-height: 490px;
   }
 }
-/* line 1845, ../../scss/bms/style.scss */
+/* line 1692, ../../scss/bms/style.scss */
 .ash-microsite .bms-trials-noResult p {
   width: 100%;
   text-align: center;
@@ -1979,30 +1785,30 @@ footer .copyRightTxt {
   color: #a6a6a6;
 }
 @media (min-width: 768px) {
-  /* line 1845, ../../scss/bms/style.scss */
+  /* line 1692, ../../scss/bms/style.scss */
   .ash-microsite .bms-trials-noResult p {
     font-size: 28px;
   }
 }
 
-/* line 1864, ../../scss/bms/style.scss */
+/* line 1711, ../../scss/bms/style.scss */
 .page-template-bms-trial-finder .filterByBx .filterPills li .pillsLink.active {
   background: #be2bbb;
   color: #fff;
 }
 
-/* line 1875, ../../scss/bms/style.scss */
+/* line 1722, ../../scss/bms/style.scss */
 .bms-footer .container {
   max-width: 1170px;
 }
-/* line 1877, ../../scss/bms/style.scss */
+/* line 1724, ../../scss/bms/style.scss */
 .bms-footer .container a.footerLogo {
   display: inline-block;
   width: 239px;
   height: 34px;
 }
 @media (max-width: 991px) {
-  /* line 1877, ../../scss/bms/style.scss */
+  /* line 1724, ../../scss/bms/style.scss */
   .bms-footer .container a.footerLogo {
     margin: 0 auto;
     float: none;
@@ -2010,106 +1816,106 @@ footer .copyRightTxt {
     display: flex;
   }
 }
-/* line 1888, ../../scss/bms/style.scss */
+/* line 1735, ../../scss/bms/style.scss */
 .bms-footer .container .footer-menu-note {
   float: left;
   position: relative;
 }
-/* line 1891, ../../scss/bms/style.scss */
+/* line 1738, ../../scss/bms/style.scss */
 .bms-footer .container .footer-menu-note .copyRightTxt {
   float: left;
   padding: 4px 0 0 0;
   font-size: 12px;
   line-height: 14px;
 }
-/* line 1899, ../../scss/bms/style.scss */
+/* line 1746, ../../scss/bms/style.scss */
 .bms-footer .footerLinks {
   padding: 5px 0 0 0px;
 }
-/* line 1902, ../../scss/bms/style.scss */
+/* line 1749, ../../scss/bms/style.scss */
 .bms-footer .menu {
   padding: 18px 0 0 0px;
 }
-/* line 1905, ../../scss/bms/style.scss */
+/* line 1752, ../../scss/bms/style.scss */
 .bms-footer .menu li a {
   font-size: 12px;
   line-height: 12px;
 }
-/* line 1911, ../../scss/bms/style.scss */
+/* line 1758, ../../scss/bms/style.scss */
 .bms-footer .bms-footer-trials-finder {
   padding: 30px 50px;
 }
-/* line 1913, ../../scss/bms/style.scss */
+/* line 1760, ../../scss/bms/style.scss */
 .bms-footer .bms-footer-trials-finder .copyRightTxt {
   padding: 0;
 }
 @media (max-width: 991px) {
-  /* line 1913, ../../scss/bms/style.scss */
+  /* line 1760, ../../scss/bms/style.scss */
   .bms-footer .bms-footer-trials-finder .copyRightTxt {
     padding: 10px 0;
   }
 }
 
 /* Footer Styling Changes for BMS Microsite */
-/* line 1925, ../../scss/bms/style.scss */
+/* line 1772, ../../scss/bms/style.scss */
 .page-template-bms-home .bms-footer .container {
   max-width: 976px;
 }
-/* line 1928, ../../scss/bms/style.scss */
+/* line 1775, ../../scss/bms/style.scss */
 .page-template-bms-home .bms-footer .menu {
   padding: 18px 0 0 0px;
 }
 @media screen and (max-width: 991px) {
-  /* line 1928, ../../scss/bms/style.scss */
+  /* line 1775, ../../scss/bms/style.scss */
   .page-template-bms-home .bms-footer .menu {
     padding: 25px 0;
   }
 }
-/* line 1934, ../../scss/bms/style.scss */
+/* line 1781, ../../scss/bms/style.scss */
 .page-template-bms-home .bms-footer .menu li a {
   font-size: 14px;
   line-height: 16px;
 }
 
-/* line 1945, ../../scss/bms/style.scss */
+/* line 1792, ../../scss/bms/style.scss */
 .bms-resource .bms-footer .container {
   max-width: 976px;
 }
-/* line 1948, ../../scss/bms/style.scss */
+/* line 1795, ../../scss/bms/style.scss */
 .bms-resource .bms-footer .menu {
   padding: 18px 0 0 0px;
 }
 @media screen and (max-width: 991px) {
-  /* line 1948, ../../scss/bms/style.scss */
+  /* line 1795, ../../scss/bms/style.scss */
   .bms-resource .bms-footer .menu {
     padding: 25px 0;
   }
 }
-/* line 1954, ../../scss/bms/style.scss */
+/* line 1801, ../../scss/bms/style.scss */
 .bms-resource .bms-footer .menu li a {
   font-size: 14px;
   line-height: 16px;
 }
 
-/* line 1964, ../../scss/bms/style.scss */
+/* line 1811, ../../scss/bms/style.scss */
 .page-template-bms-reference .resource-container {
   max-width: 967px;
 }
-/* line 1968, ../../scss/bms/style.scss */
+/* line 1815, ../../scss/bms/style.scss */
 .page-template-bms-reference .bms-footer .container {
   max-width: 976px;
 }
-/* line 1971, ../../scss/bms/style.scss */
+/* line 1818, ../../scss/bms/style.scss */
 .page-template-bms-reference .bms-footer .menu {
   padding: 18px 0 0 0px;
 }
 @media screen and (max-width: 991px) {
-  /* line 1971, ../../scss/bms/style.scss */
+  /* line 1818, ../../scss/bms/style.scss */
   .page-template-bms-reference .bms-footer .menu {
     padding: 25px 0;
   }
 }
-/* line 1977, ../../scss/bms/style.scss */
+/* line 1824, ../../scss/bms/style.scss */
 .page-template-bms-reference .bms-footer .menu li a {
   font-size: 14px;
   line-height: 16px;
@@ -2117,28 +1923,28 @@ footer .copyRightTxt {
 
 /* Responsive */
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 1989, ../../scss/bms/style.scss */
+  /* line 1836, ../../scss/bms/style.scss */
   header {
     padding: 0 25px;
   }
 
-  /* line 1993, ../../scss/bms/style.scss */
+  /* line 1840, ../../scss/bms/style.scss */
   footer {
     padding: 80px 50px 50px;
   }
 }
 @media (max-width: 991px) {
-  /* line 1999, ../../scss/bms/style.scss */
+  /* line 1846, ../../scss/bms/style.scss */
   header {
     padding: 0 25px;
     height: 90px;
   }
-  /* line 2003, ../../scss/bms/style.scss */
+  /* line 1850, ../../scss/bms/style.scss */
   header .logo {
     width: 200px;
     margin-top: 14px;
   }
-  /* line 2008, ../../scss/bms/style.scss */
+  /* line 1855, ../../scss/bms/style.scss */
   header .mainNav {
     width: auto;
     clear: both;
@@ -2147,67 +1953,67 @@ footer .copyRightTxt {
     padding: 8px 0 0 0;
     border-top: 1px solid #eee7e7;
   }
-  /* line 2016, ../../scss/bms/style.scss */
+  /* line 1863, ../../scss/bms/style.scss */
   header .mainNav ul {
     width: 100%;
     text-align: center;
   }
-  /* line 2020, ../../scss/bms/style.scss */
+  /* line 1867, ../../scss/bms/style.scss */
   header .mainNav ul li {
     float: none;
     display: inline-block;
   }
-  /* line 2028, ../../scss/bms/style.scss */
+  /* line 1875, ../../scss/bms/style.scss */
   header .learnMoreLink {
     margin-top: 7px;
     margin-bottom: 7px;
     width: 137px;
   }
 
-  /* line 2035, ../../scss/bms/style.scss */
+  /* line 1882, ../../scss/bms/style.scss */
   #content {
     margin-top: 90px;
   }
-  /* line 2037, ../../scss/bms/style.scss */
+  /* line 1884, ../../scss/bms/style.scss */
   #content.ash-microsite {
     margin-top: 60px;
   }
 
-  /* line 2043, ../../scss/bms/style.scss */
+  /* line 1890, ../../scss/bms/style.scss */
   .thankYouBx .container {
     min-height: 100px;
     height: 366px;
   }
-  /* line 2048, ../../scss/bms/style.scss */
+  /* line 1895, ../../scss/bms/style.scss */
   .thankYouBx .thankYouLftCol {
     padding-bottom: 30px;
   }
-  /* line 2051, ../../scss/bms/style.scss */
+  /* line 1898, ../../scss/bms/style.scss */
   .thankYouBx h3 {
     font-size: 39px;
     padding-right: 30px;
     line-height: normal;
   }
-  /* line 2056, ../../scss/bms/style.scss */
+  /* line 1903, ../../scss/bms/style.scss */
   .thankYouBx p {
     font-size: 16px;
   }
 
-  /* line 2061, ../../scss/bms/style.scss */
+  /* line 1908, ../../scss/bms/style.scss */
   footer {
     padding: 15px 30px;
   }
-  /* line 2064, ../../scss/bms/style.scss */
+  /* line 1911, ../../scss/bms/style.scss */
   footer .footerLogo {
     width: 155px;
     margin: 36px 0 0 0;
   }
-  /* line 2069, ../../scss/bms/style.scss */
+  /* line 1916, ../../scss/bms/style.scss */
   footer .menu-bms-footer-menu-macro-container {
     width: 100%;
     float: none;
   }
-  /* line 2074, ../../scss/bms/style.scss */
+  /* line 1921, ../../scss/bms/style.scss */
   footer .footerLinks, footer .menu {
     width: 100%;
     float: right;
@@ -2215,18 +2021,18 @@ footer .copyRightTxt {
     padding: 25px 0;
     text-align: center;
   }
-  /* line 2080, ../../scss/bms/style.scss */
+  /* line 1927, ../../scss/bms/style.scss */
   footer .footerLinks li, footer .menu li {
     float: none;
     display: inline-block;
     padding: 10px;
     line-height: 14px;
   }
-  /* line 2086, ../../scss/bms/style.scss */
+  /* line 1933, ../../scss/bms/style.scss */
   footer .footerLinks li:first-child, footer .menu li:first-child {
     padding-left: 10px;
   }
-  /* line 2092, ../../scss/bms/style.scss */
+  /* line 1939, ../../scss/bms/style.scss */
   footer .copyRightTxt {
     clear: both;
     width: 100%;
@@ -2234,29 +2040,29 @@ footer .copyRightTxt {
     padding: 10px 0;
   }
 
-  /* line 2101, ../../scss/bms/style.scss */
+  /* line 1948, ../../scss/bms/style.scss */
   #backToTop.footerVisible {
     bottom: 125px;
   }
 }
 @media (max-width: 767px) {
-  /* line 2108, ../../scss/bms/style.scss */
+  /* line 1955, ../../scss/bms/style.scss */
   header {
     padding: 0 15px;
   }
-  /* line 2111, ../../scss/bms/style.scss */
+  /* line 1958, ../../scss/bms/style.scss */
   header .logo {
     width: 155px;
   }
-  /* line 2115, ../../scss/bms/style.scss */
+  /* line 1962, ../../scss/bms/style.scss */
   header .mainNav {
     padding-top: 10px;
   }
-  /* line 2120, ../../scss/bms/style.scss */
+  /* line 1967, ../../scss/bms/style.scss */
   header .mainNav ul li a {
     padding: 0 0 6px 0;
   }
-  /* line 2127, ../../scss/bms/style.scss */
+  /* line 1974, ../../scss/bms/style.scss */
   header .learnMoreLink {
     margin-top: 7px;
     margin-bottom: 8px;
@@ -2264,49 +2070,49 @@ footer .copyRightTxt {
     line-height: 18px;
   }
 
-  /* line 2136, ../../scss/bms/style.scss */
+  /* line 1983, ../../scss/bms/style.scss */
   .thankYouBx p {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.28px;
   }
-  /* line 2142, ../../scss/bms/style.scss */
+  /* line 1989, ../../scss/bms/style.scss */
   .thankYouBx .thankYouLftCol {
     margin: 0px;
     padding: 30px 15px;
   }
 
-  /* line 2148, ../../scss/bms/style.scss */
+  /* line 1995, ../../scss/bms/style.scss */
   footer {
     padding: 15px 0;
   }
 
-  /* line 2152, ../../scss/bms/style.scss */
+  /* line 1999, ../../scss/bms/style.scss */
   .pipelineCont1 {
     padding: 30px 15px 10px;
   }
-  /* line 2155, ../../scss/bms/style.scss */
+  /* line 2002, ../../scss/bms/style.scss */
   .pipelineCont1 h4 {
     line-height: 26px;
   }
 
-  /* line 2174, ../../scss/bms/style.scss */
+  /* line 2021, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .cardTitle {
     padding-left: 0;
   }
-  /* line 2178, ../../scss/bms/style.scss */
+  /* line 2025, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow {
     padding: 0 0 10px;
     margin: 0 0 10px;
     border-bottom: 1px solid #eee7e7;
   }
-  /* line 2183, ../../scss/bms/style.scss */
+  /* line 2030, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow:last-child {
     border: none;
     margin: 0 0 20px;
     padding: 0;
   }
-  /* line 2189, ../../scss/bms/style.scss */
+  /* line 2036, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow .trialImg {
     width: 17px;
     height: 17px;
@@ -2315,71 +2121,71 @@ footer .copyRightTxt {
     vertical-align: middle;
     margin-bottom: 2px;
   }
-  /* line 2198, ../../scss/bms/style.scss */
+  /* line 2045, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .modality {
     float: left;
     width: 22%;
   }
-  /* line 2202, ../../scss/bms/style.scss */
+  /* line 2049, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .modality strong {
     margin: 0 5px 1px 0;
     float: left;
     display: block;
   }
-  /* line 2208, ../../scss/bms/style.scss */
+  /* line 2055, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .modalityArea {
     float: left;
     width: 78%;
   }
-  /* line 2213, ../../scss/bms/style.scss */
+  /* line 2060, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .areaOfResearch {
     float: left;
     width: 39%;
   }
-  /* line 2217, ../../scss/bms/style.scss */
+  /* line 2064, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .researchArea {
     float: left;
     width: 61%;
   }
-  /* line 2223, ../../scss/bms/style.scss */
+  /* line 2070, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow .width1 {
     padding: 0 0 5px 0;
   }
-  /* line 2226, ../../scss/bms/style.scss */
+  /* line 2073, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow .width1 .phaseRowTxt {
     font-family: "Conv_BMSHumanity-Bold";
   }
-  /* line 2230, ../../scss/bms/style.scss */
+  /* line 2077, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow .width2, .pipelineTab .tab-content .card .phaseContainer .phaseRow .width3, .pipelineTab .tab-content .card .phaseContainer .phaseRow .width4 {
     padding: 0 0 5px 30px;
   }
-  /* line 2233, ../../scss/bms/style.scss */
+  /* line 2080, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseIndicatorBg {
     width: 118px;
     display: inline-block;
   }
-  /* line 2240, ../../scss/bms/style.scss */
+  /* line 2087, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .width1, .pipelineTab .tab-content .width2, .pipelineTab .tab-content .width3, .pipelineTab .tab-content .width4 {
     width: 100%;
   }
-  /* line 2243, ../../scss/bms/style.scss */
+  /* line 2090, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterPillsSelected {
     padding: 0;
   }
-  /* line 2246, ../../scss/bms/style.scss */
+  /* line 2093, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterPillsSelected a {
     margin-bottom: 8px;
   }
-  /* line 2250, ../../scss/bms/style.scss */
+  /* line 2097, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx {
     padding-bottom: 8px;
   }
-  /* line 2254, ../../scss/bms/style.scss */
+  /* line 2101, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .clearAllLink {
     float: right;
     margin-top: 14px;
   }
-  /* line 2258, ../../scss/bms/style.scss */
+  /* line 2105, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterMobPill {
     height: 43px;
     border-radius: 21.5px;
@@ -2393,7 +2199,7 @@ footer .copyRightTxt {
     padding: 14px 12px 0;
     text-decoration: none;
   }
-  /* line 2271, ../../scss/bms/style.scss */
+  /* line 2118, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills {
     width: 100%;
     position: fixed;
@@ -2402,21 +2208,21 @@ footer .copyRightTxt {
     z-index: 9999;
     display: none;
   }
-  /* line 2279, ../../scss/bms/style.scss */
+  /* line 2126, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills li {
     width: 100%;
     padding: 0;
   }
-  /* line 2283, ../../scss/bms/style.scss */
+  /* line 2130, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills li .pillsLink {
     display: none;
   }
-  /* line 2287, ../../scss/bms/style.scss */
+  /* line 2134, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills li .mobButton {
     margin: 30px -15px 0;
     overflow: hidden;
   }
-  /* line 2291, ../../scss/bms/style.scss */
+  /* line 2138, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills li .mobButton .whiteButton {
     width: 160px;
     height: 44px;
@@ -2435,14 +2241,14 @@ footer .copyRightTxt {
   }
 }
 @media (max-width: 767px) and (max-width: 767px) {
-  /* line 2291, ../../scss/bms/style.scss */
+  /* line 2138, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills li .mobButton .whiteButton {
     width: 155px;
     text-align: center;
   }
 }
 @media (max-width: 767px) {
-  /* line 2312, ../../scss/bms/style.scss */
+  /* line 2159, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills li .mobButton .pinkButton {
     width: 160px;
     height: 44px;
@@ -2461,14 +2267,14 @@ footer .copyRightTxt {
   }
 }
 @media (max-width: 767px) and (max-width: 767px) {
-  /* line 2312, ../../scss/bms/style.scss */
+  /* line 2159, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills li .mobButton .pinkButton {
     width: 155px;
     text-align: center;
   }
 }
 @media (max-width: 767px) {
-  /* line 2335, ../../scss/bms/style.scss */
+  /* line 2182, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown {
     position: static;
     width: 100%;
@@ -2476,12 +2282,12 @@ footer .copyRightTxt {
     margin: 0;
     padding: 15px 30px;
   }
-  /* line 2342, ../../scss/bms/style.scss */
+  /* line 2189, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown.therapeuticAreaFilter {
     border-radius: 10px 10px 0 0;
     border-bottom: none;
   }
-  /* line 2346, ../../scss/bms/style.scss */
+  /* line 2193, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown.phaseFilter {
     border-top: none;
     border-bottom: none;
@@ -2489,7 +2295,7 @@ footer .copyRightTxt {
     box-shadow: none;
     padding-top: 0;
   }
-  /* line 2354, ../../scss/bms/style.scss */
+  /* line 2201, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown h6 {
     font-size: 16px;
     line-height: 16px;
@@ -2501,7 +2307,7 @@ footer .copyRightTxt {
     padding: 0 15px 12px;
     margin: 0 -15px 12px;
   }
-  /* line 2366, ../../scss/bms/style.scss */
+  /* line 2213, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .filterByBx .filterPills li .filterPillsDropdown h5 {
     font-size: 16px;
     line-height: 16px;
@@ -2512,29 +2318,29 @@ footer .copyRightTxt {
     text-align: left;
   }
 
-  /* line 2382, ../../scss/bms/style.scss */
+  /* line 2229, ../../scss/bms/style.scss */
   .ash-microsite .width1, .ash-microsite .width2, .ash-microsite .width3, .ash-microsite .width4 {
     width: 100%;
   }
-  /* line 2385, ../../scss/bms/style.scss */
+  /* line 2232, ../../scss/bms/style.scss */
   .ash-microsite .filterPillsSelected {
     padding: 0 0;
   }
-  /* line 2388, ../../scss/bms/style.scss */
+  /* line 2235, ../../scss/bms/style.scss */
   .ash-microsite .filterPillsSelected a {
     margin: 20px 10px 28px;
   }
-  /* line 2392, ../../scss/bms/style.scss */
+  /* line 2239, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx {
     margin-top: 30px;
     padding-bottom: 8px;
   }
-  /* line 2396, ../../scss/bms/style.scss */
+  /* line 2243, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .clearAllLink {
     float: right;
     margin-top: 14px;
   }
-  /* line 2400, ../../scss/bms/style.scss */
+  /* line 2247, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterMobPill {
     height: 50px;
     width: 100%;
@@ -2551,7 +2357,7 @@ footer .copyRightTxt {
     position: relative;
     margin-bottom: 10px;
   }
-  /* line 2419, ../../scss/bms/style.scss */
+  /* line 2266, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterMobPill::before {
     content: '';
     width: 15px;
@@ -2563,7 +2369,7 @@ footer .copyRightTxt {
     left: 20px;
     z-index: 1;
   }
-  /* line 2431, ../../scss/bms/style.scss */
+  /* line 2278, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills {
     width: 94%;
     position: fixed;
@@ -2577,21 +2383,21 @@ footer .copyRightTxt {
     border: solid 1px #d2cac8;
     overflow: hidden;
   }
-  /* line 2443, ../../scss/bms/style.scss */
+  /* line 2290, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li {
     width: 100%;
     padding: 0;
   }
-  /* line 2447, ../../scss/bms/style.scss */
+  /* line 2294, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li .pillsLink {
     display: none;
   }
-  /* line 2451, ../../scss/bms/style.scss */
+  /* line 2298, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li .mobButton {
     margin: 30px -15px 0;
     overflow: hidden;
   }
-  /* line 2455, ../../scss/bms/style.scss */
+  /* line 2302, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li .mobButton .whiteButton {
     width: 160px;
     height: 44px;
@@ -2610,13 +2416,13 @@ footer .copyRightTxt {
   }
 }
 @media (max-width: 767px) and (max-width: 767px) {
-  /* line 2455, ../../scss/bms/style.scss */
+  /* line 2302, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li .mobButton .whiteButton {
     width: 155px;
   }
 }
 @media (max-width: 767px) {
-  /* line 2475, ../../scss/bms/style.scss */
+  /* line 2322, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li .mobButton .pinkButton {
     width: 160px;
     height: 44px;
@@ -2635,13 +2441,13 @@ footer .copyRightTxt {
   }
 }
 @media (max-width: 767px) and (max-width: 767px) {
-  /* line 2475, ../../scss/bms/style.scss */
+  /* line 2322, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li .mobButton .pinkButton {
     width: 155px;
   }
 }
 @media (max-width: 767px) {
-  /* line 2497, ../../scss/bms/style.scss */
+  /* line 2344, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li .filterPillsDropdown {
     position: static;
     width: 100%;
@@ -2652,12 +2458,12 @@ footer .copyRightTxt {
     border-radius: 0;
     box-shadow: none;
   }
-  /* line 2506, ../../scss/bms/style.scss */
+  /* line 2353, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li .filterPillsDropdown.therapeuticAreaFilter {
     border-radius: 10px 10px 0 0;
     border-bottom: none;
   }
-  /* line 2510, ../../scss/bms/style.scss */
+  /* line 2357, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li .filterPillsDropdown.phaseFilter {
     border-top: none;
     border-bottom: none;
@@ -2665,7 +2471,7 @@ footer .copyRightTxt {
     box-shadow: none;
     padding-top: 0;
   }
-  /* line 2518, ../../scss/bms/style.scss */
+  /* line 2365, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li .filterPillsDropdown h6 {
     font-size: 16px;
     line-height: 16px;
@@ -2677,7 +2483,7 @@ footer .copyRightTxt {
     padding: 0 15px 12px;
     margin: 0 -15px 12px;
   }
-  /* line 2530, ../../scss/bms/style.scss */
+  /* line 2377, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li .filterPillsDropdown h5 {
     font-size: 16px;
     line-height: 16px;
@@ -2688,164 +2494,164 @@ footer .copyRightTxt {
     text-align: left;
   }
 
-  /* line 2545, ../../scss/bms/style.scss */
+  /* line 2392, ../../scss/bms/style.scss */
   #cardContainer {
     margin-top: 12px;
   }
 
-  /* line 2550, ../../scss/bms/style.scss */
+  /* line 2397, ../../scss/bms/style.scss */
   #backToTop.footerVisible {
     bottom: 125px;
   }
 
-  /* line 2557, ../../scss/bms/style.scss */
+  /* line 2404, ../../scss/bms/style.scss */
   .keyPathwayBx .keyPathwayList li {
     width: 100%;
     padding: 0 0 15px;
   }
-  /* line 2561, ../../scss/bms/style.scss */
+  /* line 2408, ../../scss/bms/style.scss */
   .keyPathwayBx .keyPathwayList li:nth-child(odd), .keyPathwayBx .keyPathwayList li:nth-child(even) {
     padding-left: 0;
     padding-right: 0;
   }
 
-  /* line 2570, ../../scss/bms/style.scss */
+  /* line 2417, ../../scss/bms/style.scss */
   .abstractListBx h3 {
     line-height: 52px;
     padding: 0 0 20px;
   }
 
-  /* line 2577, ../../scss/bms/style.scss */
+  /* line 2424, ../../scss/bms/style.scss */
   .imageTxtBx .downloadBut {
     height: 44px;
     padding-top: 16px;
   }
 
-  /* line 2585, ../../scss/bms/style.scss */
+  /* line 2432, ../../scss/bms/style.scss */
   .page-template-bms-trial-finder .wrapper #backToTop.footerVisible {
     bottom: 75px;
   }
 }
 @media screen and (max-width: 468px) {
-  /* line 2595, ../../scss/bms/style.scss */
+  /* line 2442, ../../scss/bms/style.scss */
   .event-1 + #backToTop.footerVisible {
     bottom: 140px;
   }
-  /* line 2598, ../../scss/bms/style.scss */
+  /* line 2445, ../../scss/bms/style.scss */
   .event-1 #backToTop.footerVisible {
     bottom: 140px;
   }
 }
 @media (max-width: 415px) {
-  /* line 2607, ../../scss/bms/style.scss */
+  /* line 2454, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .footnoteBx ul li {
     line-height: 15px !important;
     padding-bottom: 2px;
   }
 
-  /* line 2614, ../../scss/bms/style.scss */
+  /* line 2461, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow
   .phaseRowTxt .modality {
     width: 20%;
   }
-  /* line 2617, ../../scss/bms/style.scss */
+  /* line 2464, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow
   .phaseRowTxt .modalityArea {
     width: 80%;
   }
-  /* line 2621, ../../scss/bms/style.scss */
+  /* line 2468, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow
   .phaseRowTxt .areaOfResearch {
     width: 35%;
   }
-  /* line 2624, ../../scss/bms/style.scss */
+  /* line 2471, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow
   .phaseRowTxt .researchArea {
     width: 65%;
   }
 }
 @media (max-width: 375px) {
-  /* line 2634, ../../scss/bms/style.scss */
+  /* line 2481, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow
   .phaseRowTxt .modality {
     width: 22%;
   }
-  /* line 2637, ../../scss/bms/style.scss */
+  /* line 2484, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow
   .phaseRowTxt .modalityArea {
     width: 78%;
   }
-  /* line 2641, ../../scss/bms/style.scss */
+  /* line 2488, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow
   .phaseRowTxt .areaOfResearch {
     width: 40%;
   }
-  /* line 2644, ../../scss/bms/style.scss */
+  /* line 2491, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow
   .phaseRowTxt .researchArea {
     width: 60%;
   }
 }
 @media (max-width: 366px) {
-  /* line 2652, ../../scss/bms/style.scss */
+  /* line 2499, ../../scss/bms/style.scss */
   .filterMobPill {
     width: 270px;
     font-size: 15px !important;
   }
 
-  /* line 2657, ../../scss/bms/style.scss */
+  /* line 2504, ../../scss/bms/style.scss */
   .pipelineTab .tab-thumb li a {
     font-size: 17px;
   }
 
-  /* line 2663, ../../scss/bms/style.scss */
+  /* line 2510, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow
   .phaseRowTxt .modality {
     width: 24%;
   }
-  /* line 2666, ../../scss/bms/style.scss */
+  /* line 2513, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow
   .phaseRowTxt .modalityArea {
     width: 76%;
   }
-  /* line 2670, ../../scss/bms/style.scss */
+  /* line 2517, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow
   .phaseRowTxt .areaOfResearch {
     width: 42%;
   }
-  /* line 2673, ../../scss/bms/style.scss */
+  /* line 2520, ../../scss/bms/style.scss */
   .pipelineTab .tab-content .card .phaseContainer .phaseRow
   .phaseRowTxt .researchArea {
     width: 58%;
   }
 
-  /* line 2678, ../../scss/bms/style.scss */
+  /* line 2525, ../../scss/bms/style.scss */
   .ash-microsite .filterByBx .filterPills li .mobButton .whiteButton, .ash-microsite .filterByBx .filterPills li .mobButton .pinkButton {
     width: 150px;
   }
 
-  /* line 2681, ../../scss/bms/style.scss */
+  /* line 2528, ../../scss/bms/style.scss */
   .ash-microsite .recruting-state ul li {
     padding-right: 5px;
   }
 }
-/* line 2685, ../../scss/bms/style.scss */
+/* line 2532, ../../scss/bms/style.scss */
 .test-ct {
   display: none;
 }
 
 @media screen and (max-width: 350px) {
-  /* line 2691, ../../scss/bms/style.scss */
+  /* line 2538, ../../scss/bms/style.scss */
   header .logo {
     width: 132px;
   }
 }
-/* line 2696, ../../scss/bms/style.scss */
+/* line 2543, ../../scss/bms/style.scss */
 .toggle-filter {
   float: right;
 }
 @media screen and (max-width: 767px) {
-  /* line 2696, ../../scss/bms/style.scss */
+  /* line 2543, ../../scss/bms/style.scss */
   .toggle-filter {
     width: 100%;
     padding-top: 10px;
@@ -2854,7 +2660,7 @@ footer .copyRightTxt {
     float: none;
   }
 }
-/* line 2708, ../../scss/bms/style.scss */
+/* line 2555, ../../scss/bms/style.scss */
 .toggle-filter .view-selected-only.switch {
   position: relative;
   padding: 2px 5px 3px 18px;
@@ -2862,19 +2668,19 @@ footer .copyRightTxt {
   border-radius: 17px;
 }
 @media screen and (max-width: 767px) {
-  /* line 2708, ../../scss/bms/style.scss */
+  /* line 2555, ../../scss/bms/style.scss */
   .toggle-filter .view-selected-only.switch {
     max-width: 345px;
     width: 100%;
     padding: 3px 5px 3px 18px;
   }
 }
-/* line 2720, ../../scss/bms/style.scss */
+/* line 2567, ../../scss/bms/style.scss */
 .toggle-filter .view-selected-only.switch input[type=checkbox] {
   margin-left: -99999px;
   position: absolute;
 }
-/* line 2725, ../../scss/bms/style.scss */
+/* line 2572, ../../scss/bms/style.scss */
 .toggle-filter .view-selected-only.switch label {
   padding-right: 70px;
   display: flex;
@@ -2888,12 +2694,12 @@ footer .copyRightTxt {
   line-height: 27px;
 }
 @media screen and (max-width: 767px) {
-  /* line 2725, ../../scss/bms/style.scss */
+  /* line 2572, ../../scss/bms/style.scss */
   .toggle-filter .view-selected-only.switch label {
     font-size: 16px;
   }
 }
-/* line 2741, ../../scss/bms/style.scss */
+/* line 2588, ../../scss/bms/style.scss */
 .toggle-filter .view-selected-only.switch label::after {
   content: 'OFF';
   width: 57px;
@@ -2910,13 +2716,13 @@ footer .copyRightTxt {
   line-height: 16px;
 }
 @media screen and (max-width: 767px) {
-  /* line 2741, ../../scss/bms/style.scss */
+  /* line 2588, ../../scss/bms/style.scss */
   .toggle-filter .view-selected-only.switch label::after {
     width: 67px;
     padding: 5px 0 0 30px;
   }
 }
-/* line 2762, ../../scss/bms/style.scss */
+/* line 2609, ../../scss/bms/style.scss */
 .toggle-filter .view-selected-only.switch label::before {
   content: '';
   width: 19px;
@@ -2930,30 +2736,225 @@ footer .copyRightTxt {
   background: url(../../images/bms/oval.svg) no-repeat center/100%;
 }
 @media screen and (max-width: 767px) {
-  /* line 2762, ../../scss/bms/style.scss */
+  /* line 2609, ../../scss/bms/style.scss */
   .toggle-filter .view-selected-only.switch label::before {
     right: 43px;
   }
 }
-/* line 2783, ../../scss/bms/style.scss */
+/* line 2630, ../../scss/bms/style.scss */
 .toggle-filter .view-selected-only.switch input[type=checkbox]:checked ~ label::after {
   content: 'ON';
   padding-left: 10px;
   background: url(../../images/bms/phase-indicator-active.png) no-repeat center/100%;
 }
 @media screen and (max-width: 767px) {
-  /* line 2783, ../../scss/bms/style.scss */
+  /* line 2630, ../../scss/bms/style.scss */
   .toggle-filter .view-selected-only.switch input[type=checkbox]:checked ~ label::after {
     padding-left: 18px;
   }
 }
-/* line 2792, ../../scss/bms/style.scss */
+/* line 2639, ../../scss/bms/style.scss */
 .toggle-filter .view-selected-only.switch input[type=checkbox]:checked ~ label::before {
   right: 3px;
 }
 
-/* line 2802, ../../scss/bms/style.scss */
+/* line 2649, ../../scss/bms/style.scss */
 .diseaseItem {
   width: 100%;
   position: static !important;
+}
+
+/* line 2654, ../../scss/bms/style.scss */
+.bms-resource .header-resources a {
+  color: #be2bbb;
+  border-bottom: 3px solid #be2bbb;
+}
+
+/* line 2659, ../../scss/bms/style.scss */
+.bms-resource .resource-container {
+  max-width: 967px;
+}
+
+/* line 2665, ../../scss/bms/style.scss */
+strong {
+  font-family: "Conv_BMSHumanity-bold";
+}
+
+/* line 2669, ../../scss/bms/style.scss */
+header.event-1 .header-resources,
+header.event-2 .header-resources,
+#menu-bms-header-nav [href*='resources/event-1'] {
+  display: none;
+}
+
+/* line 2675, ../../scss/bms/style.scss */
+#menu-bms-header-nav [href*='resources/event-2'] {
+  display: none;
+}
+
+/* line 2679, ../../scss/bms/style.scss */
+.event-1 .hide-for-event-1 {
+  display: none;
+}
+
+/* line 2682, ../../scss/bms/style.scss */
+.event-2 .hide-for-event-2-3 {
+  display: none;
+}
+
+/* line 2685, ../../scss/bms/style.scss */
+.event-2 .hide-for-event-2 {
+  display: none;
+}
+
+/* line 2688, ../../scss/bms/style.scss */
+.event-3 .hide-for-event-2-3 {
+  display: none;
+}
+
+/* line 2691, ../../scss/bms/style.scss */
+.event-3 .hide-for-event-3 {
+  display: none;
+}
+
+/* line 2694, ../../scss/bms/style.scss */
+.event-0 .hide-for-event-2-3 {
+  display: none;
+}
+
+/* line 2697, ../../scss/bms/style.scss */
+.event-0 .hide-for-event-0 {
+  display: none;
+}
+
+/* line 2701, ../../scss/bms/style.scss */
+.event.event-2 .resources-video {
+  display: block;
+}
+
+/* line 2703, ../../scss/bms/style.scss */
+.event.event-1 .resources-video {
+  display: none;
+}
+
+/* line 2705, ../../scss/bms/style.scss */
+.event.event-0 .resources-video {
+  display: none;
+}
+
+/* line 2707, ../../scss/bms/style.scss */
+.resources .resources-video {
+  display: none;
+}
+
+/* line 2709, ../../scss/bms/style.scss */
+.player .vp-controls .custom-logo a {
+  display: none !important;
+}
+
+/* line 2713, ../../scss/bms/style.scss */
+.ash-microsite .ashbg {
+  background: url(https://media.bolderscience.com/wp-content/uploads/2020/12/trial-finder-bg.png) no-repeat;
+  background-size: cover;
+}
+
+/* line 2718, ../../scss/bms/style.scss */
+footer .copyRightTxt {
+  padding: 18px 0 0 0;
+}
+
+/* line 2722, ../../scss/bms/style.scss */
+.hidespan {
+  display: none;
+}
+
+/* line 2726, ../../scss/bms/style.scss */
+.hidespan + br {
+  display: none;
+}
+
+/* line 2730, ../../scss/bms/style.scss */
+.showspan {
+  display: inline-block;
+}
+
+/* line 2734, ../../scss/bms/style.scss */
+.showspan + br {
+  display: none;
+}
+
+/* line 2738, ../../scss/bms/style.scss */
+.leftIndent {
+  margin-left: -5px;
+}
+
+/* line 2742, ../../scss/bms/style.scss */
+.thankYouLftCol {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  /* line 2749, ../../scss/bms/style.scss */
+  header .logo {
+    min-height: 58px;
+  }
+
+  /* line 2753, ../../scss/bms/style.scss */
+  header .mainNav {
+    position: relative;
+    padding: 0px;
+    bottom: 10px;
+  }
+}
+/* line 2760, ../../scss/bms/style.scss */
+.thankYouBx.ashbg .container {
+  height: 330px;
+}
+
+/* line 2764, ../../scss/bms/style.scss */
+.ash-microsite .trial-card .card-box .link-box a.trial-link {
+  position: absolute;
+  bottom: 14px;
+  right: 17px;
+  background: url(/wp-content/themes/bolder-science/assets/images/bms/eye-pink.png) no-repeat left center/contain;
+  line-height: 1;
+}
+
+@media (max-width: 767px) {
+  /* line 2775, ../../scss/bms/style.scss */
+  header .logo {
+    min-height: 36px;
+  }
+
+  /* line 2779, ../../scss/bms/style.scss */
+  header .mainNav {
+    position: relative;
+    padding-top: 10px;
+    bottom: 0px;
+  }
+
+  /* line 2785, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .width1 {
+    padding: 0 0 5px 19px;
+  }
+
+  /* line 2789, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .trialImg {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+  }
+
+  /* line 2795, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseIndicatorBg {
+    position: relative;
+    top: 3px;
+  }
+}
+@media (max-width: 375px) {
+  /* line 2802, ../../scss/bms/style.scss */
+  .pipelineTab .tab-content .card .phaseContainer .phaseRow .phaseRowTxt .researchArea {
+    margin-left: 0px;
+  }
 }

@@ -3,7 +3,7 @@ backend:
   repo: pixacore-india/BMS-Science
   branch: master
 
-media_folder: "img"
+media_folder: "images"
 
 collections: 
   - label: Global

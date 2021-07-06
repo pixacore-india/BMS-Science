@@ -1,14 +1,7 @@
 footer-links:
-  - label: Pipeline
-    path: /index
-  - label: Resources
-    path: /resources
-  - label: Resources
-    path: /resources
-copyright:
-  - label: Copyright
-    name: copyright-text
-  - label: Last Updated
-    name: last-update
-  - label: Project Code
-    name: project-code          
+  - label: Legal Notice
+    path: https://www.bms.com/legal-notice.html
+  - label: Privacy Policy
+    path: https://www.bms.com/privacy-policy.html
+  - label: Contact Us
+    path: https://www.bms.com/about-us/contact-us.html

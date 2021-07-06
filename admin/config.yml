@@ -6,8 +6,8 @@ backend:
 media_folder: "img"
 
 collections: 
-  - label: Global,
-    name: global,
+  - label: Global
+    name: global
     files:
       - label: Header
         name: header

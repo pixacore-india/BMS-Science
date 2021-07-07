@@ -56,9 +56,7 @@ pageName: pipeline
 
         <div class="tab-content">
             {% for item in site.data.pipeline.tab.tab-info %}
-            <div class="tab-pane fade {% if forloop.first == true %}in active{% endif %}" id="tab{{ forloop.index0 }}">
-                
-                {{item.tab-body | markdownify}}
+            <div class="tab-pane fade {% if forloop.first == true %}in active{% endif %}" id="tab{{ forloop.index0 }}">            
 
                 <div class="filterByBx">
                     <span class="filterByTxt hidden-xs">Filter by:</span>
@@ -240,9 +238,10 @@ pageName: pipeline
                 </div>
 
                 <div class="cardContainer">
-                    <div class="card advanced-solid-tumors" data-ta="advanced-solid-tumors">
+
+                    <div class="card {{item.tab-card.card-heading | downcase | replace: ' ', '-'}}" data-ta="{{item.tab-card.card-heading | downcase | replace: ' ', '-'}}">
                         <div class="cardContent">
-                            <h6 class="cardTitle">{{item.tab-card.card-title}}</h6>
+                            <h6 class="cardTitle">{{item.tab-card.card-heading}}</h6>
                             <div class="phaseContainer">
                                 <div class="phaseRow phaseItem phase-1 phase-2">
                                     <div class="diseaseContainer">

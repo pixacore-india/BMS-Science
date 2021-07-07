@@ -10,7 +10,7 @@ tab:
   tab-info:
     - tab-header: Solid Tumor
       tab-card:
-        card-title: Advanced Solid Tumor
+        card-heading: Advanced Solid Tumor
       footnote-style1: "Solid Probody™ is a trademark of CytomX Therapeutics, Inc.\r
 
         \r\n"
@@ -80,7 +80,7 @@ tab:
         non-metastatic or resectable metastatic.\r\n"
     - tab-header: Hematology
       tab-card:
-        card-title: Lung Cancer
+        card-heading: Lung Cancer
       footnote-style1: "Hema Probody™ is a trademark of CytomX Therapeutics, Inc.\r
 
         \r\n"

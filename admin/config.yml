@@ -81,7 +81,11 @@ collections:
                 widget: list
                 fields:
                   - {label: Tab Header, name: tab-header, widget: string}
-                  - {label: Tab Description, name: tab-body, widget: markdown}
+                  - {label: Tab Card, name: tab-card, widget: list,
+                      fields: [ 
+                        {label: Card Title, name: card-heading, widget: string}
+                      ]
+                    } 
                   - {label: Tab Footnote, name: tab-footnote, widget: object, 
                       fields: [ 
                         {label: Footnote Style 1, name: footnote-style1, widget: markdown},
@@ -91,11 +95,7 @@ collections:
                         {label: Footnote Full, name: footnote-full, widget: markdown}
                       ]
                     }
-                  - {label: Tab Card, name: tab-card, widget: object, 
-                      fields: [ 
-                        {label: Card Title, name: card-title, widget: string}
-                      ]
-                    }  
+                   
 
                   
             

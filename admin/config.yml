@@ -82,11 +82,16 @@ collections:
                 fields:
                   - {label: Tab Header, name: tab-header, widget: string}
                   - {label: Tab Description, name: tab-body, widget: markdown}
-                  - {label: Footnote Style 1, name: footnote-style1, widget: markdown}
-                  - {label: Footnote Style with Image, name: footnote-image-style, widget: markdown}
-                  - {label: Footnote Style with List Item, name: footnote-list-item, widget: markdown}
-                  - {label: Footnote Hang style, name: footnote-hang, widget: markdown}
-                  - {label: Footnote Full, name: footnote-full, widget: markdown}
+                  - {label: Tab Footnote, name: tab-footnote, widget: object, 
+                      fields: [ 
+                        {label: Footnote Style 1, name: footnote-style1, widget: markdown},
+                        {label: Footnote Style with Image, name: footnote-image-style, widget: markdown},
+                        {label: Footnote Style with List Item, name: footnote-list-item, widget: markdown},
+                        {label: Footnote Hang style, name: footnote-hang, widget: markdown},
+                        {label: Footnote Full, name: footnote-full, widget: markdown}
+                      ]
+                    }
+                  
             
       - label: Resources
         name: resources

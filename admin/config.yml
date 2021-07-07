@@ -75,15 +75,23 @@ collections:
           - label: Tab
             name: tab
             widget: object  
-            field:
+            fields:
               - lable: Tab Info
                 name: tab-info
                 widget: list
                 fields:
                   - {label: Tab Header, name: tab-header, widget: string}
-                  - {label: Tab Card, name: tab-card, widget: list,
-                      field: [ 
-                        {label: Card Title, name: card-title, widget: string}
+                  - {label: Tab Card, name: tab-card, widget: object,
+                      fields: [ 
+                        {label: Card Title, name: card-title, widget: string},
+                        {label: Phase Row, name: phase-row, widget: list,
+                          fields: [
+                            {label: Phase Row1, name: phase-row1, widget: string},
+                            {label: Phase Row2, name: phase-row2, widget: string},
+                            {label: Phase Row3, name: phase-row3, widget: string},
+                            {label: Phase Row4, name: phase-row4, widget: string}
+                          ]
+                        }
                       ]
                     } 
                   - {label: Tab Footnote, name: tab-footnote, widget: object, 

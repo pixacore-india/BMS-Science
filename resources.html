@@ -9,16 +9,18 @@ pageName: resources
         <h6>{{site.data.resources.resource-heading}}</h6>
 
         <ul class="keyPathwayList">
+            {% for item in site.data.resources.resource-thumbnail %}
             <li>
                 <div class="imageTxtBx">
                     <span class="imagePlaceholder">
-                        <img src="{{site.data.resources.resources-thumbnail.thumb-image}}" width="100" height="129" alt="" class="img-responsive">
+                        <img src="{{item.thumb-image}}" width="100" height="129" alt="" class="img-responsive">
                     </span>
-                    <span class="imageTxt">{{site.data.resources.resources-thumbnail.thumb-head}}</span>
-                    <a href="{{site.data.resources.resources-thumbnail.thumb-url}}" class="downloadBut" target="_blank">{{site.data.resources.resources-thumbnail.thumb-button}}</a>
+                    <span class="imageTxt">{{item.thumb-head}}</span>
+                    <a href="{{item.thumb-url}}" class="downloadBut" target="_blank">{{item.thumb-button}}</a>
                     <div class="clearfix"></div>
                 </div>
             </li>
+            {% endfor %}
         </ul>
         <div class="clearfix"></div>
     </div>

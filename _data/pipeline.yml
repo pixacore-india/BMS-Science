@@ -16,10 +16,18 @@ tab:
             phase-row2: Anti–PD-1 ± anti–CTLA-4
             phase-row3: Advanced solid tumors
             phase-row4: "2"
+            phase-col1: Nivolumab ± ipilimumab
+            phase-col2: Nivolumab ± ipilimumab
+            phase-col3: Nivolumab ± ipilimumab
+            phase-col4: "1"
           - phase-row1: Nivolumab + ipilimumab + hyaluronidase†
             phase-row2: Anti–PD-1 + anti–CTLA-4 + hyaluronidase
             phase-row3: Advanced or metastatic solid tumors
             phase-row4: "1"
+            phase-col1: Nivolumab ± relatlimab
+            phase-col2: Nivolumab ± relatlimab
+            phase-col3: Nivolumab ± relatlimab
+            phase-col4: 1/2
       footnote-style1: "Solid Probody™ is a trademark of CytomX Therapeutics, Inc.\r
 
         \r\n"
@@ -95,10 +103,18 @@ tab:
             phase-row2: Anti–PD-1 ± anti–CTLA-4
             phase-row3: Advanced solid tumors
             phase-row4: 1/2
+            phase-col1: Nivolumab ± relatlimab
+            phase-col2: Nivolumab ± relatlimab
+            phase-col3: Nivolumab ± relatlimab
+            phase-col4: "2"
           - phase-row1: Nivolumab + ipilimumab + MEK inhibitor
             phase-row2: Anti–PD-1 ± anti–CTLA-4 + MEK inhibitor
             phase-row3: Advanced or metastatic Hema
             phase-row4: "1"
+            phase-col1: Pomalidomide
+            phase-col2: Pomalidomide
+            phase-col3: Pomalidomide
+            phase-col4: 2/3
       footnote-style1: "Hema Probody™ is a trademark of CytomX Therapeutics, Inc.\r
 
         \r\n"

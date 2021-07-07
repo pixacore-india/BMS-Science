@@ -75,14 +75,14 @@ collections:
           - label: Tab
             name: tab
             widget: object  
-            fields:
+            field:
               - lable: Tab Info
                 name: tab-info
                 widget: list
                 fields:
                   - {label: Tab Header, name: tab-header, widget: string}
                   - {label: Tab Card, name: tab-card, widget: list,
-                      fields: [ 
+                      field: [ 
                         {label: Card Title, name: card-title, widget: string}
                       ]
                     } 

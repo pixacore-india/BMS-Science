@@ -81,15 +81,19 @@ collections:
                 widget: list
                 fields:
                   - {label: Tab Header, name: tab-header, widget: string}
-                  - {label: Tab Card, name: tab-card, widget: object,
-                      fields: [ 
-                        {label: Card Title, name: card-title, widget: string},
-                        {label: Phase Row, name: phase-row, widget: list,
-                          fields: [
-                            {label: Phase Col1, name: phase-col1, widget: string},
-                            {label: Phase Col2, name: phase-col2, widget: string},
-                            {label: Phase Col3, name: phase-col3, widget: string},
-                            {label: Phase Col4, name: phase-col4, widget: string}
+                  - {label: Tab Card Container, name: tab-card-container, widget: object,
+                      fields: [
+                        {label: Tab Card, name: tab-card, widget: list,
+                          fields: [ 
+                            {label: Card Title, name: card-title, widget: string},
+                            {label: Phase Row, name: phase-row, widget: list,
+                              fields: [
+                                {label: Phase Col1, name: phase-col1, widget: string},
+                                {label: Phase Col2, name: phase-col2, widget: string},
+                                {label: Phase Col3, name: phase-col3, widget: string},
+                                {label: Phase Col4, name: phase-col4, widget: string}
+                              ]
+                            }   
                           ]
                         }
                       ]

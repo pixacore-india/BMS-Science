@@ -8,7 +8,7 @@ sthp-content: |-
   **This is a normal paragraph with bold.**
 tab:
   tab-info:
-    - tab-header: Solid Tumor
+    - tab-header: Solid Tumors
       tab-card:
         card-title: Advanced Solid Tumor
         phase-row:

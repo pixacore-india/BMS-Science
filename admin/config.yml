@@ -72,7 +72,39 @@ collections:
             name: sthp-content
             widget: markdown
 
-          
+          - label: Tab
+            name: tab
+            widget: object  
+            fields:
+              - lable: Tab Info
+                name: tab-info
+                widget: list
+                fields:
+                  - {label: Tab Header, name: tab-header, widget: string}
+                  - {label: Tab Card, name: tab-card, widget: object,
+                      fields: [ 
+                        {label: Card Title, name: card-title, widget: string},
+                        {label: Phase Row, name: phase-row, widget: list,
+                          fields: [
+                            {label: Phase Col1, name: phase-col1, widget: string},
+                            {label: Phase Col2, name: phase-col2, widget: string},
+                            {label: Phase Col3, name: phase-col3, widget: string},
+                            {label: Phase Col4, name: phase-col4, widget: string}
+                          ]
+                        }
+                      ]
+                    } 
+                  - {label: Tab Footnote, name: tab-footnote, widget: object, 
+                      fields: [ 
+                        {label: Footnote Style 1, name: footnote-style1, widget: markdown, required: false},
+                        {label: Footnote Style with Image, name: footnote-image-style, widget: markdown, required: false},
+                        {label: Footnote Style with List Item, name: footnote-list-item, widget: markdown, required: false},
+                        {label: Footnote Hang style, name: footnote-hang, widget: markdown, required: false},
+                        {label: Footnote Full, name: footnote-full, widget: markdown, required: false}
+                      ]
+                    }
+                   
+
                   
             
       - label: Resources

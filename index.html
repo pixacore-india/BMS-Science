@@ -41,33 +41,1466 @@ pageName: pipeline
         <ul class="tab-thumb">
             {% for item in site.data.pipeline.tab.tab-info %}
             <li class="nav-item {% if forloop.first == true %} active{% endif %}">
-              <a class="nav-link" data-toggle="tab" href="#tab{{ forloop.index0 }}">{{item.tab-header}}</a>
+                <a class="nav-link" data-toggle="tab" href="#tab{{ forloop.index0 }}">
+                    <span class="lftBg">
+                        <span class="rhtBg">
+                            <span class="midBg">
+                                {{item.tab-header}}
+                            </span>
+                        </span>
+                    </span>
+                </a>
             </li>
             {% endfor %}
-            <!-- <li class="active">
-                <a href="#solid-tumor" data-toggle="tab">
-                    <span class="lftBg">
-                        <span class="rhtBg">
-                            <span class="midBg">Solid Tumor</span>
-                        </span>
-                    </span>
-                </a>
-            </li>
-            <li class="">
-                <a href="#hematology" data-toggle="tab">
-                    <span class="lftBg">
-                        <span class="rhtBg">
-                            <span class="midBg">Hematology</span>
-                        </span>
-                    </span>
-                </a>
-            </li> -->
         </ul>
 
         <div class="tab-content">
             {% for item in site.data.pipeline.tab.tab-info %}
             <div class="tab-pane fade {% if forloop.first == true %}in active{% endif %}" id="tab{{ forloop.index0 }}">
+                
                 {{item.tab-body | markdownify}}
+
+                <div class="filterByBx">
+                    <span class="filterByTxt hidden-xs">Filter by:</span>
+                    <a
+                        href="javascript:;"
+                        class="visible-xs-inline-block filterMobPill"
+                        >Filter by Therapeutic Area and Phase</a
+                    >
+                    <ul class="filterPills">
+                        <li>
+                            <a href="javascript:;" class="pillsLink"
+                                >Therapeutic Area</a
+                            >
+                            <div
+                                class="
+                                    filterPillsDropdown
+                                    therapeuticAreaFilter
+                                "
+                            >
+                                <h6 class="visible-xs">
+                                    Filter by Therapeutic Area and Phase:
+                                </h6>
+                                <h5 class="visible-xs">Therapeutic Area</h5>
+                                <label>
+                                    <span class="textValue"
+                                        >Advanced Solid Tumors</span
+                                    >
+                                    <input
+                                        type="checkbox"
+                                        value=".advanced-solid-tumors"
+                                    />
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <span class="textValue">Breast</span>
+                                    <input type="checkbox" value=".breast" />
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <span class="textValue"
+                                        >Central Nervous System</span
+                                    >
+                                    <input
+                                        type="checkbox"
+                                        value=".central-nervous-system"
+                                    />
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <span class="textValue"
+                                        >Gastrointestinal</span
+                                    >
+                                    <input
+                                        type="checkbox"
+                                        value=".gastrointestinal"
+                                    />
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <span class="textValue">Genitourinary</span>
+                                    <input
+                                        type="checkbox"
+                                        value=".genitourinary"
+                                    />
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <span class="textValue"
+                                        >Head &amp; Neck</span
+                                    >
+                                    <input type="checkbox" value=".head-neck" />
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <span class="textValue">Lung</span>
+                                    <input type="checkbox" value=".lung" />
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <span class="textValue">Melanoma</span>
+                                    <input type="checkbox" value=".melanoma" />
+                                    <span class="checkmark"></span>
+                                </label>
+
+                                <a
+                                    href="javascript:;"
+                                    class="clearAllLink hidden-xs"
+                                    >Clear All</a
+                                >
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="pillsLink">Phase</a>
+                            <div class="filterPillsDropdown phaseFilter">
+                                <h5 class="visible-xs">Phase</h5>
+                                <label>
+                                    <span class="textValue">Phase 1</span>
+                                    <input type="checkbox" value=".phase-1" />
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <span class="textValue">Phase 2</span>
+                                    <input type="checkbox" value=".phase-2" />
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <span class="textValue">Phase 3</span>
+                                    <input type="checkbox" value=".phase-3" />
+                                    <span class="checkmark"></span>
+                                </label>
+
+                                <a
+                                    href="javascript:;"
+                                    class="clearAllLink hidden-xs"
+                                    >Clear All</a
+                                >
+
+                                <div class="visible-xs mobButton">
+                                    <a
+                                        href="javascript:;"
+                                        class="
+                                            whiteButton
+                                            mobileFilter
+                                            cancelFilter
+                                        "
+                                        >Cancel</a
+                                    >
+                                    <a
+                                        href="javascript:;"
+                                        class="
+                                            pinkButton
+                                            mobileFilter
+                                            applyFilter
+                                        "
+                                        >Apply Filters</a
+                                    >
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="javascript:;" class="clearAllLink resetfilter"
+                        >Clear All</a
+                    >
+                    <div class="toggle-filter">
+                        <div class="view-selected-only diseaseFilter switch">
+                            <input
+                                type="checkbox"
+                                name="disease-only"
+                                id="diseaseOnly"
+                                class="diseaseOnly"
+                                value=".early-disease-trails"
+                            />
+                            <label for="diseaseOnly" class="btn-switch">
+                                Trials in earlier stages of cancer only*
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="filterPillsSelected">
+                    <span class="output"></span>
+                </div>
+
+                <div class="cardHeadBx hidden-xs">
+                    <span class="width1"
+                        ><span class="cardHeadTxt">&nbsp;</span></span
+                    >
+                    <span class="width2"
+                        ><span class="cardHeadTxt">Modality</span></span
+                    >
+                    <span class="width3"
+                        ><span class="cardHeadTxt">Area of Research</span></span
+                    >
+                    <span class="width4"
+                        ><span class="cardHeadTxt">Phase</span></span
+                    >
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="cardContainer">
+                    <div class="card advanced-solid-tumors" data-ta="advanced-solid-tumors">
+                        <div class="cardContent">
+                            <h6 class="cardTitle">Advanced Solid Tumors</h6>
+                            <div class="phaseContainer">
+                                <div class="phaseRow phaseItem phase-1 phase-2">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="phaseRowTxt"
+                                                    >Nivolumab ±
+                                                    ipilimumab</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        Anti–PD-1 ± anti–CTLA-4
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >1/2</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-2">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="phaseRowTxt"
+                                                    >Nivolumab ±
+                                                    ipilimumab</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        Anti–PD-1 ± anti–CTLA-4
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced or metastatic
+                                                        solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >2</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-1 phase-2">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="trialImg"
+                                                    ><img
+                                                        src="https://bmsscience.pixacore.com/wp-content/uploads/2020/05/bmStrial-1.png"
+                                                        class="trialImg"
+                                                        alt=""
+                                                /></span>
+                                                <span class="phaseRowTxt"
+                                                    >Nivolumab + ipilimumab +
+                                                    hyaluronidase<sup
+                                                        >†</sup
+                                                    ></span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        Anti–PD-1 + anti–CTLA-4
+                                                        + hyaluronidase
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced or metastatic
+                                                        solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >1/2</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-1 phase-2">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="trialImg"
+                                                    ><img
+                                                        src="https://bmsscience.pixacore.com/wp-content/uploads/2020/05/bmStrial-1.png"
+                                                        class="trialImg"
+                                                        alt=""
+                                                /></span>
+                                                <span class="phaseRowTxt"
+                                                    >Nivolumab + ipilimumab +
+                                                    MEK inhibitor</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        Anti–PD-1 ± anti–CTLA-4
+                                                        + MEK inhibitor
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced or metastatic
+                                                        solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >1/2</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-3">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="phaseRowTxt"
+                                                    >Nivolumab ±
+                                                    relatlimab</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        Anti–PD-1 ± anti–LAG-3
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced or metastatic
+                                                        solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >3</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-3">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="trialImg"
+                                                    ><img
+                                                        src="https://bmsscience.pixacore.com/wp-content/uploads/2020/05/bmStrial-1.png"
+                                                        class="trialImg"
+                                                        alt=""
+                                                /></span>
+                                                <span class="phaseRowTxt"
+                                                    >Nivolumab ±
+                                                    bempegaldesleukin
+                                                    (NKTR-214)</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        Anti–PD-1 ±
+                                                        CD122-preferential IL-2
+                                                        pathway agonist
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced or metastatic
+                                                        solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >3</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-1 phase-2">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="trialImg"
+                                                    ><img
+                                                        src="https://bmsscience.pixacore.com/wp-content/uploads/2020/05/bmStrial-1.png"
+                                                        class="trialImg"
+                                                        alt=""
+                                                /></span>
+                                                <span class="phaseRowTxt"
+                                                    >Nivolumab ±
+                                                    hyaluronidase<sup
+                                                        >†</sup
+                                                    ></span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        Anti–PD-1 ±
+                                                        hyaluronidase
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced or metastatic
+                                                        solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >1/2</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-3">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="phaseRowTxt"
+                                                    >Nivolumab ± linrodostat
+                                                    mesylate
+                                                </span>
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        Anti–PD-1 ± IDO1
+                                                        inhibitor
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced or metastatic
+                                                        solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >3</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-1">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="phaseRowTxt">
+                                                    Relatlimab</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        Anti–LAG-3
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >1</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-1 phase-2">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="phaseRowTxt"
+                                                    >—</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        Anti–CTLA-4–NF ±
+                                                        anti–PD-1
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >1/2</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-1 phase-2">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="phaseRowTxt"
+                                                    >—</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        BET (BRD4) inhibitor
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >1/2</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-1">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="phaseRowTxt"
+                                                    >—</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        NLRP3 agonist
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >1</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-1">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="trialImg"
+                                                    ><img
+                                                        src="https://bmsscience.pixacore.com/wp-content/uploads/2020/05/bmStrial-1.png"
+                                                        class="trialImg"
+                                                        alt=""
+                                                /></span>
+                                                <span class="phaseRowTxt"
+                                                    >CD3xPSCA Bispecific
+                                                    (GEMoaB)</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        CD3xPSCA bispecific
+                                                        antibody
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >1</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-1">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="trialImg"
+                                                    ><img
+                                                        src="https://bmsscience.pixacore.com/wp-content/uploads/2020/05/bmStrial-1.png"
+                                                        class="trialImg"
+                                                        alt=""
+                                                /></span>
+                                                <span class="phaseRowTxt"
+                                                    >IK175</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        AHR antagonist
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >1</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-1 phase-2">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="phaseRowTxt"
+                                                    >—</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        Anti-NKG2A ± anti–PD-1
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >1/2</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-2">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="phaseRowTxt"
+                                                    >Azacitidine</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        Oral HMA
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >2</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-2">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="phaseRowTxt"
+                                                    >CC-90011<sup>†</sup></span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        LSD1 inhibitor
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >2</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phaseRow phaseItem phase-1">
+                                    <div class="diseaseContainer">
+                                        <div class="diseaseRow diseaseItem">
+                                            <span class="width1">
+                                                <span class="phaseRowTxt"
+                                                    >CC-95775</span
+                                                >
+                                            </span>
+                                            <span class="width2">
+                                                <span class="phaseRowTxt">
+                                                    <div class="modality">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Modality:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="modalityArea">
+                                                        BET inhibitor
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width3">
+                                                <span class="phaseRowTxt">
+                                                    <div class="areaOfResearch">
+                                                        <strong
+                                                            class="
+                                                                visible-xs-inline-block
+                                                            "
+                                                            >Area of
+                                                            Research:</strong
+                                                        >
+                                                    </div>
+                                                    <div class="researchArea">
+                                                        Advanced solid tumors
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <span class="width4">
+                                                <span class="phaseRowTxt">
+                                                    <strong
+                                                        class="
+                                                            visible-xs-inline-block
+                                                        "
+                                                        >Phase:</strong
+                                                    >
+                                                    <span
+                                                        class="phaseIndicatorBg"
+                                                    >
+                                                        <span
+                                                            class="
+                                                                phaseIndicatorCount
+                                                                indicatorTwo
+                                                            "
+                                                            >1</span
+                                                        >
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="viewDisplayBx">
+                                <a href="javascript:;" class="viewAllBut"
+                                    >Expand all</a
+                                >
+                                <span class="displayTxt"
+                                    >Displaying
+                                    <span class="phaseShow">5</span> of
+                                    <span class="phaseTotal">31</span></span
+                                >
+                            </div>
+                        </div>
+
+                        <div class="cardNoResult">
+                            <!--                                            <h6 class="cardTitle">--><!--</h6>-->
+                            <p>
+                                No results found. Try adjusting filters to view
+                                more results.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footnoteBx">
+                    <div class="footnoteBx">
+                        {{item.footnote-style1 | markdownify}}
+
+                        <div style="position: relative">
+                            {{item.footnote-image-style | markdownify}}
+
+                            {{item.footnote-list-item | markdownify}}
+                            
+                            {{item.footnote-hang | markdownify}}
+                        </div>
+
+                        {{item.footnote-full | markdownify}}
+                    </div>
+                </div>
+
             </div>
             {% endfor %}
         </div>

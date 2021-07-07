@@ -64,5 +64,74 @@ tab:
   tab-info:
     - tab-header: Solid Tumor
       tab-body: Solid Tumor Content
+      footnote-style1: "Solid Probody™ is a trademark of CytomX Therapeutics, Inc.\r
+
+        \r\n"
+      footnote-image-style: "Solid Trial investigates BMS agent(s) in combination with
+        1 or more non–BMS-owned assets. Development partnerships include:\r
+
+        \r\n"
+      footnote-list-item: "- Solid First item\r
+
+        - Solid Second item\r
+
+        - Solid Third item\r\n"
+      footnote-hang: "<span class=\"hang\">*</span>Refers to tumors that are
+        non-metastatic or resectable metastatic.\r\n"
+      footnote-full: "1L=first line; 1L+=1L and above; 2L=second line; 2L+=2L and
+        above; 3L=third line; 3L+=3L and above; 4L=fourth line; 4L+=4L and
+        above; ADC=antibody-drug conjugate; ADP=adenosine diphosphate; AHR=aryl
+        hydrocarbon receptor; AML=acute myeloid leukemia; BCG=bacillus
+        Calmette-Guérin; BCMA=B-cell maturation antigen; BCR-ABL=breakpoint
+        cluster region-Abelson; BET=bromodomain and extraterminal domain;
+        BRD4=bromodomain containing 4; CAR T=chimeric antigen receptor T cells;
+        CCR2/5=chemokine (C-C motif) receptors 2/5; cCRT=concurrent
+        chemoradiotherapy; CDK=cyclin-dependent kinase; chemo=chemotherapy;
+        CML=chronic myeloid leukemia; CNS=central nervous system; CRC=colorectal
+        cancer; CRPC=castration-resistant prostate cancer; CTLA-4=cytotoxic
+        T-lymphocyte antigen 4; CTLA-4-NF=CTLA-4 non-fucosyl; dMMR=mismatch
+        repair deficient; EC=esophageal cancer; EGFR=epidermal growth factor
+        receptor; EP4=prostaglandin E2 receptor 4; ER=estrogen receptor;
+        GBM=glioblastoma multiforme; GC=gastric cancer; GEJ=gastroesophageal
+        junction; HCC=hepatocellular carcinoma;\r
+
+        \r\n"
     - tab-header: Hematology
       tab-body: Hematology content
+      footnote-style1: "Hema Probody™ is a trademark of CytomX Therapeutics, Inc.\r
+
+        \r\n"
+      footnote-image-style: "Hema Trial investigates BMS agent(s) in combination with
+        1 or more non–BMS-owned assets. Development partnerships include:\r
+
+        \r\n"
+      footnote-list-item: "- Hema First item\r
+
+        - Hema Second item\r
+
+        - Hema Third item\r\n"
+      footnote-hang: "<span class=\"hang\">*</span>Hema to tumors that are
+        non-metastatic or resectable metastatic.\r\n"
+      footnote-full: HER2=human epidermal growth factor receptor 2; IDH2=isocitrate
+        dehydrogenase-2; IDO1=indoleamine 2,3-dioxygenase-1; Ig=immunoglobulin;
+        IL-2=interleukin-2; IL-8=interleukin-8; ITIM=immunoreceptor
+        tyrosine-based inhibitory motif; JAK2=Janus kinase 2;
+        LAG-3=lymphocyte-activation gene 3; LSD1=lysine-specific histone
+        demethylase 1A; mCRC=metastatic CRC; MEK=mitogen-activated protein
+        kinase; MGMT=O6-methylguanine-DNA methyltransferase;
+        MIBC=muscle-invasive bladder cancer; mNSCLC=metastatic NSCLC;
+        MSI-H=microsatellite instability-high; MSS=microsatellite stable;
+        NHL=non-hodgkins lymphoma; NK=natural killer; NLRP3=nucleotide-binding
+        oligomerization domain-like receptor family, pyrin domain containing 3;
+        NMIBC=non–muscle-invasive bladder cancer; NSCLC=non–small cell lung
+        cancer; PARP=poly (ADP-ribose) polymerase; PD-1=programmed death
+        receptor-1; PSCA=prostate stem cell antigen; RCC=renal cell carcinoma;
+        R/R=relapsed/refractory; RT=radiotherapy; SCCHN=squamous cell carcinoma
+        of the head and neck; SCLC=small cell lung cancer; SIRPα=CD47-signal
+        regulatory protein alpha; SLAMF7=signaling lymphocytic activation
+        molecule family member 7; STING=stimulator of interferon genes;
+        TACE=transarterial chemoembolization; TIGIT=T-cell immunoreceptor with
+        Ig and ITIM domains; TIM-3=T-cell immunoglobulin mucin-3; TKI=tyrosine
+        kinase inhibitor; TLR8=Toll-like receptor 8; TMB-H=tumor mutational
+        burden high; TNBC=triple-negative breast cancer; VEGF=vascular
+        endothelial growth factor.

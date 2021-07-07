@@ -83,7 +83,7 @@ collections:
                   - {label: Tab Header, name: tab-header, widget: string}
                   - {label: Tab Card, name: tab-card, widget: list,
                       fields: [ 
-                        {label: Card Title, name: card-heading, widget: string}
+                        {label: Card Title, name: card-title, widget: string}
                       ]
                     } 
                   - {label: Tab Footnote, name: tab-footnote, widget: object, 

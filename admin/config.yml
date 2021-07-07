@@ -91,6 +91,16 @@ collections:
           - label: Solid Tumor and Hematology Pipeline Content
             name: sthp-content
             widget: markdown
+
+          - label: "Tab"
+            name: tab  
+            fields:
+              - lable: Tab Info
+                name: tab-info
+                widget: list
+                fields:
+                  - {label: Tab Header, name: tab-header, widget: string}
+                  - {label: Tab Description, name: tab-body, widget: markdown}      
             
       - label: Resources
         name: resources

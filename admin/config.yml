@@ -68,6 +68,10 @@ collections:
                 name: banner-image
                 widget: image
 
+          - label: Solid Tumor and Hematology Pipeline Content
+            name: sthp-content
+            widget: markdown
+            
       - label: Resources
         name: resources
         file: _data/resources.yml

@@ -66,5 +66,22 @@ collections:
                 widget: string
               - label: Banner Image
                 name: banner-image
-                widget: image 
+                widget: image
+
+      - label: Resources
+        name: resources
+        file: _data/resources.yml
+        fields:
+          - label: Resource Heading
+            name: resource-heading
+            widget: string
+          - label: Resource Thumbnail
+            name: resource-thumbnail
+            widget: list
+            fields:
+              - {label: Thumb Type, name: thumb-type, widget: select, options: ["Download File"]}
+              - {label: Thumb Image, name: thumb-image, widget: image}
+              - {label: Thumb Heading, name: thumb-head, widget: string}  
+              - {label: Thumb URL, name: thumb-url, widget: string}  
+              - {label: Thumb Button Text, name: thumb-button, widget: string}        
 

@@ -1,7 +1,12 @@
-resource-heading: text
-resources-thumbnail:
-  thumb-image: /images/resources_box_image.jpg
-  thumb-head: Thumb Heading from admin - files
-  thumb-button: View the presentation - a
-  thumb-url: /images/sample.pdf
-  thumb-type: Download File
+resource-heading: Resource Heading Text
+resource-thumbnail:
+  - thumb-type: Download File
+    thumb-image: /images/bms-science-getty-images.png
+    thumb-head: Resource Heading
+    thumb-url: images/sample.pdf
+    thumb-button: Download
+  - thumb-type: Download File
+    thumb-image: /images/bms-science-getty-images.png
+    thumb-head: Resource Thumb 2
+    thumb-url: /images/sample.pdf
+    thumb-button: Download

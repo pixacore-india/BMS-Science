@@ -1,0 +1,12 @@
+resource-heading: Resource Heading Text
+resource-thumbnail:
+  - thumb-type: Download File
+    thumb-image: /images/bms-science-getty-images.png
+    thumb-head: Resource Heading
+    thumb-url: images/sample.pdf
+    thumb-button: Download
+  - thumb-type: Download File
+    thumb-image: /images/bms-science-getty-images.png
+    thumb-head: Resource Thumb 2
+    thumb-url: /images/sample.pdf
+    thumb-button: Download

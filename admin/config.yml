@@ -68,6 +68,26 @@ collections:
                 name: banner-image
                 widget: image
 
+          - label: Footnote Section
+            name: footnote-section
+            widget: object
+            fields:
+              - label: Footnote Style 1
+                name: footnote-style1
+                widget: markdown
+              - label: Footnote Style with Image
+                name: footnote-image-style
+                widget: markdown
+              - label: Footnote Style with List Item
+                name: footnote-list-item
+                widget: markdown
+              - label: Footnote Hang style
+                name: footnote-hang
+                widget: markdown
+              - label: Footnote Full
+                name: footnote-full
+                widget: markdown        
+                
           - label: Solid Tumor and Hematology Pipeline Content
             name: sthp-content
             widget: markdown

@@ -92,8 +92,9 @@ collections:
             name: sthp-content
             widget: markdown
 
-          - label: "Tab"
-            name: tab  
+          - label: Tab
+            name: tab
+            widget: object  
             fields:
               - lable: Tab Info
                 name: tab-info

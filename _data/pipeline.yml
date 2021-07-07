@@ -60,3 +60,9 @@ sthp-content: |-
   #### This is a H4 Heading.
 
   **This is a normal paragraph with bold.**
+tab:
+  tab-info:
+    - tab-header: Solid Tumor
+      tab-body: Solid Tumor Content
+    - tab-header: Hematology
+      tab-body: Hematology content

@@ -11,6 +11,15 @@ tab:
     - tab-header: Solid Tumor
       tab-card:
         card-title: Advanced Solid Tumor
+        phase-row:
+          - phase-row1: Nivolumab ± ipilimumab
+            phase-row2: Anti–PD-1 ± anti–CTLA-4
+            phase-row3: Advanced solid tumors
+            phase-row4: "2"
+          - phase-row1: Nivolumab + ipilimumab + hyaluronidase†
+            phase-row2: Anti–PD-1 + anti–CTLA-4 + hyaluronidase
+            phase-row3: Advanced or metastatic solid tumors
+            phase-row4: "1"
       footnote-style1: "Solid Probody™ is a trademark of CytomX Therapeutics, Inc.\r
 
         \r\n"
@@ -81,6 +90,15 @@ tab:
     - tab-header: Hematology
       tab-card:
         card-title: Lung Cancer
+        phase-row:
+          - phase-row1: Nivolumab ± ipilimumab
+            phase-row2: Anti–PD-1 ± anti–CTLA-4
+            phase-row3: Advanced solid tumors
+            phase-row4: 1/2
+          - phase-row1: Nivolumab + ipilimumab + MEK inhibitor
+            phase-row2: Anti–PD-1 ± anti–CTLA-4 + MEK inhibitor
+            phase-row3: Advanced or metastatic Hema
+            phase-row4: "1"
       footnote-style1: "Hema Probody™ is a trademark of CytomX Therapeutics, Inc.\r
 
         \r\n"

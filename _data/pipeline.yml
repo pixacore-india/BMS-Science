@@ -78,6 +78,30 @@ tab:
           cancer; VEGF=vascular endothelial growth factor.\r
 
           \r\n"
+      tab-card-container:
+        tab-card:
+          - card-title: Advanced Solid Tumors
+            phase-row:
+              - phase-col1: Nivolumab ± ipilimumab
+                phase-col2: Anti–PD-1 ± anti–CTLA-4
+                phase-col3: Advanced solid tumors
+                phase-col4: 1/2
+              - phase-col1: Nivolumab ± relatlimab
+                phase-col2: Anti–PD-1 ± anti–LAG-3
+                phase-col3: Advanced or metastatic solid tumors
+                phase-col4: "3"
+          - card-title: Breast
+            phase-row:
+              - phase-col1: Nivolumab + CDK inhibitor + aromatase inhibitor
+                phase-col2: Anti–PD-1 + CDK inhibitor + aromatase inhibitor
+                phase-col3: Neoadjuvant ER+/HER2- breast cancer
+                phase-col4: "2"
+              - phase-col1: CDK inhibitor + aromatase inhibitor followed by nivolumab + CDK
+                  inhibitor + aromatase inhibitor
+                phase-col2: CDK inhibitor + aromatase inhibitor followed by anti–PD-1 + CDK
+                  inhibitor + aromatase inhibitor
+                phase-col3: Neoadjuvant ER+/HER2- breast cancer
+                phase-col4: 1/2
     - tab-header: Hematology
       tab-card:
         card-title: Hematologic Malignancies
@@ -125,3 +149,25 @@ tab:
 
           \r\n"
         footnote-style1: ""
+      tab-card-container:
+        tab-card:
+          - card-title: Hematologic Malignancies
+            phase-row:
+              - phase-col1: Relatlimab
+                phase-col2: Anti–LAG-3
+                phase-col3: Hematologic malignancies
+                phase-col4: "1"
+              - phase-col1: BMS-986158
+                phase-col2: BET (BRD4) small-molecule inhibitor
+                phase-col3: Hematologic malignancies
+                phase-col4: "2"
+          - card-title: Multiple Myeloma
+            phase-row:
+              - phase-col1: ide-cel
+                phase-col2: Anti-BCMA CAR T cells
+                phase-col3: 3L R/R multiple myeloma
+                phase-col4: "3"
+              - phase-col1: Elotuzumab + lenalidomide + steroid
+                phase-col2: Anti-SLAMF7 + Immunomodulatory agent + steroid
+                phase-col3: 1L multiple myeloma
+                phase-col4: "3"

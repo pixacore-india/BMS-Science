@@ -242,7 +242,7 @@ pageName: pipeline
                 <div class="cardContainer">
                     <div class="card advanced-solid-tumors" data-ta="advanced-solid-tumors">
                         <div class="cardContent">
-                            <h6 class="cardTitle">Advanced Solid Tumors</h6>
+                            <h6 class="cardTitle">{{item.tab-card.card-title}}</h6>
                             <div class="phaseContainer">
                                 <div class="phaseRow phaseItem phase-1 phase-2">
                                     <div class="diseaseContainer">
@@ -1487,17 +1487,17 @@ pageName: pipeline
 
                 <div class="footnoteBx">
                     <div class="footnoteBx">
-                        {{item.footnote-style1 | markdownify}}
+                        {{item.tab-footnote.footnote-style1 | markdownify}}
 
                         <div style="position: relative">
-                            {{item.footnote-image-style | markdownify}}
+                            {{item.tab-footnote.footnote-image-style | markdownify}}
 
-                            {{item.footnote-list-item | markdownify}}
+                            {{item.tab-footnote.footnote-list-item | markdownify}}
                             
-                            {{item.footnote-hang | markdownify}}
+                            {{item.tab-footnote.footnote-hang | markdownify}}
                         </div>
 
-                        {{item.footnote-full | markdownify}}
+                        {{item.tab-footnote.footnote-full | markdownify}}
                     </div>
                 </div>
 

@@ -91,6 +91,12 @@ collections:
                         {label: Footnote Full, name: footnote-full, widget: markdown}
                       ]
                     }
+                  - {label: Tab Card, name: tab-card, widget: object, 
+                      fields: [ 
+                        {label: Card Title, name: card-title, widget: string}
+                      ]
+                    }  
+
                   
             
       - label: Resources

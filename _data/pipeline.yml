@@ -89,6 +89,7 @@ tab:
           cancer; VEGF=vascular endothelial growth factor.\r
 
           \r\n"
+        footnote-image: /images/bmstrial-1.png
     - tab-header: Hematology
       tab-card-container:
         tab-card:
@@ -148,3 +149,4 @@ tab:
           inhibitor.\r
 
           \r\n"
+        footnote-image: /images/bmstrial-1.png

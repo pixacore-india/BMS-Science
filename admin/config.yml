@@ -80,6 +80,7 @@ collections:
                 name: tab-info
                 widget: list
                 fields:
+                  - {label: Tab Header, name: tab-header, widget: string}
                   - {label: Tab Filter Container, name: tab-filter-container, widget: object,
                       fields: [
                         {label: Therapeutic Area List, name: therapeutic-area-list, widget: list,
@@ -89,12 +90,11 @@ collections:
                         },
                         {label: Phase List, name: phase-list, widget: list,
                           fields: [
-                            {label: Phase List Item, name: Phase-item, widget: string}
+                            {label: Phase List Item, name: phase-item, widget: string}
                           ]
                         }
                       ]
                     }
-                  - {label: Tab Header, name: tab-header, widget: string}
                   - {label: Tab Card Container, name: tab-card-container, widget: object,
                       fields: [
                         {label: Tab Card, name: tab-card, widget: list,
@@ -123,9 +123,7 @@ collections:
                         {label: Footnote Full, name: footnote-full, widget: markdown, required: false}
                       ]
                     }
-                   
-
-                  
+                                     
             
       - label: Resources
         name: resources

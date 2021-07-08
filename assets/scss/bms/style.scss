@@ -720,7 +720,7 @@ footer {
                     margin:0 0 18px 0;
 
 
-                    &.phase-1{
+                    &.phase-color-1{
 
                         .phaseIndicatorCount {
                             width:33.33%;
@@ -728,7 +728,7 @@ footer {
 
                     }
 
-                    &.phase-1.phase-2, &.phase-2{
+                    &.phase-color-1-2, &.phase-color-2{
 
                         .phaseIndicatorCount {
                             width:66.66%;
@@ -736,7 +736,7 @@ footer {
 
                     }
 
-                    &.phase-2.phase-3, &.phase-1.phase-3, &.phase-3{
+                    &.phase-color-1-3, &.phase-color-2-3, &.phase-color-3{
 
                         .phaseIndicatorCount {
                             width:100%;

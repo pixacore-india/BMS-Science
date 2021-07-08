@@ -245,7 +245,7 @@ pageName: pipeline
                             <h6 class="cardTitle">{{cardItem.card-title}}</h6>
                             <div class="phaseContainer">
                                 {% for phaseRow in cardItem.phase-row %}
-                                <div class="phaseRow phaseItem phase-1 phase-2">
+                                <div class="phaseRow phaseItem phase-color-{{phaseRow.phase-col4 | replace: '/', '-' }}">
                                     <div class="diseaseContainer">
                                         <div class="diseaseRow diseaseItem">
                                             <span class="width1">

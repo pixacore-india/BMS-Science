@@ -96,8 +96,11 @@ tab:
           - therapeutic-list-item: Breast
         phase-list:
           - Phase-item: Phase 1
+            phase-item: Phase 1
           - Phase-item: Phase 2
+            phase-item: Phase 2
           - Phase-item: Phase 3
+            phase-item: Phase 3
     - tab-header: Hematology
       tab-card-container:
         tab-card:
@@ -164,5 +167,8 @@ tab:
           - therapeutic-list-item: Myelodysplastic Syndromes
         phase-list:
           - Phase-item: Phase 1
+            phase-item: Phase 1
           - Phase-item: Phase 2
+            phase-item: Phase 2
           - Phase-item: Phase 3
+            phase-item: Phase 3

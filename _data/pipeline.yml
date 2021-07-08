@@ -90,6 +90,10 @@ tab:
 
           \r\n"
         footnote-image: /images/bmstrial-1.png
+      tab-filter-container:
+        therapeutic-area-list:
+          - therapeutic-list-item: Advanced Solid Tumors
+          - therapeutic-list-item: Breast
     - tab-header: Hematology
       tab-card-container:
         tab-card:
@@ -150,3 +154,7 @@ tab:
 
           \r\n"
         footnote-image: /images/bmstrial-1.png
+      tab-filter-container:
+        therapeutic-area-list:
+          - therapeutic-list-item: Hematologic Malignancies
+          - therapeutic-list-item: Myelodysplastic Syndromes

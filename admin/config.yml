@@ -92,7 +92,7 @@ collections:
                                 {label: Phase Col1, name: phase-col1, widget: string},
                                 {label: Phase Col2, name: phase-col2, widget: string},
                                 {label: Phase Col3, name: phase-col3, widget: string},
-                                {label: Phase Col4, name: phase-col4, widget: string}
+                                {label: Phase Col4, name: phase-col4, widget: select, options: ["1", "1/2", "1/3", "2", "2/3", "3"]}
                               ]
                             }   
                           ]

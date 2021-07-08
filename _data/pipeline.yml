@@ -1,9 +1,9 @@
 banner:
-  banner-heading: Pipeline banner Heading Text.
-  banner-para: Pipeline banner paragraph Text.
+  banner-heading: Pipeline banner Heading Text
+  banner-para: Pipeline banner paragraph Text
   banner-image: /images/bms-science-getty-images.png
 sthp-content: |-
-  #### This is a H4 Heading Tag.
+  #### This is a H4 Heading Tag
 
   **This is a normal paragraph Tag with bold.**
 tab:

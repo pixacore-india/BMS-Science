@@ -80,66 +80,19 @@ pageName: pipeline
                                     Filter by Therapeutic Area and Phase:
                                 </h6>
                                 <h5 class="visible-xs">Therapeutic Area</h5>
+
+                                {% for filterItem in item.tab-filter-container.therapeutic-area-list %}
                                 <label>
                                     <span class="textValue"
-                                        >Advanced Solid Tumors</span
+                                        >{{filterItem.therapeutic-list-item}}</span
                                     >
                                     <input
                                         type="checkbox"
-                                        value=".advanced-solid-tumors"
+                                        value=".{{filterItem.therapeutic-list-item | downcase | replace: ' ', '-'}}"
                                     />
                                     <span class="checkmark"></span>
                                 </label>
-                                <label>
-                                    <span class="textValue">Breast</span>
-                                    <input type="checkbox" value=".breast" />
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label>
-                                    <span class="textValue"
-                                        >Central Nervous System</span
-                                    >
-                                    <input
-                                        type="checkbox"
-                                        value=".central-nervous-system"
-                                    />
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label>
-                                    <span class="textValue"
-                                        >Gastrointestinal</span
-                                    >
-                                    <input
-                                        type="checkbox"
-                                        value=".gastrointestinal"
-                                    />
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label>
-                                    <span class="textValue">Genitourinary</span>
-                                    <input
-                                        type="checkbox"
-                                        value=".genitourinary"
-                                    />
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label>
-                                    <span class="textValue"
-                                        >Head &amp; Neck</span
-                                    >
-                                    <input type="checkbox" value=".head-neck" />
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label>
-                                    <span class="textValue">Lung</span>
-                                    <input type="checkbox" value=".lung" />
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label>
-                                    <span class="textValue">Melanoma</span>
-                                    <input type="checkbox" value=".melanoma" />
-                                    <span class="checkmark"></span>
-                                </label>
+                                {% endfor %}
 
                                 <a
                                     href="javascript:;"

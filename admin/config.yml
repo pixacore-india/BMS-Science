@@ -80,6 +80,15 @@ collections:
                 name: tab-info
                 widget: list
                 fields:
+                  - {label: Tab Filter Container, name: tab-filter-container, widget: object,
+                      fields: [
+                        {label: Therapeutic Area List, name: therapeutic-area-list, widget: list,
+                          fields: [
+                            {label: Therapeutic List Item, name: therapeutic-list-item, widget: string}
+                          ]
+                        }
+                      ]
+                    }
                   - {label: Tab Header, name: tab-header, widget: string}
                   - {label: Tab Card Container, name: tab-card-container, widget: object,
                       fields: [

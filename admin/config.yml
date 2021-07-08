@@ -86,6 +86,11 @@ collections:
                           fields: [
                             {label: Therapeutic List Item, name: therapeutic-list-item, widget: string}
                           ]
+                        },
+                        {label: Phase List, name: phase-list, widget: list,
+                          fields: [
+                            {label: Phase List Item, name: Phase-item, widget: string}
+                          ]
                         }
                       ]
                     }

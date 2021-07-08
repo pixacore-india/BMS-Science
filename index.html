@@ -105,21 +105,14 @@ pageName: pipeline
                             <a href="javascript:;" class="pillsLink">Phase</a>
                             <div class="filterPillsDropdown phaseFilter">
                                 <h5 class="visible-xs">Phase</h5>
+
+                                {% for filterItem in item.tab-filter-container.phase-list %}
                                 <label>
-                                    <span class="textValue">Phase 1</span>
-                                    <input type="checkbox" value=".phase-1" />
+                                    <span class="textValue">{{filterItem.Phase-item}}</span>
+                                    <input type="checkbox" value=".{{filterItem.Phase-item | downcase | replace: ' ', '-'}}" />
                                     <span class="checkmark"></span>
                                 </label>
-                                <label>
-                                    <span class="textValue">Phase 2</span>
-                                    <input type="checkbox" value=".phase-2" />
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label>
-                                    <span class="textValue">Phase 3</span>
-                                    <input type="checkbox" value=".phase-3" />
-                                    <span class="checkmark"></span>
-                                </label>
+                                {% endfor %}
 
                                 <a
                                     href="javascript:;"

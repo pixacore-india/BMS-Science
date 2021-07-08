@@ -239,11 +239,12 @@ pageName: pipeline
 
                 <div class="cardContainer">
 
-                    <div class="card {{item.tab-card.card-title | downcase | replace: ' ', '-'}}" data-ta="{{item.tab-card.card-title | downcase | replace: ' ', '-'}}">
+                    {% for cardItem in item.tab-card-container.tab-card %}    
+                    <div class="card {{cardItem.card-title | downcase | replace: ' ', '-'}}" data-ta="{{cardItem.card-title | downcase | replace: ' ', '-'}}">
                         <div class="cardContent">
-                            <h6 class="cardTitle">{{item.tab-card.card-title}}</h6>
+                            <h6 class="cardTitle">{{cardItem.card-title}}</h6>
                             <div class="phaseContainer">
-                                {% for phaseRow in item.tab-card.phase-row %}
+                                {% for phaseRow in cardItem.phase-row %}
                                 <div class="phaseRow phaseItem phase-1 phase-2">
                                     <div class="diseaseContainer">
                                         <div class="diseaseRow diseaseItem">
@@ -330,6 +331,7 @@ pageName: pipeline
                             </p>
                         </div>
                     </div>
+                    {% endfor %}
 
                 </div>
 

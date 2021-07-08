@@ -136,8 +136,8 @@ tab:
           - Second item\r
 
           - Third item"
-        footnote-hang: "<span class=\"hang\">*</span>Celgene in collaboration with
-          bluebird bio™.\r\n"
+        footnote-hang: "<span class=\"hang\">*</span>Lorem ipsum text Lorem ipsum text
+          Lorem ipsum text.\r\n"
         footnote-full: "1L=first line; 1L+=1L and above; 2L=second line; 2L+=2L and
           above; 3L=third line; 3L+=3L and above; 4L=fourth line; 4L+=4L and
           above; ADC=antibody-drug conjugate; AML=acute myeloid leukemia;

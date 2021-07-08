@@ -17,6 +17,7 @@ tab:
                 phase-col2: Anti–PD-1 ± anti–CTLA-4
                 phase-col3: Advanced solid tumors
                 phase-col4: 1/2
+                phase-col1-image: /images/bmstrial-1.png
               - phase-col1: Nivolumab ± relatlimab
                 phase-col2: Anti–PD-1 ± anti–LAG-3
                 phase-col3: Advanced or metastatic solid tumors
@@ -31,6 +32,7 @@ tab:
                 phase-col2: Anti–PD-1
                 phase-col3: Neoadjuvant/adjuvant high-risk breast cancer
                 phase-col4: "3"
+                phase-col1-image: /images/bmstrial-1.png
       tab-footnote:
         footnote-style1: "Probody™ is a trademark of CytomX Therapeutics, Inc.\r
 
@@ -100,12 +102,14 @@ tab:
                 phase-col2: Anti–PD-1
                 phase-col3: Hematologic malignancies
                 phase-col4: "2"
+                phase-col1-image: /images/bmstrial-1.png
           - card-title: Myelodysplastic Syndromes
             phase-row:
               - phase-col1: Luspatercept-aamt
                 phase-col2: Erythroid maturation agent
                 phase-col3: ESA naïve
                 phase-col4: "2"
+                phase-col1-image: /images/bmstrial-1.png
               - phase-col1: Azacitidine (CC-486)
                 phase-col2: Oral HMA
                 phase-col3: Post-HMA failure

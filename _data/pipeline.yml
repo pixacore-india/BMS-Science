@@ -16,7 +16,7 @@ tab:
               - phase-col1: Nivolumab ± ipilimumab
                 phase-col2: Anti–PD-1 ± anti–CTLA-4
                 phase-col3: Advanced solid tumors
-                phase-col4: "2"
+                phase-col4: 2/3
                 phase-col1-image: /images/bmstrial-1.png
               - phase-col1: Nivolumab ± relatlimab
                 phase-col2: Anti–PD-1 ± anti–LAG-3

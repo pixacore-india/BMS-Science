@@ -343,10 +343,16 @@ pageName: pipeline
                         {{item.tab-footnote.footnote-style1 | markdownify}}
 
                         <div style="position: relative">
-                            {{item.tab-footnote.footnote-image-style | markdownify}}
-
+                            <span class="footnoteTrialImg" style="position: absolute; top: -1px;">
+                                <img loading="lazy" class="img-responsive" src="{{item.tab-footnote.footnote-image}}" alt="" width="17" height="17">
+                            </span>
+                            <span style="position: absolute;  top: -1px; left: 20px;"> =</span>
+                            <div style="padding-left: 30px; display: block;">
+                                {{item.tab-footnote.footnote-image-style | markdownify}}
+                            </div>                            
+                        </div>
                             {{item.tab-footnote.footnote-list-item | markdownify}}
-                            
+                        <div style="position: relative">    
                             {{item.tab-footnote.footnote-hang | markdownify}}
                         </div>
 

@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: pixacore-india/BMS-Science
+  repo: pixacore-india/Science
   branch: master
 
 media_folder: "images"

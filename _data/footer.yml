@@ -5,6 +5,8 @@ footer-links:
     path: /images/sample.pdf
   - label: Contact Us
     path: /images/sample.pdf
+  - label: Sitemap
+    path: /images/sample.pdf
 copyright-text: © 2021 Company Name.
 last-update: 4/21
 project-code: VV-MED-01814

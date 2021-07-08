@@ -1,10 +1,10 @@
 footer-links:
   - label: Legal Notice
-    path: https://www.bms.com/legal-notice.html
+    path: /images/sample.pdf
   - label: Privacy Policy
-    path: https://www.bms.com/privacy-policy.html
+    path: /images/sample.pdf
   - label: Contact Us
-    path: https://www.bms.com/about-us/contact-us.html
+    path: /images/sample.pdf
 copyright-text: © 2021 Company Name.
 last-update: 4/21
 project-code: VV-MED-01814

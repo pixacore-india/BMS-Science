@@ -141,7 +141,7 @@ app.init();
 $(document).ready(function(){
 
 	// init Isotope
-	var $container = $('.tab-pane.active .cardContainer').isotope({
+	var $container = $('.cardContainer').isotope({
 		itemSelector: '.card',
         filter: '*',
         resize: true,
@@ -151,16 +151,30 @@ $(document).ready(function(){
         layoutMode: 'fitRows'
 	});
 
-	var $output = $('.tab-pane.active .filterPillsSelected .output');
+	$('.tab-thumb li a').on('shown.bs.tab', function(){
+		$('.tab-pane.active .filterPillsSelected .output').html("");
+		$('.tab-pane.active .filterPills').find("input[type='checkbox']").prop("checked", false);
+		
+		var $container = $('.cardContainer').isotope({
+		itemSelector: '.card',
+        filter: '*',
+        resize: true,
+        containerStyle: {
+          position: 'relative'
+        },
+        layoutMode: 'fitRows'
+	});
+	});
+
+	//var $output = $('.tab-pane.active .filterPillsSelected .output');
 
 	// filter with selects and checkboxes
-	var $checkboxes = $('.tab-pane.active .filterPills label input');
 
-	$checkboxes.change( function() {
+	$('.tab-pane').on('change', '.filterPills label input', function() {
 		// map input values to an array
 		var inclusives = [];
 		// inclusive filters from checkboxes
-		$checkboxes.each( function( i, elem ) {
+		$('.tab-pane.active .filterPills label input').each( function( i, elem ) {
 			// if checkbox, use value if checked
 			if ( elem.checked ) {
 				inclusives.push( elem.value );
@@ -169,12 +183,12 @@ $(document).ready(function(){
 
 		var filterValue = inclusives.length ? inclusives.join(', ') : '*';
 	
-		$output.html("");
+		$('.tab-pane.active .filterPillsSelected .output').html("");
 		for (var i = 0; i < inclusives.length; i++) {
 			var value = inclusives[i];
 			var textValue = $('.tab-pane.active .filterPills').find("input[value='".concat(value, "']")).parent().find(".textValue").text();
 			var buttons = $("<a value=\"".concat(value, "\" class=\"removeFilter ").concat(value, " \">").concat(textValue, "</a>"));
-			$output.append(buttons);
+			$('.tab-pane.active .filterPillsSelected .output').append(buttons);
 		}
 
 		$container.isotope({ filter: filterValue });
@@ -206,7 +220,7 @@ $(document).ready(function(){
     });
 
 	function clearFilter(){
-		$output.html("");
+		$('.tab-pane.active .filterPillsSelected .output').html("");
 		$('.tab-pane.active .filterPills').find("input[type='checkbox']").prop("checked", false);
 		$container.isotope({ filter: '*' })
 	};

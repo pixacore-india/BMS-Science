@@ -95,7 +95,10 @@ collections:
                         }
                       ]
                     }
-                  - {label: Switch Label, name: switch-label, widget: string}   
+                  - {label: Switch Label, name: switch-label, widget: string}
+                  - {label: Column Label 1, name: column-label1, widget: string}
+                  - {label: Column Label 2, name: column-label2, widget: string}
+                  - {label: Column Label 3, name: column-label3, widget: string}   
                   - {label: Tab Card Container, name: tab-card-container, widget: object,
                       fields: [
                         {label: Tab Card, name: tab-card, widget: list,

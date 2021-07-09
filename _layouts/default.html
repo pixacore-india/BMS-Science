@@ -26,46 +26,10 @@
 
     </div>    
     
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" id="jquery-js"></script>
-    <script type="text/javascript" src="/assets/js/underscore.min.js" id="underscore-js"></script>
-    <script type="text/javascript" src="/assets/js/libraries/isotope.min.js" id="isotope-js"></script>
-    <script type="text/javascript" src="/assets/dist/bms/dest.js" id="bms-js-js"></script>
-    <script type="text/javascript">
-        window.addEventListener('load',function(){
-        let $ = jQuery;
-        $('.imagePlaceholder > img').wrap('<a/>');
-        
-        $('.imagePlaceholder a').attr('href', function() {
-        
-            return $(this)
-                .closest('.imageTxtBx')
-                .find('a.downloadBut')
-                .attr('href');
-        });
-        
-        var url = location.pathname; 
-        
-        if ( url.indexOf( '/resources/' ) !== -1 ) { 
-          $("#menu-item-1986214").addClass("current-menu-item page_item");
-        } else {
-         $("#menu-item-1986214").removeClass("current-menu-item page_item");
-        }
-        
-        if ( url.indexOf( '/resources/event-2/' ) !== -1 ) { 
-                document.title = 'Resources | BMS';
-               $('head').prepend('<meta name="description" content="Download and watch helpful resources, videos to help stay on track during investigation." />');
-               $(".imageTxtBx a[href*='car-t-2']").addClass("car-t-e2");
-          } else if ( url.indexOf( '/solidtumor-hematology/event-2/' ) !== -1 ) {
-                document.title = 'Oncology and Hematology Pipeline | BMS';
-                $('head').prepend('<meta name="description" content="Learn more about BMS Pipeline. Explore Oncology and Hematology Pipeline details." />');
-          } else if ( url.indexOf( '/trial-finder/' ) !== -1) {
-                document.title = 'Clinical Trials & Studies | BMS';
-                $('head').prepend('<meta name="description" content="See the clinical research behind BMS. See full safety & prescribing information." />');
-          }
-        
-        $("a.trial-link:contains('N/A')").html("Coming Soon");
-        });
-    </script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/assets/js/isotope.pkgd.js"></script>
+    <script type="text/javascript" src="/assets/js/custom.js"></script>
 
 </body>
 </html>

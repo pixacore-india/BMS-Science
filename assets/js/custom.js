@@ -141,7 +141,7 @@ app.init();
 $(document).ready(function(){
 
 	// init Isotope
-	var $container = $('.cardContainer').isotope({
+	var $container = $('.tab-pane.active .cardContainer').isotope({
 		itemSelector: '.card',
         filter: '*',
         resize: true,

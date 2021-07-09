@@ -102,6 +102,9 @@ tab:
           - Phase-item: Phase 3
             phase-item: Phase 3
       switch-label: Trials in earlier stages of cancer only*
+      column-label1: Modality
+      column-label2: Area of Research
+      column-label3: Phase
     - tab-header: Hematology
       tab-card-container:
         tab-card:
@@ -174,3 +177,6 @@ tab:
           - Phase-item: Phase 3
             phase-item: Phase 3
       switch-label: Trials in earlier stages of cancer only*
+      column-label3: Phase
+      column-label2: Area of Research
+      column-label1: Modality

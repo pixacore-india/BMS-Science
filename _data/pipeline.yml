@@ -101,6 +101,7 @@ tab:
             phase-item: Phase 2
           - Phase-item: Phase 3
             phase-item: Phase 3
+      switch-label: Trials in earlier stages of cancer only*
     - tab-header: Hematology
       tab-card-container:
         tab-card:
@@ -172,3 +173,4 @@ tab:
             phase-item: Phase 2
           - Phase-item: Phase 3
             phase-item: Phase 3
+      switch-label: Trials in earlier stages of cancer only*
